@@ -1,0 +1,62 @@
+/********************For Paging********************/
+.CssFirstPage
+{
+	background-image: url(/BUY/BuyPresentation/Images/active_first.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+	font-size:12px;
+	font-family:Tahoma;
+}
+.CssPrevPage
+{
+	background-image: url(/BUY/BUYPresentation/Images/active_back.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+	font-size:12px;
+	font-family:Tahoma;
+}
+.CssNextPage
+{
+	background-image: url(/BUY/BuyPresentation/Images/active_forward.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+	font-size:12px;
+	font-family:Tahoma;
+}
+
+.CssLastPage
+{
+	background-image: url(/BUY/BUYPresentation/Images/active_last.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+	font-size:12px;
+	font-family:Tahoma;
+}

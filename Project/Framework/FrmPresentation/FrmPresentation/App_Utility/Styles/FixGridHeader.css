@@ -1,0 +1,14 @@
+﻿div#GridViewCountainer {
+overflow: auto;
+scrollbar-hightlight-color: white;
+scrollbar-arrow-color: black;
+scrollbar-base-color: #B1D3FF;
+}
+
+th.locked {z-index: 99;}
+div#GridViewCountainerTable {
+overflow: auto;
+scrollbar-hightlight-color: white;
+scrollbar-arrow-color: black;
+scrollbar-base-color: #B1D3FF;
+}

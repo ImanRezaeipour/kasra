@@ -1,0 +1,31 @@
+.MultiPage
+{
+    background-color: #DFDFFF; /*background-image:url('/FrmPresentation/App_Utility/Images/PageMain/BG44.gif');*/
+    overflow: visible;
+    position: relative;
+    padding: 3px;
+    top: -3px;
+    left: 1px;
+    z-index: 98;
+    border: 1px solid #748081;
+    width: 100%;
+    height: 100%;
+}
+
+.PageContent
+{
+    float: right;
+    width: 100%;
+    
+}
+
+.PageHeader
+{
+  font-size:22px;
+  font-weight:normal;
+  letter-spacing:-0.2mm;
+  font-family: tahoma,verdana; 
+  color: #3F3F3F; 
+  margin-top:0px;
+  margin-bottom:0px;
+}

@@ -1,0 +1,176 @@
+﻿/*
+input
+{
+	margin: 0px;
+	padding: 0px;
+	border-color: #AEDFD9;
+	background-color: white;
+	font-family: Kasratahoma;
+	font-size: 10pt;
+	height: 21px;
+    width: 23px;
+}
+*/
+.DropDownList
+{
+	border: 1px solid #AEDFD9;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	font-size: 10pt;
+	font-family: Kasratahoma;
+	background-color: white;
+	height: 21px;
+}
+.tablemaster
+{
+	width: 100%;
+	background-color: #9FBEE7;
+	border-width: thin;
+	border-color: #91b7df;
+	border-right-style: solid;
+	border-left-style: solid;
+} 
+.HeaderMaster  
+{
+	background-image: url('Images/MediaBlue.gif'); 
+	width:500px;
+	height:42px;
+	background-repeat:no-repeat;
+} 
+
+.HeaderMaster1
+{
+	background-image: url('Images/bheader.gif');
+	width: 924px;
+	height: 45px;
+	background-repeat: no-repeat;
+	color: #FFFF00;
+	font-family: Kasra Traffic Normal;
+	font-size: 11pt;
+	font-weight: bold;
+} 
+
+.HeaderRepeat  
+{
+	background-image: url('Images/MediaHeaderRepeat.gif'); 
+	height: 42px; 
+	background-repeat:repeat-x; 
+} 
+
+.FooterMaster  
+{
+	background-image: url('Images/FooterBlueFixed.gif'); 
+	height: 45px; 
+	width:410px;
+	background-repeat:no-repeat; 
+} 
+
+.FooterRepeat  
+{
+	background-image: url('Images/FooterRepeat.gif'); 
+	height: 45px; 
+	background-repeat:repeat-x; 
+} 
+
+.tdMaster 
+{
+	width: 100%; 
+	background-color: transparent; 
+	BORDER: #5F96CC 1px solid;  
+	padding: 0px; 
+}
+
+.tdMasterHeader 
+{
+	background: url(Images/ContainerMasterHeader.gif) no-repeat; 
+	width: 60px; 
+	height: 27px; 
+}
+
+.tdRepeatHeader 
+{ 
+	background: url(Images/ContainerRepeatHeader.gif) repeat-x; 
+	height: 27px; 
+}
+
+.tdRepeatFooter 
+{ 
+	background: url(Images/ContainerRepeatFooter.gif) repeat-x; 
+	height: 27px; 
+}
+
+.tdMasterFooter
+{
+	background: url(Images/ContainerMasterFooter.gif) no-repeat;
+	width: 80px;
+	height: 27px;
+}
+.ToolBarStyle
+{
+	/*FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#e7eeff,endColorStr=#91b7df)*/ /*FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FEFFFD,endColorStr=#D7F2F4)*/
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#B1D3FF,endColorStr=#6593CF);
+	font-family: 'KasraNazanin-s Bold';
+	font-size: 10.5pt;
+	font-weight: 600;
+}
+.cssMenu
+{
+	padding: 0px;
+	background-color: #E3EFFF;
+}
+/*
+.CssHeaderStyle
+{
+	border: 1px solid silver;
+	vertical-align: middle;
+	background-image: url('/FrmPresentation/App_Utility/Images/fhbg.gif');
+	background-repeat: repeat-x;
+	text-align: center;
+	font-size: 15px;
+}
+
+.CssItemStyle
+{
+	border: 1px solid #6F9DD9;
+	font-size: 12pt;
+	margin: 5px 0;
+	width: 100%;
+	text-decoration: none;
+	vertical-align: middle;
+	color: #294B7A;
+}
+
+.CssAlternatingItemStyle
+{
+	border: 1px solid #6F9DD9;
+	font-size: 12pt;
+	margin: 5px 0;
+	width: 100%;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	vertical-align: middle;
+	color: #294B7A;
+}
+
+.CssFooterStyle
+{
+	direction:rtl;
+	background-color:#CCCCCC
+}
+
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599;
+	 color: #294B7A;
+}*/
+.cssDiv
+{
+	padding: 0px;
+	background-color: #E3EFFF;
+	overflow: auto;
+	scrollbar-hightlight-color: white;
+	scrollbar-arrow-color: black;
+	scrollbar-base-color: #D5EAFF;
+}

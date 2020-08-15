@@ -1,0 +1,34 @@
+﻿.Body
+{
+	margin-bottom :0;
+	margin-left :0;
+	margin-right :0;
+	margin-top :0;	
+	background-color :#c3d8f5
+}
+.label,p,td 
+{
+   font-family: tahoma,Tahoma; 
+   font-size: 12px;
+   font-weight: normal;
+   color:"#000066";
+   cursor:default;
+ }
+.VertGradient1
+{
+	font-weight: normal;
+	font-size: 12pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#70000000, EndColorStr=#00000000);
+	color: white;
+}
+.BackTDUp1
+{		
+	BACKGROUND-IMAGE: url(../Images/BackTab/BackTD.gif);
+	BACKGROUND-REPEAT: repeat-x;
+	HEIGHT: 12px;
+	BORDER-RIGHT: 0px outset;
+	BORDER-TOP: 0px outset;
+	BORDER-LEFT: 0px outset;
+	BORDER-BOTTOM: 0px outset
+	
+}

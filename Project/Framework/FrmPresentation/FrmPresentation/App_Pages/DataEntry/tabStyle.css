@@ -1,0 +1,50 @@
+.TopGroup
+{
+  z-index:99;
+  position:relative;
+}
+
+.DefaultTab 
+{
+  color:black; 
+  background-image: url(images/tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+}
+
+.DefaultTabHover 
+{
+  color:black; 
+  background-image: url(images/hover_tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+}
+
+.SelectedTab 
+{
+  color:black; 
+  background-image: url(images/selected_tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+}
+
+.MultiPage
+{
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F7F6FA', EndColorStr='#E6E9F6');
+    border: 1px solid #919B9C;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    padding: 10px;
+    top: -3px;
+    left: 1px;
+    z-index: 98;
+}
+
+.PageContent
+{
+   
+}

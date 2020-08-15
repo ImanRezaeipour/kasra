@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MenuEntity" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MenuEntity" msdata:IsDataSet="true" msdata:Locale="en-US" msprop:Generator_UserDSName="MenuEntity" msprop:Generator_DataSetName="MenuEntity">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Instance" msprop:Generator_UserTableName="Instance" msprop:Generator_RowDeletedName="InstanceRowDeleted" msprop:Generator_RowChangedName="InstanceRowChanged" msprop:Generator_RowClassName="InstanceRow" msprop:Generator_RowChangingName="InstanceRowChanging" msprop:Generator_RowEvArgName="InstanceRowChangeEvent" msprop:Generator_RowEvHandlerName="InstanceRowChangeEventHandler" msprop:Generator_TableClassName="InstanceDataTable" msprop:Generator_TableVarName="tableInstance" msprop:Generator_RowDeletingName="InstanceRowDeleting" msprop:Generator_TablePropName="Instance">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SubSysId" msprop:Generator_UserColumnName="SubSysId" msprop:Generator_ColumnPropNameInRow="SubSysId" msprop:Generator_ColumnVarNameInTable="columnSubSysId" msprop:Generator_ColumnPropNameInTable="SubSysIdColumn" type="xs:int" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StartUrl" msprop:Generator_UserColumnName="StartUrl" msprop:Generator_ColumnPropNameInRow="StartUrl" msprop:Generator_ColumnVarNameInTable="columnStartUrl" msprop:Generator_ColumnPropNameInTable="StartUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IntVal" msprop:Generator_UserColumnName="IntVal" msprop:Generator_ColumnPropNameInRow="IntVal" msprop:Generator_ColumnVarNameInTable="columnIntVal" msprop:Generator_ColumnPropNameInTable="IntValColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IconUrl" msprop:Generator_UserColumnName="IconUrl" msprop:Generator_ColumnPropNameInRow="IconUrl" msprop:Generator_ColumnVarNameInTable="columnIconUrl" msprop:Generator_ColumnPropNameInTable="IconUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SelectIconUrl" msprop:Generator_UserColumnName="SelectIconUrl" msprop:Generator_ColumnPropNameInRow="SelectIconUrl" msprop:Generator_ColumnVarNameInTable="columnSelectIconUrl" msprop:Generator_ColumnPropNameInTable="SelectIconUrlColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Menu" msprop:Generator_UserTableName="Menu" msprop:Generator_RowDeletedName="MenuRowDeleted" msprop:Generator_RowChangedName="MenuRowChanged" msprop:Generator_RowClassName="MenuRow" msprop:Generator_RowChangingName="MenuRowChanging" msprop:Generator_RowEvArgName="MenuRowChangeEvent" msprop:Generator_RowEvHandlerName="MenuRowChangeEventHandler" msprop:Generator_TableClassName="MenuDataTable" msprop:Generator_TableVarName="tableMenu" msprop:Generator_RowDeletingName="MenuRowDeleting" msprop:Generator_TablePropName="Menu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MenuItemId" msprop:Generator_UserColumnName="MenuItemId" msprop:Generator_ColumnPropNameInRow="MenuItemId" msprop:Generator_ColumnVarNameInTable="columnMenuItemId" msprop:Generator_ColumnPropNameInTable="MenuItemIdColumn" type="xs:int" />
+              <xs:element name="PageId" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PageId" msprop:Generator_ColumnPropNameInRow="PageId" msprop:Generator_ColumnVarNameInTable="columnPageId" msprop:Generator_ColumnPropNameInTable="PageIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SubSysId" msprop:Generator_UserColumnName="SubSysId" msprop:Generator_ColumnPropNameInRow="SubSysId" msprop:Generator_ColumnVarNameInTable="columnSubSysId" msprop:Generator_ColumnPropNameInTable="SubSysIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SysTitle" msprop:Generator_UserColumnName="SysTitle" msprop:Generator_ColumnPropNameInRow="SysTitle" msprop:Generator_ColumnVarNameInTable="columnSysTitle" msprop:Generator_ColumnPropNameInTable="SysTitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sTitle" msdata:ReadOnly="true" msprop:Generator_UserColumnName="sTitle" msprop:Generator_ColumnPropNameInRow="sTitle" msprop:Generator_ColumnVarNameInTable="columnsTitle" msprop:Generator_ColumnPropNameInTable="sTitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fTitle" msdata:ReadOnly="true" msprop:Generator_UserColumnName="fTitle" msprop:Generator_ColumnPropNameInRow="fTitle" msprop:Generator_ColumnVarNameInTable="columnfTitle" msprop:Generator_ColumnPropNameInTable="fTitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParentItemId" msprop:Generator_UserColumnName="ParentItemId" msprop:Generator_ColumnPropNameInRow="ParentItemId" msprop:Generator_ColumnVarNameInTable="columnParentItemId" msprop:Generator_ColumnPropNameInTable="ParentItemIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PageUrl" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PageUrl" msprop:Generator_ColumnPropNameInRow="PageUrl" msprop:Generator_ColumnVarNameInTable="columnPageUrl" msprop:Generator_ColumnPropNameInTable="PageUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sMenuUrl" msdata:ReadOnly="true" msprop:Generator_UserColumnName="sMenuUrl" msprop:Generator_ColumnPropNameInRow="sMenuUrl" msprop:Generator_ColumnVarNameInTable="columnsMenuUrl" msprop:Generator_ColumnPropNameInTable="sMenuUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="fMenuUrl" msdata:ReadOnly="true" msprop:Generator_UserColumnName="fMenuUrl" msprop:Generator_ColumnPropNameInRow="fMenuUrl" msprop:Generator_ColumnVarNameInTable="columnfMenuUrl" msprop:Generator_ColumnPropNameInTable="fMenuUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IntVal" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IntVal" msprop:Generator_ColumnPropNameInRow="IntVal" msprop:Generator_ColumnVarNameInTable="columnIntVal" msprop:Generator_ColumnPropNameInTable="IntValColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IconUrl" msdata:ReadOnly="true" msprop:Generator_UserColumnName="IconUrl" msprop:Generator_ColumnPropNameInRow="IconUrl" msprop:Generator_ColumnVarNameInTable="columnIconUrl" msprop:Generator_ColumnPropNameInTable="IconUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SelectIconUrl" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SelectIconUrl" msprop:Generator_ColumnPropNameInRow="SelectIconUrl" msprop:Generator_ColumnVarNameInTable="columnSelectIconUrl" msprop:Generator_ColumnPropNameInTable="SelectIconUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="_flag" msdata:ReadOnly="true" msprop:Generator_UserColumnName="_flag" msprop:Generator_ColumnPropNameInRow="_flag" msprop:Generator_ColumnVarNameInTable="column_flag" msprop:Generator_ColumnPropNameInTable="_flagColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TreeMenu" msprop:Generator_UserTableName="TreeMenu" msprop:Generator_RowDeletedName="TreeMenuRowDeleted" msprop:Generator_RowChangedName="TreeMenuRowChanged" msprop:Generator_RowClassName="TreeMenuRow" msprop:Generator_RowChangingName="TreeMenuRowChanging" msprop:Generator_RowEvArgName="TreeMenuRowChangeEvent" msprop:Generator_RowEvHandlerName="TreeMenuRowChangeEventHandler" msprop:Generator_TableClassName="TreeMenuDataTable" msprop:Generator_TableVarName="tableTreeMenu" msprop:Generator_RowDeletingName="TreeMenuRowDeleting" msprop:Generator_TablePropName="TreeMenu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MenuItemId" msprop:Generator_UserColumnName="MenuItemId" msprop:Generator_ColumnPropNameInRow="MenuItemId" msprop:Generator_ColumnVarNameInTable="columnMenuItemId" msprop:Generator_ColumnPropNameInTable="MenuItemIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentItemId" msprop:Generator_UserColumnName="ParentItemId" msprop:Generator_ColumnPropNameInRow="ParentItemId" msprop:Generator_ColumnVarNameInTable="columnParentItemId" msprop:Generator_ColumnPropNameInTable="ParentItemIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Title" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" msprop:Generator_ColumnPropNameInTable="TitleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IconUrl" msprop:Generator_UserColumnName="IconUrl" msprop:Generator_ColumnPropNameInRow="IconUrl" msprop:Generator_ColumnVarNameInTable="columnIconUrl" msprop:Generator_ColumnPropNameInTable="IconUrlColumn" type="xs:string" />
+              <xs:element name="SelectIconUrl" msprop:Generator_UserColumnName="SelectIconUrl" msprop:Generator_ColumnPropNameInRow="SelectIconUrl" msprop:Generator_ColumnVarNameInTable="columnSelectIconUrl" msprop:Generator_ColumnPropNameInTable="SelectIconUrlColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TreeMainMenu" msprop:Generator_UserTableName="TreeMainMenu" msprop:Generator_RowDeletedName="TreeMainMenuRowDeleted" msprop:Generator_RowChangedName="TreeMainMenuRowChanged" msprop:Generator_RowClassName="TreeMainMenuRow" msprop:Generator_RowChangingName="TreeMainMenuRowChanging" msprop:Generator_RowEvArgName="TreeMainMenuRowChangeEvent" msprop:Generator_RowEvHandlerName="TreeMainMenuRowChangeEventHandler" msprop:Generator_TableClassName="TreeMainMenuDataTable" msprop:Generator_TableVarName="tableTreeMainMenu" msprop:Generator_RowDeletingName="TreeMainMenuRowDeleting" msprop:Generator_TablePropName="TreeMainMenu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentID" msprop:Generator_UserColumnName="ParentID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnParentID" msprop:Generator_ColumnPropNameInTable="ParentIDColumn" msprop:Generator_ColumnPropNameInRow="ParentID" type="xs:int" minOccurs="0" />
+              <xs:element name="IconUrl" msprop:Generator_UserColumnName="IconUrl" msprop:Generator_ColumnPropNameInRow="IconUrl" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnIconUrl" msprop:Generator_ColumnPropNameInTable="IconUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SelIconUrl" msprop:Generator_UserColumnName="SelIconUrl" msprop:Generator_ColumnPropNameInRow="SelIconUrl" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSelIconUrl" msprop:Generator_ColumnPropNameInTable="SelIconUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Caption" msprop:Generator_UserColumnName="Caption" msprop:Generator_ColumnPropNameInRow="Caption" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnCaption" msprop:Generator_ColumnPropNameInTable="CaptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ContentPageID" msprop:Generator_UserColumnName="ContentPageID" msprop:Generator_ColumnPropNameInRow="ContentPageID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnContentPageID" msprop:Generator_ColumnPropNameInTable="ContentPageIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LeftUrl" msprop:Generator_UserColumnName="LeftUrl" msprop:Generator_ColumnPropNameInRow="LeftUrl" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnLeftUrl" msprop:Generator_ColumnPropNameInTable="LeftUrlColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="_flag" msprop:Generator_UserColumnName="_flag" msprop:Generator_ColumnPropNameInRow="_flag" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="column_flag" msprop:Generator_ColumnPropNameInTable="_flagColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="DeskTopId" msprop:Generator_UserColumnName="DeskTopId" msprop:Generator_ColumnPropNameInRow="DeskTopId" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnDeskTopId" msprop:Generator_ColumnPropNameInTable="DeskTopIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DHTML" msprop:Generator_UserColumnName="DHTML" msprop:Generator_ColumnPropNameInRow="DHTML" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnDHTML" msprop:Generator_ColumnPropNameInTable="DHTMLColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MenuItemID" msprop:Generator_UserColumnName="MenuItemID" msprop:Generator_ColumnPropNameInRow="MenuItemID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnMenuItemID" msprop:Generator_ColumnPropNameInTable="MenuItemIDColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

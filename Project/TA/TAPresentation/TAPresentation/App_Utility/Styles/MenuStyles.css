@@ -1,0 +1,36 @@
+﻿body {
+}
+
+.container
+{
+    background:url(/TAPresentation/App_Utility/Images/Icons/New04.gif);
+    float:right;
+    display:inline;
+}
+
+
+
+li.placePaging
+{
+    display:inline;
+    vertical-align:top;
+}
+
+
+
+div.submenu
+{
+    border:thin outset #9CB5DA; 
+    
+    display:inline;
+}
+.InlineDisplay
+{
+    display:inline
+}
+.icon
+{
+    height:16px;
+    width:16px;
+    cursor:pointer;
+}

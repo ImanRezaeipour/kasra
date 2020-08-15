@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="AccessEntity" targetNamespace="http://tempuri.org/AccessEntity.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/AccessEntity.xsd" xmlns:mstns="http://tempuri.org/AccessEntity.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="AccessEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="RoleRptAccessRole">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AccessTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="RoleTypeTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PersonRptAccessRole">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AccessTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PersonID" type="xs:int" />
+							<xs:element name="FirstName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LastName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="sDepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fDepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="DepartmentTypeDscr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="sRoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fRoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="RoleTypeDscr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Selected" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GroupRptAccessRole">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AccessTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GroupID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="GroupName" type="xs:string" />
+							<xs:element name="Descr" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

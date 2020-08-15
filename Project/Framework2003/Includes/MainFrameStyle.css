@@ -1,0 +1,16 @@
+﻿.Body
+{
+	margin-bottom :0;
+	margin-left :0;
+	margin-right :0;
+	margin-top :0;	
+	background-color :#c3d8f5	 	
+}
+.label,p,td 
+{
+   font-family: tahoma,Tahoma; 
+   font-size: 12px;
+   font-weight: normal;
+   color:"#000066";
+   cursor:default;
+ }

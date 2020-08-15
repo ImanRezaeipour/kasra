@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="UserEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="UserEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="AccessRole" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="id" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="parentid" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="type" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="caption" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DHTML" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndDate" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="User">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="UserId" type="xs:int" nillable="true" minOccurs="0" />
+							<xs:element name="personID" type="xs:int" nillable="true" minOccurs="0" />
+							<xs:element name="firstname" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="lastname" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="sex" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RoleId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="username" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="password" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="RoleBranch" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SelfId" type="xs:int" minOccurs="0" />
+							<xs:element name="RoleID" type="xs:int" minOccurs="0" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" />
+							<xs:element name="Checked" type="xs:int" minOccurs="0" />
+							<xs:element name="CntChild" type="xs:int" minOccurs="0" />
+							<xs:element name="CurCntChild" type="xs:int" minOccurs="0" />
+							<xs:element name="CurLevel" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Group">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GroupID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ParentId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="GroupName" type="xs:string" />
+							<xs:element name="DHTML" type="xs:string" minOccurs="0" />
+							<xs:element name="Descr" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GridDepartmentPosition">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RoleId" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="RoleTypeTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GridUser">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="UserId" type="xs:int" />
+							<xs:element name="PersonId" type="xs:int" minOccurs="0" />
+							<xs:element name="firstname" type="xs:string" minOccurs="0" />
+							<xs:element name="lastname" type="xs:string" minOccurs="0" />
+							<xs:element name="Sex" type="xs:string" minOccurs="0" />
+							<xs:element name="Family" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="UserName" type="xs:string" />
+							<xs:element name="PassWord" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="RoleId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GroupMember">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GroupId" type="xs:int" />
+							<xs:element name="MemberId" type="xs:int" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="MemberAccess">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AccessId" type="xs:long" />
+							<xs:element name="MemberId" type="xs:int" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" />
+							<xs:element name="FlagChecked" type="xs:int" minOccurs="0" />
+							<xs:element name="CurCntChild" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="RptAccessRole">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AccessTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="PersonId" type="xs:int" />
+							<xs:element name="Family" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:string" />
+							<xs:element name="FromTitle" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Person">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" nillable="true" />
+							<xs:element name="FirstName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LastName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="sDepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="fDepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentTypeDscr" msdata:ReadOnly="true" type="xs:string" minOccurs="0"
+								nillable="true" />
+							<xs:element name="RoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="sRoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="fRoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RoleType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RoleTypeDscr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RoleID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Selected" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="IsGroup" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="UserFlag" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

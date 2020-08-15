@@ -1,0 +1,72 @@
+.CssOffDay
+{
+	
+	color:#999999;
+	font-family:tahoma;
+	/*font-weight:bold;*/
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+		
+}
+.CssHoliday
+{
+	
+	color:red;
+	font-family:tahoma;
+	/*font-weight:bold;*/
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+}
+.CssDay
+{
+	
+
+	font-family:tahoma;
+	/*font-weight:bold;*/
+	font-size:12px;
+	cursor:hand;
+	text-align:center;	
+	
+}
+.CssDaySelected
+{
+	
+	background-color:#ffda8b;
+	
+	font-family:tahoma;
+	/*font-weight:bold;*/
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+}
+.CssHeader
+{
+	background-color:#ffccff;
+	font-weight:bold;
+	font-family:tahoma,tahoma;
+	font-size:12px;
+}
+.CssbtnDownForCalendar
+{
+	BACKGROUND-IMAGE: url(../../../../Images/button/Down.gif); 
+	WIDTH: 25px; 
+	HEIGHT: 25px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.TxtControls
+{
+	font-weight:normal;
+	font-size: 8px;
+	font-family: tahoma;
+	background-color: white;
+	border-color: lightsteelblue;
+	height :21px ;
+}

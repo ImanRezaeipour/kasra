@@ -1,0 +1,109 @@
+﻿.XTabTable_Header
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:12px ;
+	font-weight:normal;
+	background-color:#83AFE5;
+	behavior: url(/Automation/Scripts/behaviors/kasragridsort.htc);
+}
+.XTabTable
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:12px ;
+	font-weight:normal;
+}
+.XTabTxt1
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-weight: normal;
+	font-size: 12px;
+	border-left: black 1px solid;
+	width: 100px;
+	border-bottom: black 1px solid;
+	font-family: 'tahoma' ,tahoma;
+	background-color: #ffffff;
+}
+.DivStyle
+{
+	width: 600px;
+}
+.XTabBtn
+{
+	cursor : hand;
+	WIDTH: 180px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+    cursor:hand;
+    font-family:'tahoma',tahoma ;	
+    background-color: steelblue  ;
+    font-size:12px;
+    color:White ;
+	font-weight:normal;           
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+}
+.XTabTxt
+{
+    font-family:'tahoma',tahoma ;	
+    font-size:12px;
+    font-weight : normal;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	font-weight: normal;
+	font-size: 12px;
+	border-left: #000000 1px solid;
+	width: 100px;
+	border-bottom: #000000 1px solid;
+}
+.XTabSel
+{
+    font-family:'tahoma',tahoma ;	
+    font-size:12px;
+    font-weight : normal;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	font-weight: normal;
+	border-left: #000000 1px solid;
+	width: 110px;
+	border-bottom: #000000 1px solid;
+}
+.XTabLinks
+{
+	font-weight: normal;
+	font-size: 12px;
+}
+.XTabStatics
+{
+	font-weight: normal;
+	font-size: 12px;
+}
+.XTabChk
+{
+	cursor : hand;
+}
+.XTabConditionTable
+{
+	border-right: #000000 2px double;
+	border-top: #000000 2px double;
+	font-weight: normal;
+	font-size: 12px;
+	border-left: #000000 2px double;
+	border-bottom: #000000 2px double;
+}
+.XTabResultHeader
+{
+	width: 600px;
+	font-weight: normal;
+	font-size: 12px;
+}
+.XTabShowSelectedTable
+{
+	width: 600px;
+	font-weight: normal;
+	font-size: 12px;
+}

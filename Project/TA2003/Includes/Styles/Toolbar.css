@@ -1,0 +1,30 @@
+.ToolbarBtnOn
+ {
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+    cursor:hand;
+    font-family:'tahoma',tahoma ;	
+    font-size:12px;
+	font-weight:bold;           
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+    
+  }
+  .ToolbarBtnOff
+{
+	
+	BACKGROUND-COLOR: LightGray;
+    font-family:'tahoma',tahoma ;	
+    font-size:12px;
+	font-weight:bold;           
+    BORDER-RIGHT: WhiteSmoke 2px solid; 
+	BORDER-TOP: Gray  2px solid; 
+	BORDER-LEFT: Gray  2px solid; 
+	BORDER-BOTTOM: WhiteSmoke 2px solid; 
+	width:45px;
+	height:45px;
+	
+}
+  

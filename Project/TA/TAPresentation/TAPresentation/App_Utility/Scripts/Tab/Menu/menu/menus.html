@@ -1,0 +1,114 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Toolbar with Menus</title>
+    <script language="javascript"     type="text/javascript" src="/FrmPresentation/App_Utility/SpryAssets/SpryMenuBar.js"></script>
+    <script language="javascript"     type="text/javascript" src="/FrmPresentation/App_Utility/SpryAssets/SpryTabbedPanels.js"></script>
+    <link    type="text/css"          rel="Stylesheet"       href="/FrmPresentation/App_Utility/SpryAssets/SpryMenuBarHorizontal.css" />
+    <link    type="text/css"        rel="Stylesheet" href="/FrmPresentation/App_Utility/SpryAssets/SpryTabbedPanels.css" />
+    <script language="javascript" type="text/javascript" src="/FrmPresentation/App_Utility/SpryAssets/SpryAccordion.js"></script>
+    <link type="text/css" rel="Stylesheet" href="/FrmPresentation/App_Utility/SpryAssets/SpryAccordion.css" />    
+    <link rel="stylesheet" type="text/css" href="/FrmPresentation/App_Utility/Scripts/Tab/resources/css/ext-all.css" />
+    <script type="text/javascript" src="/FrmPresentation/App_Utility/Scripts/Tab/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="/FrmPresentation/App_Utility/Scripts/Tab/ext-all.js"></script>
+    <script type="text/javascript" src="/FrmPresentation/App_Utility/Scripts/Tab/Menu/menu/menus.js"></script>
+    <link rel="stylesheet" type="text/css" href="/FrmPresentation/App_Utility/Scripts/Tab/Menu/menu/menus.css" />
+    <link rel="stylesheet" type="text/css" href="/FrmPresentation/App_Utility/Scripts/Tab/tabs-example.css" />
+    <script type="text/javascript" src="/FrmPresentation/App_Utility/Scripts/Tab/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="/FrmPresentation/App_Utility/Scripts/Tab/ext-all.js"></script>
+    <script type="text/javascript" src="/FrmPresentation/App_Utility/Scripts/Tab/TabCloseMenu.js"></script>
+    <script language="javascript" type="text/javascript" >
+
+        function onclickss() {
+
+//            alert(window.event.srcElement)
+//            alert(window.event.srcElement.tagName)
+//            alert(window.event.srcElement.id)
+        }
+    </script>
+</head>
+<body onmouseover="onclickss()">
+<script type="text/javascript" src="../shared/examples.js"></script><!-- EXAMPLES -->
+<h1>Toolbar with Menus</h1>
+<p>The js is not minified so it is readable. See <a href="menus.js">menus.js</a>.</p>
+
+
+
+<script language='javascript' type='text/javascript'>
+    Ext.onReady(function() {
+        var tabs = new Ext.TabPanel({
+            renderTo: 'tabs',
+            resizeTabs: true,
+            minTabWidth: 115,
+            tabWidth: 135,
+            enableTabScroll: false,
+            width: 450,
+            height: 0,
+            defaults: { autoScroll: true },
+            plugins: new Ext.ux.TabCloseMenu(),
+            items: [
+              { title: 'رستوران', divname: 'div3', listeners: { activate: MyFunc }, html: '' }
+              , { title: 'حضور و غياب', divname: 'div2', listeners: { activate: MyFunc }, html: '' }
+              , { title: 'زير ساخت', divname: 'div1', listeners: { activate: MyFunc }, html: '' } ]
+                    });
+                });
+    
+    function MyFunc(tab) {
+        var div = document.getElementById(tab.divname)
+        
+        while (div.nextSibling != null) {
+            div = div.nextSibling; 
+            div.style.display = 'none'
+        }
+
+        var div = document.getElementById(tab.divname)
+        
+        while (div.previousSibling != null) {
+            div = div.previousSibling;
+            if (div.id != 'tabs')
+                div.style.display = 'none'
+        } 
+        document.getElementById(tab.divname).style.display = 'inline'
+    } 
+    
+    </script>
+
+
+
+
+<div style="background-color: #FFCCFF">
+<div id="tabs" style="padding: 0px; margin: 0px"></div>
+
+
+
+<div id='div1' style='margin: 0px; padding: 0px; display:none'> 
+    <div id='container1' > 
+        <div id='toolbar1' >
+        </div>
+    </div>
+</div> 
+<div id='div2' style='margin: 0px; padding: 0px; display:inline'>
+    <div id='container2' >
+        <div id='toolbar2' >
+        </div>
+    </div> 
+</div> 
+<div id='div3' style='margin: 0px; padding: 0px; display:none'> 
+    <div id='container3' > 
+            <div id='toolbar3' >
+            </div>
+    </div> 
+</div> 
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

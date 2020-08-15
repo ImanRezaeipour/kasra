@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportsEntity" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportsEntity" msdata:IsDataSet="true" msdata:Locale="en-US">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GetDepartmentSumMainReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DepartmentID" type="xs:int" minOccurs="0" />
+              <xs:element name="DepartmentName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="Cnt" type="xs:string" minOccurs="0" />
+              <xs:element name="Hozoor" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="NormalEzafehKar" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="HourlyEstehghaghi" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="HourlyEstelaji" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="HourlyMamoriat" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="HourlyPermission" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+              <xs:element name="HourlyKasreKar" type="xs:string" minOccurs="0" />
+              <xs:element name="SDepartmentName" type="xs:string" minOccurs="0" />
+              <xs:element name="Takhir" type="xs:string" minOccurs="0" />
+              <xs:element name="Tajil" type="xs:string" minOccurs="0" />
+              <xs:element name="SumCredit" type="xs:string" minOccurs="0" />
+              <xs:element name="DepartmentCode" type="xs:string" minOccurs="0" />
+              <xs:element name="DailyEstehghaghi" type="xs:string" minOccurs="0" />
+              <xs:element name="DailyEstelaji" type="xs:string" minOccurs="0" />
+              <xs:element name="DailyMamoriat" type="xs:string" minOccurs="0" />
+              <xs:element name="DailyKasreKar" type="xs:string" minOccurs="0" />
+              <xs:element name="DailyPermission" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,2083 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FrameWork
+</name>
+</assembly>
+<members>
+<member name="F:FrameWork.DRSpecial.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GridHistoryPersonOrganizationChart.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GridHistoryPersonOrganizationChart.DepartmentId">
+	<summary>
+DepartmentId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GridHistoryPersonOrganizationChart.XMLPerson">
+	<summary>
+XMLPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.selActionType">
+	<summary>
+selActionType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.selPerson">
+	<summary>
+selPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.selGroupDoc">
+	<summary>
+selGroupDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.selDoc">
+	<summary>
+selDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.SD">
+	<summary>
+SD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.ED">
+	<summary>
+ED control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.selSubSys">
+	<summary>
+selSubSys control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.SelDeptID">
+	<summary>
+SelDeptID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.grdMain">
+	<summary>
+grdMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.ActionDescr">
+	<summary>
+ActionDescr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.TypeAccess">
+	<summary>
+TypeAccess control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.txtFlag">
+	<summary>
+txtFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.TxtSdate">
+	<summary>
+TxtSdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.TxtEdate">
+	<summary>
+TxtEdate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.txtGetCompanyFinatialPeriodID">
+	<summary>
+txtGetCompanyFinatialPeriodID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.TxtSelDeptID">
+	<summary>
+TxtSelDeptID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.txtDocId">
+	<summary>
+txtDocId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.TxtselActionType">
+	<summary>
+TxtselActionType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.TxtselPerson">
+	<summary>
+TxtselPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.txtSessionID">
+	<summary>
+txtSessionID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.XMLvDocs">
+	<summary>
+XMLvDocs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.ParamHeader">
+	<summary>
+ParamHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.XMLWFAction">
+	<summary>
+XMLWFAction control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.LastSelectedRowgrdMain">
+	<summary>
+LastSelectedRowgrdMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.OnLineUser">
+	<summary>
+OnLineUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.DocActionType">
+	<summary>
+DocActionType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.DocId">
+	<summary>
+DocId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.txtReturnMessage">
+	<summary>
+txtReturnMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.WFDocId">
+	<summary>
+WFDocId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.XMLMapvDoc">
+	<summary>
+XMLMapvDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.tWFDocId">
+	<summary>
+tWFDocId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.txtGroupDocId">
+	<summary>
+txtGroupDocId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.PersonID">
+	<summary>
+PersonID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.SDate">
+	<summary>
+SDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.TxtSumOverTime">
+	<summary>
+TxtSumOverTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.txtselSubSys">
+	<summary>
+txtselSubSys control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.XMLIntValOverWork">
+	<summary>
+XMLIntValOverWork control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.CardtableDoc.CreditType">
+	<summary>
+CreditType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.MainTable">
+	<summary>
+MainTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.tblTextDate">
+	<summary>
+tblTextDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.txtDay">
+	<summary>
+txtDay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.lblRightSlash">
+	<summary>
+lblRightSlash control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.txtMonth">
+	<summary>
+txtMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.lblLeftSlash">
+	<summary>
+lblLeftSlash control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.txtYear">
+	<summary>
+txtYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.txtKeyCodeHid">
+	<summary>
+txtKeyCodeHid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.txtFocusTextsHid">
+	<summary>
+txtFocusTextsHid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.txtFocusCountHid">
+	<summary>
+txtFocusCountHid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.OnSetDateEvent">
+	<summary>
+OnSetDateEvent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.TextDate.txtXmlHoliday">
+	<summary>
+txtXmlHoliday control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramesItemRename.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramesItemRename.txtMenuItemID">
+	<summary>
+txtMenuItemID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramesItemRename.txtItemName">
+	<summary>
+txtItemName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.ReportEntity.PersonsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.ReportEntity.GetPersonWithOutRole1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.ReportEntity.PersonsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.ReportEntity.GetPersonWithOutRole1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.ReportEntity.PersonsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.ReportEntity.GetPersonWithOutRole1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.ReportEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.PageNotFound.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.PageNotFound.Td2">
+	<summary>
+Td2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GridHistoryPositionOrganizationChart.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GridHistoryPositionOrganizationChart.DepartmentId">
+	<summary>
+DepartmentId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GridHistoryPositionOrganizationChart.XMLPerson">
+	<summary>
+XMLPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.MenuEntity.InstanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.MenuEntity.MenuDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.MenuEntity.TreeMenuDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.MenuEntity.TreeMainMenuDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.MenuEntity.InstanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.MenuEntity.MenuRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.MenuEntity.TreeMenuRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.MenuEntity.TreeMainMenuRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.MenuEntity.InstanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.MenuEntity.MenuRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.MenuEntity.TreeMenuRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.MenuEntity.TreeMainMenuRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.MenuEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.tr.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.tr.UserInfo">
+	<summary>
+UserInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentPersonelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentPositionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.AllPersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetPersonNameOrgChartDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetAllPersonelDepartmentIdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetRoleIdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetPersonelDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.AllDepartmentNameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentPersonelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentPositionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.AllPersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetPersonNameOrgChartRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetAllPersonelDepartmentIdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetRoleIdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetPersonelDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.AllDepartmentNameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentPersonelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentPositionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.AllPersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetPersonNameOrgChartRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetAllPersonelDepartmentIdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetRoleIdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.GetPersonelDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity.AllDepartmentNameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OrganizationEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.ModifyPerson.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.btnShow">
+	<summary>
+btnShow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.Names">
+	<summary>
+Names control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.fFullName">
+	<summary>
+fFullName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.fPersonId">
+	<summary>
+fPersonId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.chkInActive">
+	<summary>
+chkInActive control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.chkActive">
+	<summary>
+chkActive control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.grdPerson">
+	<summary>
+grdPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtPersonelNewID">
+	<summary>
+txtPersonelNewID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.PersonId">
+	<summary>
+PersonId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.LastName">
+	<summary>
+LastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.FirstName">
+	<summary>
+FirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.selMarriage">
+	<summary>
+selMarriage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.BirthDate">
+	<summary>
+BirthDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.OccupationStartDate">
+	<summary>
+OccupationStartDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.EmployeeDate">
+	<summary>
+EmployeeDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.ExitDate">
+	<summary>
+ExitDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtChkStatus">
+	<summary>
+txtChkStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtFlagAccess">
+	<summary>
+txtFlagAccess control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.OnLineUser">
+	<summary>
+OnLineUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtSumbit">
+	<summary>
+txtSumbit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.xmlText">
+	<summary>
+xmlText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtSessionID">
+	<summary>
+txtSessionID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtAlert">
+	<summary>
+txtAlert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.CurDate">
+	<summary>
+CurDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.XMLPersonInfo">
+	<summary>
+XMLPersonInfo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.Flag_PersonelNewID">
+	<summary>
+Flag_PersonelNewID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtGetCompanyFinatialPeriodID">
+	<summary>
+txtGetCompanyFinatialPeriodID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtOnLineUser">
+	<summary>
+txtOnLineUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyPerson.txtAccess">
+	<summary>
+txtAccess control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.OnLineUserEntity.RptOnlineUserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OnLineUserEntity.ConfermenterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.OnLineUserEntity.RptOnlineUserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OnLineUserEntity.ConfermenterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.OnLineUserEntity.RptOnlineUserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OnLineUserEntity.ConfermenterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.OnLineUserEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.Role.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.Role.txtSessionID">
+	<summary>
+txtSessionID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.Role.RoleId">
+	<summary>
+RoleId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.Role.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.AccessEntity.RoleRptAccessRoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.AccessEntity.PersonRptAccessRoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.AccessEntity.GroupRptAccessRoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.AccessEntity.RoleRptAccessRoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.AccessEntity.PersonRptAccessRoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.AccessEntity.GroupRptAccessRoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.AccessEntity.RoleRptAccessRoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.AccessEntity.PersonRptAccessRoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.AccessEntity.GroupRptAccessRoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.AccessEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.KasraPB.TbWaite">
+	<summary>
+TbWaite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.KasraPB.td1">
+	<summary>
+td1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.KasraPB.td2">
+	<summary>
+td2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.KasraPB.td3">
+	<summary>
+td3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.KasraPB.td4">
+	<summary>
+td4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.KasraPB.td5">
+	<summary>
+td5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.KasraPB.td6">
+	<summary>
+td6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.DRMain.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FlowPersonTab.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FlowPersonTab.XTabDepartmentName">
+	<summary>
+XTabDepartmentName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FlowPersonTab.XMLSelected">
+	<summary>
+XMLSelected control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FlowPersonTab.XMLX">
+	<summary>
+XMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FlowPersonTab.LastSelectedgrdPerson">
+	<summary>
+LastSelectedgrdPerson control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FlowPersonTab.DepartmentId">
+	<summary>
+DepartmentId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyWFGroupDoc.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyWFGroupDoc.Title">
+	<summary>
+Title control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyWFGroupDoc.Descr">
+	<summary>
+Descr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyWFGroupDoc.XMLGroupDoc">
+	<summary>
+XMLGroupDoc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyWFGroupDoc.GroupDocId">
+	<summary>
+GroupDocId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.ModifyWFGroupDoc.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FrameWorkHelp.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FrameWorkHelp.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FrameWorkHelp.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.PersonEntity.RoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.PersonEntity.OuterPersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.PersonEntity.PersonInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.PersonEntity.RoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.PersonEntity.OuterPersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.PersonEntity.PersonInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.PersonEntity.RoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.PersonEntity.OuterPersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.PersonEntity.PersonInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.PersonEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.DRGroup.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.UserEntity.AccessRoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.RoleBranchDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GridDepartmentPositionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GroupMemberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.MemberAccessDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.PersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.RptAccessRoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GridUserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.XMLGroupMemberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.Group1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.MessageDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GetPersonelDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.ShowMessageDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.AccessRoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.RoleBranchRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GridDepartmentPositionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GroupMemberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.MemberAccessRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.PersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.RptAccessRoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GridUserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.XMLGroupMemberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.Group1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.MessageRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.GetPersonelDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.ShowMessageRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.UserEntity.AccessRoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.RoleBranchRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.GridDepartmentPositionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.GroupMemberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.MemberAccessRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.PersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.RptAccessRoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.GridUserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.XMLGroupMemberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.GroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.Group1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.MessageRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.GetPersonelDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity.ShowMessageRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.UserEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FrameWork.WFEntity.WFMainDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.GridWFDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.OneWorkFlowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.IsAllStarterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.StarterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.GetFlatPersonelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.ManageDisableTreeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.vDocsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.WFMainRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.GridWFDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.OneWorkFlowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.IsAllStarterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.StarterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.GetFlatPersonelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.ManageDisableTreeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.vDocsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.WFEntity.WFMainRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.WFEntity.GridWFDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.WFEntity.OneWorkFlowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.WFEntity.IsAllStarterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.WFEntity.StarterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.WFEntity.GetFlatPersonelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.WFEntity.ManageDisableTreeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.WFEntity.vDocsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.WFEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.Archive.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GeneralError.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GeneralError.Td2">
+	<summary>
+Td2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GeneralError.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.GeneralError.lblErrorInfoStr">
+	<summary>
+lblErrorInfoStr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.CardTableEntity.LogDocDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.CardTableEntity.LogDocRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.CardTableEntity.LogDocRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.CardTableEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateOtherDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.DepartmentPositionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateSelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateForOnLineUserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateOtherRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.DepartmentPositionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateSelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateForOnLineUserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateOtherRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.DepartmentPositionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateSelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFTemplateForOnLineUserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow.WFDefaultTemplateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.EditTemplateWorkFlow">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.tmpChangeUrl.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.HolidayEntity.HolidaysDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.HolidayEntity.HolidaysRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.HolidayEntity.HolidaysRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.HolidayEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:FrameWork.FramePersonTab.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.CntX">
+	<summary>
+CntX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.CurPage1">
+	<summary>
+CurPage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.Totalpage1">
+	<summary>
+Totalpage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.XMLSelected">
+	<summary>
+XMLSelected control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.txtCheckFlag">
+	<summary>
+txtCheckFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.XMLX">
+	<summary>
+XMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.txtTmpXMLX">
+	<summary>
+txtTmpXMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.txtPID">
+	<summary>
+txtPID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.txtPName">
+	<summary>
+txtPName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.TmpXMLX">
+	<summary>
+TmpXMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.TmpFilter">
+	<summary>
+TmpFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.txtAllTikFlag">
+	<summary>
+txtAllTikFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.AllXMLX">
+	<summary>
+AllXMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.txtPagingFlag">
+	<summary>
+txtPagingFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.txtPageSize">
+	<summary>
+txtPageSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.totalRecords">
+	<summary>
+totalRecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.tmpCurPage1">
+	<summary>
+tmpCurPage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:FrameWork.FramePersonTab.tmpTotalPage">
+	<summary>
+tmpTotalPage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:FrameWork.BaseInfoEntity.BaseInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFActionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFDocDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFStatusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.PersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.uspWFGetWFStatusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFDocCompletDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFActionWithStateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFGroupDocDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.GetRolePersonelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.GetTreeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.BaseInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFActionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFDocRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFStatusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.PersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.uspWFGetWFStatusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFDocCompletRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFActionWithStateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFGroupDocRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.GetRolePersonelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.GetTreeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.BaseInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFActionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFDocRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFStatusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.PersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.uspWFGetWFStatusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFDocCompletRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFActionWithStateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.WFGroupDocRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.GetRolePersonelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity.GetTreeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:FrameWork.BaseInfoEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

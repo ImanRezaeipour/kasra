@@ -1,0 +1,290 @@
+.InColor
+{
+color:#009900;
+}
+.OutColor
+{
+color:#660066;
+}
+.ManagerColor
+{
+color:#ff33ff;
+}
+.UserColor
+{
+color:#FF9933;
+}
+.CssScheduleChange
+{
+background-color:#812ba6;
+}
+.CssShiftChange
+{
+background-color:#de0db1;
+} 
+.CssShiftReplaceChange
+{
+background-color:#0dde24;
+}   
+.CssShiftTwoShiftChangeFPerson
+{
+background-color:#de860d;
+} 
+.CssShiftTwoShiftChangeSPerson
+{
+background-color:#f1fe3e;
+} 
+.CssDayContinuation
+{
+	direction: rtl;
+	background-color: #FFFFB7;
+}
+.CssOKDayContinuation
+{
+	direction: rtl;
+	background-color: #37FF78;
+}
+.AllCredit
+{
+	color:#009900;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.SomeCredit
+{
+	color: #ff33ff ;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.NoCredit
+{
+	color: #FF3300;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.KasreHozorHeader
+{
+  background-color: Red;  
+}
+.CssFriday
+{
+	font-weight: normal;
+	font-size:12px;
+	font-family: Tahoma;
+	background-color: lightgrey;
+	border-right-color: lightsteelblue;
+}
+div.MaskedDiv
+{
+    visibility: hidden;
+    display: list-item;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: Tahoma,Tahoma;
+    font-weight: normal;
+    padding: 40px;
+    z-index: 1;
+    background-color: #ECF9F8;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    mazopacity: 0.6;
+    opacity: 0.6;
+}
+TD
+{
+    font-family: Tahoma,Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    color: #003399;
+}
+.CssItemHeader
+{
+	font-size: 8pt;
+	direction: rtl;
+	background-color: #ffdbeb;
+}
+.CssItemHeader2
+{
+	font-size: 12px;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: whitesmoke;
+	border-bottom-style: groove;
+}
+.CssItemHeader3
+{
+	font-size: 12px;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #dffff1;
+	border-bottom-style: groove;
+}
+.CssItemHeader4
+{
+	direction:rtl;
+	background-color :#c3d8f5;
+}
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599
+}
+.CssFirstPage
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/active_first.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssPrevPage
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/active_back.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssNextPage
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/active_forward.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssLastPage
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/active_last.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssbtnDown
+{
+	background-position: center center;
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/Down.gif);
+	width: 11px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	border-left: lightsteelblue 2px solid;
+	border-bottom: #346fa4 2px solid;
+	cursor: hand;
+}
+.CssbtnUP
+{
+	background-position: center center;
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/Up.gif);
+	width: 11px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	border-left: lightsteelblue 2px solid;
+	border-bottom: #346fa4 2px solid;
+	cursor: hand;
+}
+.CssHoliday
+{
+	color:red;
+	font-family:Tahoma;
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+}
+.CssDay
+{
+	font-family:Tahoma;
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+}
+.CssHeader
+{
+	background-color:#ffccff;
+	font-weight:normal;
+	font-family:Tahoma,Tahoma;
+	font-size:12px;
+}
+.TxtControlsReadOnly
+{
+	font-weight: normal;
+	font-size: 12px;
+	font-family: Tahoma;
+	background-color: lightgrey;
+	border-right-color: lightsteelblue;
+}
+.CssPage
+{
+    border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#e7eeff;   
+    border-width :2px
+}
+.CssForGoing
+{         
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;
+}
+.DropDownList
+{
+	border: 1px solid #AEDFD9;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Tahoma;
+	background-color: white;
+	height: 21px;
+}
+.cssDiv
+{
+    padding: 0px;
+    background-color: #E3EFFF;
+    overflow: auto;
+    scrollbar-hightlight-color: white;
+    scrollbar-arrow-color: black;
+    scrollbar-base-color: #D5EAFF;
+}
+
+.CssDivSelected
+{
+    background-position: #FFF0F0;
+    vertical-align: middle;
+    background: #F9EEF3;
+    cursor: pointer;
+}

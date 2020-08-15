@@ -1,0 +1,107 @@
+<OrganizationEntity>
+	<Department>
+		<DepartmentID>13</DepartmentID>
+		<Name>»Œ‘ ›‰Ì Ê ‰Ÿ«— </Name>
+		<ParentID>3</ParentID>
+		<Type>44</Type>
+	</Department>
+	<DepartmentPosition>
+		<RoleID>35</RoleID>
+		<RoleType>1</RoleType>
+		<Title>„œÌ— «„Ê— ›‰Ì Ê ‰Ÿ«— </Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>74</RoleID>
+		<RoleType>17</RoleType>
+		<Title>‰«Ÿ— «„Ê— ›‰Ì Ê ‰Ÿ«—  1</Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>75</RoleID>
+		<RoleType>17</RoleType>
+		<Title>‰«Ÿ— «„Ê— ›‰Ì Ê ‰Ÿ«—  2</Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>76</RoleID>
+		<RoleType>17</RoleType>
+		<Title>‰«Ÿ— «„Ê— ›‰Ì Ê ‰Ÿ«—  3</Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>77</RoleID>
+		<RoleType>17</RoleType>
+		<Title>‰«Ÿ— «„Ê— ›‰Ì Ê ‰Ÿ«—  4</Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>78</RoleID>
+		<RoleType>17</RoleType>
+		<Title>‰«Ÿ— «„Ê— ›‰Ì Ê ‰Ÿ«—  5</Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>79</RoleID>
+		<RoleType>17</RoleType>
+		<Title>‰«Ÿ— «„Ê— ›‰Ì Ê ‰Ÿ«—  6</Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>80</RoleID>
+		<RoleType>17</RoleType>
+		<Title>‰«Ÿ— «„Ê— ›‰Ì Ê ‰Ÿ«—  7</Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>81</RoleID>
+		<RoleType>17</RoleType>
+		<Title>‰«Ÿ— jn ›‰Ì Ê ‰Ÿ«—  8</Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>89</RoleID>
+		<RoleType>15</RoleType>
+		<Title>„Â‰œ” «„Ê— ›‰Ì Ê ‰Ÿ«— </Title>
+	</DepartmentPosition>
+	<DepartmentPosition>
+		<RoleID>103</RoleID>
+		<RoleType>5</RoleType>
+		<Title>„‰‘Ì</Title>
+	</DepartmentPosition>
+	<DepartmentPersonel>
+		<PersonID>123</PersonID>
+		<RoleID>89</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>130</PersonID>
+		<RoleID>78</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>136</PersonID>
+		<RoleID>103</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>318</PersonID>
+		<RoleID>35</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>401</PersonID>
+		<RoleID>74</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>402</PersonID>
+		<RoleID>75</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>403</PersonID>
+		<RoleID>76</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>404</PersonID>
+		<RoleID>77</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>406</PersonID>
+		<RoleID>79</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>407</PersonID>
+		<RoleID>80</RoleID>
+	</DepartmentPersonel>
+	<DepartmentPersonel>
+		<PersonID>408</PersonID>
+		<RoleID>81</RoleID>
+	</DepartmentPersonel>
+</OrganizationEntity>

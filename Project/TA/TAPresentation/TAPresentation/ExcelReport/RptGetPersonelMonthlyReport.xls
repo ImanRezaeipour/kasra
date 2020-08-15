@@ -1,0 +1,11 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr style="color:#000066;background-color:#83AFE5;font-family:Tahoma;font-size:9pt;">
+			<th scope="col">پرسنلي</th><th scope="col">نام</th><th scope="col">كل حضور</th><th scope="col">كاركرد</th><th scope="col">مازادحضور</th><th scope="col">اض واقعي</th><th scope="col">اض ساير</th><th scope="col">كسرحضور</th><th scope="col">اض تشويقي</th><th scope="col">استحقاقي</th><th scope="col">ماموريت داخلي</th><th scope="col">ماموريت خارجي</th><th scope="col">غيبت ها</th><th scope="col">بدون حقوق</th><th scope="col">اضافه كار پرداختي</th>
+		</tr><tr style="color:#000066;background-color:#E7EEFE;font-family:Tahoma;font-size:9pt;">
+			<td style="width:60px;">    921267</td><td style="width:120px;">محمدي معصومه</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td>
+		</tr><tr style="color:#FFFF00;background-color:#006699;font-family:Tahoma;font-size:9pt;">
+			<td style="width:60px;">جمع</td><td style="width:120px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td><td style="width:65px;">&nbsp;</td>
+		</tr>
+	</table>
+</div>

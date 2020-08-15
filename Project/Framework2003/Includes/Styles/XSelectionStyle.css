@@ -1,0 +1,107 @@
+﻿.chkPartSelected
+{
+	font-weight: normal;
+	color: #ff0000;
+	background-color:#cccccc;
+}
+.chkAllSelected
+{
+	color: black;
+	background-color:#ffffff;
+}
+.chkNotSelected
+{
+	background-color:#ffffff;
+}
+
+.TabOFF
+{
+	border-right: #888888 2px solid;
+	border-top: #888888 2px solid;
+	font-weight: normal;
+	font-size: 13px;
+	border-left: #eeeeee 2px solid;
+	cursor: hand;
+	border-bottom: #ffffff 2px solid;
+	font-family: 'tahoma' ,tahoma;
+	background-color: lightsteelblue;
+}
+.TabON
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:normal;
+	background-color:#c3d8f5;
+    BORDER-RIGHT: #FFFFFF 2px solid; 
+	BORDER-TOP: #FFFFFF 2px solid; 
+	BORDER-LEFT: #ffffff 2px solid; 
+	BORDER-BOTTOM: #000000 0px solid;
+}
+.TabNo
+{
+	background-color:#b5c5e5;
+    BORDER-RIGHT: #FFFFFF 0px solid; 
+	BORDER-TOP: #FFFFFF 0px solid; 
+	BORDER-LEFT: #000000 0px solid; 
+	BORDER-BOTTOM: #FFFFFF 2px solid;
+}
+.TabHide
+{
+	display :none;
+}
+.FrameOFF
+{
+	display:none;
+	visibility:hidden;
+}
+.FrameON
+{
+	display: block;
+	visibility:visible;
+}
+.FrameHide
+{
+	display :none;
+}
+.GroupItemStyle
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:normal;
+}
+.XItemStyle
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:normal;
+}
+.GroupHeaderStyle
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:14px ;
+	font-weight:normal;
+	background-color:#83AFE5;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+}
+.XHeaderStyle
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:12px ;
+	font-weight:normal;
+	background-color:#83AFE5;
+	
+	
+	   
+}
+.IFrameStyle
+{
+	border-top-width: 0px;
+	border-right: #ffffff 2px solid;
+	border-left: #ffffff 2px solid;
+	border-bottom: #ffffff 2px solid;
+}

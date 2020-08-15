@@ -1,0 +1,1071 @@
+﻿.CssBtnImportData
+{
+	BACKGROUND-Image:url(\TA\TAPeresentation\Pages\Images\Daryaft.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 109px;
+	HEIGHT: 35px	
+}
+.CssBtnSend
+{
+	background-image: url(/TA/Includes/Images/Buttons/SendToExcel.gif);
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	cursor: hand;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.VertGradientBlue1
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#e7eeff, EndColorStr=#91b7df)
+}
+.VertGradientBlue2
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#91b7df, EndColorStr= #e7eeff)
+}
+.VertGradientBlue3
+{
+	border-right: #6699ff 2px solid;
+	border-top: #6699ff 2px solid;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#e7eeff, EndColorStr=#91b7df);
+	border-left: #6699ff 2px solid;
+	border-bottom: #6699ff 2px solid;
+}
+
+/********************For Button********************/
+.CssBtnAfzodaneMaten
+{
+	BACKGROUND-Image:url(../../Images/button/btnAfzodaneMaten.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 30px;
+	HEIGHT: 30px;
+	cursor : hand;	
+}
+.CssBtnTarefeMojadad
+{
+	BACKGROUND-Image:url(../../Images/button/btnTarefeMojadad.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 30px;
+	HEIGHT: 30px;
+	cursor : hand;	
+}
+.CssbtnDown
+{
+	BACKGROUND-IMAGE: url(../../Images/button/Down.gif); 
+	WIDTH: 40px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.CssbtnUP
+{
+	BACKGROUND-IMAGE: url(../../Images/button/Up.gif); 
+	WIDTH: 40px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.CssBtnNew
+{
+	BACKGROUND-Image:url(../../Images/Button/btnnew.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnEdit
+{
+	BACKGROUND-Image:url(../../Images/Button/btnedit.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnDelete
+{
+	BACKGROUND-Image:url(../../Images/Button/btndelete.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnSave
+{
+	BACKGROUND-Image:url(../../Images/Button/btnsave.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+.CssBtnSimple
+{
+	BACKGROUND-Image:url(../../Images/Button/back.gif);
+	BACKGROUND-REPEAT: repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssBtnShow
+{
+	BACKGROUND-Image:url(../../Images/Button/Show.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;	
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnSearch
+{
+	BACKGROUND-Image:url(../../Images/Button/btnsearch.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnCancel
+{
+	BACKGROUND-Image:url(../../Images/Button/btncancel.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnOk
+{
+	BACKGROUND-Image:url(../../Images/Button/btnok.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnNotOk
+{
+	BACKGROUND-Image:url(../../Images/Button/BtnNotOk2.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnMove
+{
+	BACKGROUND-Image:url(../../Images/Button/Move.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+
+.CssBtnDefaultValue
+{
+	BACKGROUND-Image:url(../../Images/Button/btndefaultvalue.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+
+.CssBtnAddGrid
+{
+	BACKGROUND-Image:url(../../Images/Button/btnadd.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+
+.CssBtnDelGrid
+{
+	BACKGROUND-Image:url(../../Images/Button/btndel.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+
+.CssBtnShowEdit
+{
+	BACKGROUND-Image:url(../../Images/Button/btnshowedit.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+
+.CssBtnRegisterResult
+{
+	BACKGROUND-Image:url(../../Images/Button/btnSabteNatejeh.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 89px;
+	HEIGHT: 37px	
+}
+.CssBtnEditResult
+{
+	BACKGROUND-Image:url(../../Images/Button/btnEditeNatejeh.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 106px;
+	HEIGHT: 33px	
+}
+.CssBtnRegisterEvent
+{
+	BACKGROUND-Image:url(../../Images/Button/btnSabteRoydad2.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 88px;
+	HEIGHT: 37px	
+}
+.CssBtnEditEvent
+{
+	BACKGROUND-Image:url(../../Images/Button/btnEditeRoydad.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 107px;
+	HEIGHT: 33px	
+}
+.CssBtnTestFormat
+{
+	BACKGROUND-Image:url(../../Images/Button/btnTestFormat.gif);	
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 95px;
+	HEIGHT: 32px	
+}
+.CssBtnRegisterReciver
+{
+	BACKGROUND-Image:url(/../../Images/Button/.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+
+.CssBtnShowDetail
+{
+	BACKGROUND-Image:url(../../Images/Button/.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+
+.CssBtnPrint
+{
+	BACKGROUND-Image: url(/TA/Includes/Images/Buttons/BeforPrint.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnLimitSerach
+{
+	BACKGROUND-Image:url(../../Images/Button/ShowLimit.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnShowDetailReport
+{
+	BACKGROUND-Image:url(../../Images/Button/.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px
+}
+
+.CssBtnFilter
+{
+	BACKGROUND-Image:url(../../Images/Button/btnDefineFilter.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px
+}
+
+.CssBtnReload
+{
+	BACKGROUND-Image:url(../../Images/Button/btnRefresh.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px
+}
+
+.CssBtnAdjustDate
+{
+	BACKGROUND-Image:url(../../Images/Button/btnTanzimeDate.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 90px;
+	HEIGHT: 34px	
+}
+.CssBtnRegistjobScore
+{
+	BACKGROUND-Image:url(\Framework\Images\Button\btnsabteemteyaz.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 160px;
+	HEIGHT: 34px	
+}
+.CssBtnReport
+{
+	BACKGROUND-Image:url(\Framework\Images\Button\btnreportproduce.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 95px;
+	HEIGHT: 34px
+}
+
+
+
+/********************End Table********************/
+
+
+/********************For Table********************/
+.CssPage
+{
+     
+    border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#e7eeff;   
+    border-width :2px
+}
+
+.CssLayer2
+{
+	border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#91b7df;       
+    border-width :1px
+}
+
+.CssLayer1
+{
+	border-style:solid;           
+    border-right-color :#215fed;        
+    border-top-color  :#215fed;        
+    border-bottom-color :#215fed;   
+    border-left-color :#215fed;          
+    background :#c3d8f5;       
+    border-width :2px          
+}
+.CssLayer3
+{
+     
+    border-style:solid;           
+    border-right-color :#e7eeff;        
+    border-top-color  :#e7eeff;        
+    border-bottom-color :#e7eeff;   
+    border-left-color :#e7eeff;          
+    background :#e7eeff;   
+    border-width :2px
+}
+/********************End Table********************/
+
+.Body
+{
+	margin-bottom :0;
+	margin-left :0;
+	margin-right :0;
+	margin-top :0;	
+	background-color :#c3d8f5	 	
+}
+
+
+/********************For Text********************/
+.TxtControls
+{
+	font-weight:normal;
+	font-size: 8pt;
+	font-family: tahoma;
+	background-color: white;
+	border-color: lightsteelblue;
+	height :20px ;
+}
+.TxtControlsReadOnly
+{
+	font-weight: normal;
+	font-size: 9pt;
+	font-family: tahoma;
+	background-color: lightgrey;
+	border-right-color: lightsteelblue;
+}
+/********************End Text********************/
+
+
+
+/********************Start For Gride********************/
+
+/***************************Start For Gride1*************************/
+.GNormalItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	background: whitesmoke;
+	cursor: hand;
+	color: darkred;
+	font-family: tahoma;
+}
+
+.GAlternateItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: darkred;
+	font-family: tahoma;
+	background-color: gainsboro;
+}
+
+.GSelectedItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: white;
+	font-family: tahoma;
+	background-color:Gray   ;
+}
+
+.GHilightItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: white;
+	font-family: tahoma;
+	background-color: highlight;
+}
+.GHeader
+{
+	font-family: tahoma;
+	font-size: 9pt;
+	font-weight: normal;
+	color: white;
+	background-color:#204b7e; /*#006600;*/
+	text-align: center;
+}
+
+/***************************End Gride1*************************/
+
+/***************************Start For Gride2*************************/
+.CssBackColor
+{
+	background-color :#D5E1FD;
+	border-color :LightSteelBlue;
+	border-style :solid;
+	border-width :2px;		
+	width : 500px		
+}
+					
+.CssAlternatingItemStyle
+{	
+	 direction:rtl;
+	 background-color:OldLace;	 
+}
+
+.CssEditItemStyle 
+{
+	 direction:rtl;
+	 background-color :White
+}
+
+.CssFooterStyle
+{
+	direction:rtl;
+	background-color:#CCCCCC
+}
+
+.CssHeaderStyle
+{
+	direction:rtl;
+	font :tahoma ;	
+	font-size :10px;
+	font-weight: normal;
+	background-color:#83AFE5
+}
+.CssItemStyle
+{
+    direction: rtl;
+    background-color: #E7EEFE;
+} 
+							
+/*.CssItemStyle
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #d5e1fd;
+	border-bottom-style: groove;
+}*/
+
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599
+}
+
+/***************************End Gride2*************************/
+
+/********************End For Gride********************/
+
+/********************For Lable********************/
+.label,p,td 
+{
+   font-family: tahoma,tahoma; 
+   font-size: 12px;
+   font-weight: normal;
+   color:"#000066";
+   cursor:default;
+ }
+ /********************End Lable********************/
+ 
+ /********************For Line*********************/
+.CssHorizontalLine
+{
+	BORDER-RIGHT: lightsteelblue thin groove;
+	BORDER-TOP: lightsteelblue thin groove;
+	BORDER-LEFT: lightsteelblue thin groove;
+	WIDTH: 317px; 
+	BORDER-BOTTOM: lightsteelblue thin groove;
+	HEIGHT: 2px
+}
+
+.VertGradient
+{
+	font-weight: normal;
+	font-size: 10pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#70000000, EndColorStr=#00000000);
+	color: white;
+}
+
+.VertGradient1
+{
+	font-weight: normal;
+	font-size: 12pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#70000000, EndColorStr=#00000000);
+	color: white;
+}
+/********************For Paging********************/
+.CssFirstPage
+{
+	background-image: url(../../Images/button/active_first.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssPrevPage
+{
+	background-image: url(../../Images/button/active_back.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssNextPage
+{
+	background-image: url(../../Images/button/active_forward.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+
+.CssLastPage
+{
+	background-image: url(../../Images/button/active_last.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+
+
+/********************End Line*********************/
+
+.CssBtnBackup
+{
+	BACKGROUND-Image:url(/PMGPresentation\Images\buttons/backup2.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 89px;
+	HEIGHT: 32px;	
+}
+.CssBtnRestor
+{
+	BACKGROUND-Image:url(/PMGPresentation\Images\buttons/restore2.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 89px;
+	HEIGHT: 32px;
+}
+.CssBtnFile
+{
+	BACKGROUND-Image:url(/PMGPresentation\Images\buttons/btnSelectFile.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 89px;
+	HEIGHT: 32px;
+}
+
+.CssFullItem
+{
+	font-size: 8pt;
+	background-image: url(../../Images/Backgrounds/Alt.bmp);
+	direction: rtl;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+
+.CssBtnTabtMojavez
+{
+	BACKGROUND-Image: url(/TA/Includes/Images/Buttons/TabtMojavez.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+.CssBtnReportRezMojavez
+{
+	BACKGROUND-Image: url(/TA/Includes/Images/Buttons/ReportRezMojavez.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+.CssBtnReportMojavez
+{
+	BACKGROUND-Image: url(/TA/Includes/Images/Buttons/ReportMojavez.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssBtnCart
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Buttons/BtnCart.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.btnSelectPerson 
+{
+	BACKGROUND-IMAGE: url(/TA/Includes/Images/Buttons/SelectPerson.gif); 
+	WIDTH: 125px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: tahoma;
+}
+.CssSaveAndMohasebe
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Buttons/btnSaveAndMohasebe.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssEditAndMohasebe
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Buttons/btnEditandMohasebe.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+
+.CssDeleteAndMohasebe
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Buttons/btnDeleteAndMohasebe.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+.CssBtnSaveAndNew
+{
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	background-image: url(../../Images/button/btnZakhirehVaEdameh.gif);
+	border-left: lightsteelblue 2px solid;
+	width: 70px;
+	border-bottom: #346fa4 2px solid;
+	background-repeat: no-repeat;
+	height: 32px;
+	background-color: transparent;
+}
+.CssLayer3
+{
+     
+    border-style:solid;            
+    background :#e7eeff;   
+    border-width :0px
+}
+.CssFrame
+{
+	background :#e7eeff;   
+}
+/*new-------------*/
+.CssItemHeader
+{
+	font-size: 8pt;
+	direction: rtl;
+	/*border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;	
+	border-bottom-style: groove;*/
+	background-color: #ffdbeb;
+}
+.CssItemHeader2
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: whitesmoke;
+	border-bottom-style: groove;
+}
+.CssItemHeader3
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #dffff1;
+	border-bottom-style: groove;
+}
+/*------------------*/
+.CssBtnSend
+{
+	background-image: url(/TA/Includes/Images/Buttons/SendToExcel.gif);
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	cursor: hand;
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.HeaderStyle
+{
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	font-weight: normal;
+	font-size: 12px;
+	border-left: lightsteelblue 2px solid;
+	direction: rtl;
+	border-bottom: #346fa4 2px solid;
+	font-family: tahoma,tahoma; 
+	background-color: #83afe5;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CssBtnNewSystemRule
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Buttons/CreateSystemRules.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+	cursor:hand;
+}
+.CssBtnNewUserRule
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Buttons/CreateUserRules.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+	cursor:hand;
+}
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CssBtnbtnAddNode
+{
+	BACKGROUND-Image:url(../../Images/Icons/u20.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 40px;
+	HEIGHT: 30px;
+	cursor : hand;	
+	BORDER-RIGHT: #346fa4 2px solid;
+	BORDER-TOP: lightsteelblue 2px solid;
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	
+}
+/*DefineRule**************************************************/
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.CssIconBtnAddMemer
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Icons/IconBtnAddMemer.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 39px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+	cursor:hand;
+}
+.CssIconBtnDelete
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Icons/IconBtnDelete.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 39px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+	cursor:hand;
+}
+.CssIconBtnEdit
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Icons/IconBtnEdit.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 39px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+	cursor:hand;
+}
+.CssIconBtnNewSysRule
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Icons/IconBtnNewSysRule.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 39px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+	cursor:hand;
+}
+.CssIconBtnNewUserRule
+{
+	BACKGROUND-Image:url(/TA/Includes/Images/Icons/IconBtnNewUserRule.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 39px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+	cursor:hand;
+}
+
+/*----------------------------------------------------*/
+.CssHolidayStyle
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #ffdfe7;
+	border-bottom-style: groove;
+}
+
+.CssBtnDefShow
+{
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	background-image: url(/TA/Includes/Images/Icons/default_phase_icon.gif);
+	border-left: lightsteelblue 2px solid;
+	width: 20px;
+	cursor: hand;
+	border-bottom: #346fa4 2px solid;
+	background-repeat: no-repeat;
+	height: 20px;
+	background-color: transparent;
+}
+
+.CssBtnShowCal
+{
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	background-image: url(/TA/Includes/Images/Icons/cc1.gif);
+	border-left: lightsteelblue 2px solid;
+	width: 20px;
+	cursor: hand;
+	border-bottom: #346fa4 2px solid;
+	background-repeat: no-repeat;
+	height: 20px;
+	background-color: transparent;
+}
+
+.CssHeaderStyleNext
+{
+	direction:rtl;
+	font :tahoma ;	
+	font-size :9pt;
+	font-weight: normal;
+	background-color:#ccccff
+}
+
+.CssHeaderStylePrev
+{
+	direction:rtl;
+	font :tahoma ;	
+	font-size :9pt;
+	font-weight: normal;
+	background-color:#ffccff
+}

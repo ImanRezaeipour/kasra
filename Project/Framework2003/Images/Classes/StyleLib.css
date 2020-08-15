@@ -1,0 +1,377 @@
+.menuitem
+{
+	font-weight:normal;
+	font-size: 14px;
+	cursor: hand;
+	font-family: tahoma;
+}
+.GroupLabel
+{
+	font-weight: normal;
+	font-size: 11pt;
+	color: #211f62;
+	font-family: Tahoma;
+	background-color: transparent;
+}
+
+.Alink{color:red;font-family:Tahoma;font-size:14;
+       font-weight: normal;text-decoration:underline;
+       cursor:hand;}
+
+.btnlink { color:red;text-decoration:underline;
+           cursor:hand;
+           border:0;background-color:transparent;
+           background-repeat:no-repeat;
+           background-position:center right;
+           background-image:url(../images/stylelib/doc.gif);
+           height:24;
+           font-family:Tahoma;
+           font-size:14;
+           font-weight:normal;
+           }
+.btnSave { 
+         cursor:hand;
+           background-color:'#204b7e';
+           font-family: tahoma ;
+           font-size:10;
+		   font-weight:normal;           
+		   color: White   ;
+           }
+.BbtnSave { 
+           cursor:hand;
+           background-color: Olive  ;
+           font-family:Tahoma;
+           font-size:10;
+		   font-weight:normal;           
+           color:White ;
+           FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#00000000, EndColorStr=#40000000)
+
+           }
+.btnRef {  cursor:hand;
+           background-color:transparent;
+		   border:1px outset;
+           background-repeat:no-repeat;
+           background-position:top center;
+           background-image:url(../images/icons/ref.bmp);
+           height:35;
+           width:35;
+           font-family:Tahoma;
+           font-size:12;
+           font-weight:normal;
+           color:DarkRed;
+           }
+.btnback
+{
+	border-right: 1px outset;
+	background-position: center center;
+	border-top: 1px outset;
+	font-weight: normal;
+	font-size: 12px;
+	background-image: url(../images/icons/backward5.gif);
+	border-left: 1px outset;
+	width: 35px;
+	cursor: hand;
+	color: darkred;
+	border-bottom: 1px outset;
+	background-repeat: no-repeat;
+	font-family: Tahoma;
+	height: 35px;
+	background-color: transparent;
+}
+.btnNext
+{
+	border-right: 1px outset;
+	background-position: center center;
+	border-top: 1px outset;
+	font-weight: normal;
+	font-size: 12px;
+	background-image: url(../images/icons/forward5.gif);
+	border-left: 1px outset;
+	width: 35px;
+	cursor: hand;
+	color: darkred;
+	border-bottom: 1px outset;
+	background-repeat: no-repeat;
+	font-family: Tahoma;
+	height: 35px;
+	background-color: transparent;
+}
+.btnHome
+{
+	border-right: 1px outset;
+	border-top: 1px outset;
+	font-weight: normal;
+	font-size: 12px;
+	background: url(../images/icons/Home1.gif) no-repeat center center;
+	border-left: 1px outset;
+	width: 35px;
+	cursor: hand;
+	color: darkred;
+	border-bottom: 1px outset;
+	font-family: Tahoma;
+	height: 35px;
+}
+.btnHelp {  cursor:hand;
+           background-color:transparent;
+		   border:1px outset; 
+           background-repeat:no-repeat;
+           background-position:top cener;
+           background-image:url(../images/icons/help1.gif);
+           height:35;
+	       width:35;
+           font-family:Tahoma;
+           font-size:12;
+           font-weight:normal;
+           color:DarkRed;
+           }
+           
+.btnDel { 
+           cursor:hand;
+           background-color:'#21a386';
+           font-family:Tahoma;
+           font-size:10;
+		   font-weight:normal;           
+           color:darkred;
+           }
+.btnNew {
+           cursor:hand;
+           background-color:'#21a386';
+           font-family:Tahoma;
+           font-size:10;
+		   font-weight:normal;           
+           color:darkred;
+           }
+
+.btnMenu { cursor:hand;
+           background-color:transparent;
+		   border:1px outset;
+           background-repeat:no-repeat;
+           background-position:top right;
+           background-image:url(../images/icons/menu6.gif);
+           height:35;
+	       width:35;
+           font-family:Tahoma;
+           font-size:12;
+           font-weight:normal;
+           color:DarkRed;
+           }
+.btnsearch {  cursor:hand;
+           background-color:transparent;
+		   border:1px outset;
+           background-repeat:no-repeat;
+           background-position:top right;
+           background-image:url(../images/Icons/search4.gif);
+           height:35;
+		   width:35;
+           font-family:Tahoma;
+           font-size:12;
+           font-weight:normal;
+           color:DarkRed;
+           }
+
+.Title{
+   filter:blur(direction=200) dropshadow();
+   font-family: Titr; 
+   font-size:   13pt;
+   color:"#8800aa";
+    }
+
+.caption{
+   filter:blur(direction=150);
+   font-family: Titr; 
+   font-size:   14pt;
+   color:"DarkBlue";
+    }
+.hint{
+   filter:blur(direction=150);
+   font-family:  Lotus ; 
+   font-size:   14pt;
+   color: Red ;
+    }
+
+.label,p,td {
+   font-family: Tahoma,Tahoma ; 
+   font-size: 12px;
+   font-weight: normal;
+   color:"#000066";
+   cursor:default;
+ }
+
+.input
+{
+	font-size: 10pt;
+	color: #005023;
+	font-family: tahoma;
+}
+ .readonly {
+   background-color:transparent;
+   border:0;
+   font-family: tahoma; 
+   font-size: 10pt;
+   color:"#005023"
+ }
+.button {
+   font-family: Tahoma; 
+   font-size: 11pt;
+ }
+
+
+	.TableHeader { 
+		font-family: Tahoma; 
+		font-size: 8pt; 
+		color: BLACK; 
+		background-color:TAN; 
+		border-color:LIGHTSALMON;
+		font-weight: normal; 
+		height:10;
+		background-position: 0% 100% 
+	     }
+	.TableCell
+{
+		font-family: tahoma; 
+		font-size: 10pt ;
+		background-color:BESQUE; 
+}
+	.CellContent{		
+		font-family: tahoma; 
+		font-size: 10pt; 
+		background-color:Transparent; 
+		border:0;
+		}
+	.ReadInput{ 
+		font-family: tahoma; 
+		font-size: 10pt ;
+		background-color:BESQUE; 
+	   }		
+.GNormalItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	background: whitesmoke;
+	cursor: hand;
+	color: darkred;
+	font-family: tahoma;
+}
+
+.GAlternateItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: darkred;
+	font-family: tahoma;
+	background-color: gainsboro;
+}
+.GSelectedItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: white;
+	font-family: tahoma;
+	background-color: Maroon  ;
+}
+.GHilightItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: white;
+	font-family: tahoma;
+	background-color: highlight;
+}
+.GHeader
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	font-weight: normal;
+	color: white;
+	background-color:#204b7e; /*#006600;*/
+	text-align: center;
+}
+
+.RightBody
+{
+	background-color: #bbd0f6;
+}
+
+.ListEffect
+{
+	BORDER-RIGHT: 2px groove; 
+	BORDER-TOP: 2px groove; 
+	filter : progid:dximagetransform.microsoft.gradient(startcolorstr=#00000000, endcolorstr=#80ffffff,gradienttype=1); 
+	OVERFLOW: scroll; 
+	BORDER-LEFT: 2px groove; 
+	WIDTH: 100%; 
+	BORDER-BOTTOM: 2px groove; 
+	HEIGHT: 99.41%;
+	OVERFLOW: auto; 
+	POSITION: static
+}
+.VertGradient1
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#70000000, EndColorStr=#00000000)
+}
+.VertGradient2
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#00000000, EndColorStr=#60000000)
+}
+
+.FormLayout
+{
+	background-color: #b4bec7;
+
+	color: #80004a;
+	font-family: tahoma;
+}
+
+.TabsheetHeader
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	color: white;
+	border-bottom: black 1px solid;
+	font-family: tahoma, Tahoma;
+	background-color: transparent;
+}
+.HorizGradient1
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr=#70000000, EndColorStr=#00000000)
+}
+.HorizGradient2
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr=#00000000, EndColorStr=#70000000)
+}
+.ViewAlternatingItemStyle
+{	
+	 background-color:#C2B6C7;
+	 font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:normal;
+	
+	
+}
+							
+.ViewItemStyle
+{
+	background-color :#EEE1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:normal;
+	color:Teal;
+}
+
+.ViewHeaderStyle
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:14px ;
+	font-weight:normal;
+	background-color:#DEDDF2;
+    BORDER-RIGHT: #B59DC1 2px solid; 
+	BORDER-TOP: #E9E0ED 2px solid; 
+	BORDER-LEFT: #E9E0ED 2px solid; 
+	BORDER-BOTTOM: #B59DC1 2px solid;
+	color:DarkSlateGray;
+	
+}

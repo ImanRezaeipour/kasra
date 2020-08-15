@@ -1,0 +1,22 @@
+<Root>
+	<Tb>
+		<Selected>1</Selected>
+		<PersonCode>2066</PersonCode>
+		<StartDate>1388/07/08</StartDate>
+		<EndDate>1388/07/08</EndDate>
+		<Type>2</Type>
+		<CreditType>011</CreditType>
+		<StartTime>00:00</StartTime>
+		<EndTime>00:00</EndTime>
+		<Des>ok8</Des>
+		<StatusType>Admin</StatusType>
+		<PageNo>1</PageNo>
+	</Tb>
+	<Setting>
+		<CalcParam>3</CalcParam>
+		<Flag>1</Flag>
+		<OnlineUserID>87052664</OnlineUserID>
+		<SubSysID>13</SubSysID>
+		<PageID>1322</PageID>
+	</Setting>
+</Root>

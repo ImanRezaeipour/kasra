@@ -1,0 +1,23 @@
+<UserEntity>
+	<MemberAccess>
+		<AccessId>1</AccessId>
+		<MemberId>36</MemberId>
+		<Type>G</Type>
+		<FlagChecked>1</FlagChecked>
+		<CurCntChild>1</CurCntChild>
+	</MemberAccess>
+	<MemberAccess>
+		<AccessId>4</AccessId>
+		<MemberId>36</MemberId>
+		<Type>G</Type>
+		<FlagChecked>2</FlagChecked>
+		<CurCntChild>1</CurCntChild>
+	</MemberAccess>
+	<MemberAccess>
+		<AccessId>10000</AccessId>
+		<MemberId>36</MemberId>
+		<Type>G</Type>
+		<FlagChecked>1</FlagChecked>
+		<CurCntChild>2</CurCntChild>
+	</MemberAccess>
+</UserEntity>

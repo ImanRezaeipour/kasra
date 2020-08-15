@@ -1,0 +1,751 @@
+﻿var MasterObj = "ctl00_ContentPlaceHolder1_"
+Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(BeginRequestHandler);
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+function BeginRequestHandler(sender, args) {
+    document.getElementById('OToolBar_ProgressBar').style.visibility = "visible";
+}
+function EndRequestHandler(sender, args) {
+    document.getElementById('OToolBar_ProgressBar').style.visibility = "hidden";
+    var StrVal = $get(MasterObj + "txtSubmit").value
+
+    /* if (StrVal != "") {
+    if ($get(MasterObj + "lblTo").value == "") {
+    document.getElementById(MasterObj + 'txtFromData').value = "";
+    document.getElementById(MasterObj + 'txtToData').value = "";
+    document.getElementById(MasterObj + 'txtTotalData').value = "";
+    document.getElementById(MasterObj + 'BtnNext').disabled = true;
+    document.getElementById(MasterObj + 'BtnPrv').disabled = true;
+    document.getElementById(MasterObj + 'BtnFirst').disabled = true;
+    document.getElementById(MasterObj + 'BtnLast').disabled = true;
+    }
+    else if ($get(MasterObj + "lblTo").value != "" && document.getElementById(MasterObj + 'BtnPrv')) {
+    document.getElementById(MasterObj + 'txtFromData').value = $get(MasterObj + "lblFrom").value;
+    document.getElementById(MasterObj + 'txtToData').value = $get(MasterObj + "lblTo").value;
+    document.getElementById(MasterObj + 'txtTotalData').value = $get(MasterObj + "lblTotal").value;
+    document.getElementById(MasterObj + 'txtCurPage').value = $get(MasterObj + "lblCurPage").value;
+    document.getElementById(MasterObj + 'txtTotalPage').value = $get(MasterObj + "lblTotalpage").value;
+    if (parseInt(document.getElementById(MasterObj + "txtCurPage").value) == parseInt(document.getElementById(MasterObj + "txtTotalPage").value))
+    document.getElementById(MasterObj + 'BtnNext').disabled = true
+    else
+    document.getElementById(MasterObj + 'BtnNext').disabled = false;
+
+                    if (parseInt($get(MasterObj + "lblFrom").value) == 1)
+    document.getElementById(MasterObj + 'BtnPrv').disabled = true
+    else
+    document.getElementById(MasterObj + 'BtnPrv').disabled = false;
+    document.getElementById(MasterObj + 'BtnFirst').disabled = false;
+    document.getElementById(MasterObj + 'BtnLast').disabled = false;
+    }
+               
+    //                if ($get(MasterObj + "lblTo").value == "") {
+    //                    document.getElementById('OToolBar_txtFromData').value = "";
+    //                    document.getElementById('OToolBar_txtToData').value = "";
+    //                    document.getElementById('OToolBar_txtTotalData').value = "";
+
+                //                    document.getElementById('OToolBar_BtnNext').disabled = true;
+    //                    document.getElementById('OToolBar_BtnPrv').disabled = true;
+    //                    document.getElementById('OToolBar_BtnFirst').disabled = true;
+    //                    document.getElementById('OToolBar_BtnLast').disabled = true;
+    //                }
+    //                else if ($get(MasterObj + "lblTo").value != "") {
+    //                    
+    //                    document.getElementById('OToolBar_txtFromData').value = $get(MasterObj + "lblFrom").value;
+    //                    document.getElementById('OToolBar_txtToData').value = $get(MasterObj + "lblTo").value;
+    //                    document.getElementById('OToolBar_txtTotalData').value = $get(MasterObj + "lblTotal").value;
+    //                    document.getElementById('OToolBar_txtCurPage').value = $get(MasterObj + "lblCurPage").value;
+    //                    document.getElementById('OToolBar_txtTotalPage').value = $get(MasterObj + "lblTotalpage").value;
+
+                //                    if (parseInt(document.getElementById("OToolBar_txtCurPage").value) == parseInt(document.getElementById("OToolBar_txtTotalPage").value))
+    //                        document.getElementById('OToolBar_BtnNext').disabled = true
+    //                    else
+    //                        document.getElementById('OToolBar_BtnNext').disabled = false;
+
+                //                    if (parseInt($get(MasterObj + "lblFrom").value) == 1)
+    //                        document.getElementById('OToolBar_BtnPrv').disabled = true
+    //                    else
+    //                        document.getElementById('OToolBar_BtnPrv').disabled = false;
+
+                //                    document.getElementById('OToolBar_BtnFirst').disabled = false;
+    //                    document.getElementById('OToolBar_BtnLast').disabled = false;
+    //                }
+    } */
+    document.getElementById(MasterObj + "txtSubmit").value = "";
+}
+
+//window.name = "ReportShow"
+//aspnetForm.target = "ReportShow"
+document.dir = "RTL"
+document.body.scroll = "No"
+////!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!OnLoad!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+if (document.getElementById(MasterObj + 'BtnPrv') != null) {
+    document.getElementById(MasterObj + 'BtnPrv').disabled = true;
+    document.getElementById(MasterObj + 'txtFromData').value = $get(MasterObj + "lblFrom").value;
+    document.getElementById(MasterObj + 'txtToData').value = $get(MasterObj + "lblTo").value;
+    document.getElementById(MasterObj + 'txtTotalData').value = $get(MasterObj + "lblTotal").value;
+    document.getElementById(MasterObj + 'txtCurPage').value = $get(MasterObj + "lblCurPage").value;
+    document.getElementById(MasterObj + 'txtTotalPage').value = $get(MasterObj + "lblTotalpage").value;
+    if (parseInt(document.getElementById(MasterObj + "txtCurPage").value) == parseInt(document.getElementById(MasterObj + "txtTotalPage").value))
+        document.getElementById(MasterObj + 'BtnNext').disabled = true
+    else
+        document.getElementById(MasterObj + 'BtnNext').disabled = false;
+
+
+    //        document.getElementById('OToolBar_BtnPrv').disabled = true;
+    //        document.getElementById('OToolBar_txtFromData').value = $get(MasterObj + "lblFrom").value;
+    //        document.getElementById('OToolBar_txtToData').value = $get(MasterObj + "lblTo").value;
+    //        document.getElementById('OToolBar_txtTotalData').value = $get(MasterObj + "lblTotal").value;
+    //        document.getElementById('OToolBar_txtCurPage').value = $get(MasterObj + "lblCurPage").value;
+    //        document.getElementById('OToolBar_txtTotalPage').value = $get(MasterObj + "lblTotalpage").value;
+    //        if (parseInt(document.getElementById("OToolBar_txtCurPage").value) == parseInt(document.getElementById("OToolBar_txtTotalPage").value))
+    //            document.getElementById('OToolBar_BtnNext').disabled = true
+    //        else
+    //            document.getElementById('OToolBar_BtnNext').disabled = false;
+}
+if (document.getElementById('OToolBar_Paging') != null) {
+    document.getElementById('OToolBar_Paging').style.display = 'none';
+
+}
+if (document.getElementById(MasterObj + "txtSubmit").value == "ModalFilter") {
+    OnClickBtnFilter()
+}
+//        DivGrd.style.height = window.screen.availHeight - 150 + 10 + "px";
+//        DivGrd.style.width = window.screen.availWidth - 10 + "px"
+function OnClickBtnNext() {
+    document.getElementById(MasterObj + "txtSubmit").value = "BtnNext";
+    document.getElementById(MasterObj + "BtnSubmit").click();
+}
+function OnClickBtnPrv() {
+    document.getElementById(MasterObj + "txtSubmit").value = "BtnPrv";
+    document.getElementById(MasterObj + "BtnSubmit").click();
+}
+function OnBlurtxtCurPage() {
+    document.getElementById(MasterObj + "txtCurPage").value = document.getElementById(MasterObj + "txtCurPage").value.replace(" ", "");
+    var TotalPage = parseInt(document.getElementById(MasterObj + "txtTotalPage").value);
+    if (document.getElementById(MasterObj + "txtCurPage").value != "" &&
+                        document.getElementById(MasterObj + "txtCurPage").value != "0") {
+        if (parseInt(document.getElementById(MasterObj + "txtCurPage").value) <= parseInt(TotalPage)) {
+            document.getElementById(MasterObj + "lblCurPage").value = document.getElementById(MasterObj + "txtCurPage").value
+        }
+        document.getElementById(MasterObj + "txtSubmit").value = "Const";
+        document.getElementById(MasterObj + "BtnSubmit").click();
+    }
+    //            document.getElementById("OToolBar_txtCurPage").value = document.getElementById("OToolBar_txtCurPage").value.replace(" ", "");
+
+    //            var TotalPage = parseInt(document.getElementById("OToolBar_txtTotalPage").value);
+    //            if (document.getElementById("OToolBar_txtCurPage").value != "" &&
+    //                        document.getElementById("OToolBar_txtCurPage").value != "0") {
+    //                if (parseInt(document.getElementById("OToolBar_txtCurPage").value) <= parseInt(TotalPage)) {
+    //                    document.getElementById(MasterObj + "lblCurPage").value = document.getElementById("OToolBar_txtCurPage").value
+    //                }
+    //                document.getElementById(MasterObj + "txtSubmit").value = "Const";
+    //                document.getElementById(MasterObj + "BtnSubmit").click();
+    //            }
+}
+function OnClickBtnLast() {
+    document.getElementById(MasterObj + "txtSubmit").value = "BtnLast";
+    document.getElementById(MasterObj + "BtnSubmit").click();
+}
+function OnClickBtnFirst() {
+    document.getElementById(MasterObj + "txtSubmit").value = "BtnFirst";
+    document.getElementById(MasterObj + "BtnSubmit").click();
+}
+function OnClickBtnExcel() {
+    var StrExcelParam = "<Root>"
+    if (document.getElementById(MasterObj + "txtXmlAdvanceParameter").value != "") {
+        var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDoc.async = "false";
+        oXmlDoc.loadXML(document.getElementById(MasterObj + "txtXmlAdvanceParameter").value)
+        var xmlNodes = oXmlDoc.documentElement.selectNodes('/Root/Tb')
+
+        if (xmlNodes.length != 0) {
+            for (var i = 0; i < xmlNodes.length; ++i) {
+                StrExcelParam += "<Tb>"
+                StrExcelParam += "<RptParamID>" + xmlNodes.item(i).selectSingleNode('RptParamID').text + "</RptParamID>"
+                StrExcelParam += "<Caption>" + xmlNodes.item(i).selectSingleNode('Caption').text + "</Caption>"
+                StrExcelParam += "<RValue>" + xmlNodes.item(i).selectSingleNode('RValue').text + "</RValue>"
+                StrExcelParam += "<Type>A</Type>"
+                StrExcelParam += "</Tb>"
+            }
+        }
+    }
+    if (document.getElementById(MasterObj + 'txtXmlFilter').value != "") {
+        var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDoc.async = "false";
+        oXmlDoc.loadXML(document.getElementById(MasterObj + "txtXmlFilter").value)
+        var xmlNodes = oXmlDoc.documentElement.selectNodes('/Root/Tb')
+
+        if (xmlNodes.length != 0) {
+            for (var i = 0; i < xmlNodes.length; ++i) {
+                StrExcelParam += "<Tb>"
+                StrExcelParam += "<RptParamID>" + xmlNodes.item(i).selectSingleNode('RptParamID').text + "</RptParamID>"
+                StrExcelParam += "<Caption>" + xmlNodes.item(i).selectSingleNode('Caption').text + "</Caption>"
+                StrExcelParam += "<RValue>" + xmlNodes.item(i).selectSingleNode('RValue').text + "</RValue>"
+                StrExcelParam += "<Type>N</Type>"
+                StrExcelParam += "</Tb>"
+            }
+        }
+    }
+    StrExcelParam += "</Root>"
+    document.getElementById(MasterObj + "txtXmlExcelParam").value = StrExcelParam
+    document.getElementById(MasterObj + "txtSubmit").value = "Excel";
+    document.getElementById(MasterObj + "BtnSendSubmit").click();
+}
+function OnClickBtnPDF() {
+    var StrExcelParam = "<Root>"
+    if (document.getElementById(MasterObj + "txtXmlAdvanceParameter").value != "") {
+        var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDoc.async = "false";
+        oXmlDoc.loadXML(document.getElementById(MasterObj + "txtXmlAdvanceParameter").value)
+        var xmlNodes = oXmlDoc.documentElement.selectNodes('/Root/Tb')
+        if (xmlNodes.length != 0) {
+            for (var i = 0; i < xmlNodes.length; ++i) {
+                StrExcelParam += "<Tb>"
+                StrExcelParam += "<RptParamID>" + xmlNodes.item(i).selectSingleNode('RptParamID').text + "</RptParamID>"
+                StrExcelParam += "<Caption>" + xmlNodes.item(i).selectSingleNode('Caption').text + "</Caption>"
+                StrExcelParam += "<RValue>" + xmlNodes.item(i).selectSingleNode('RValue').text + "</RValue>"
+                StrExcelParam += "<Type>A</Type>"
+                StrExcelParam += "</Tb>"
+            }
+        }
+    }
+    if (document.getElementById(MasterObj + 'txtXmlFilter').value != "") {
+        var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDoc.async = "false";
+        oXmlDoc.loadXML(document.getElementById(MasterObj + "txtXmlFilter").value)
+        var xmlNodes = oXmlDoc.documentElement.selectNodes('/Root/Tb')
+
+        if (xmlNodes.length != 0) {
+            for (var i = 0; i < xmlNodes.length; ++i) {
+                StrExcelParam += "<Tb>"
+                StrExcelParam += "<RptParamID>" + xmlNodes.item(i).selectSingleNode('RptParamID').text + "</RptParamID>"
+                StrExcelParam += "<Caption>" + xmlNodes.item(i).selectSingleNode('Caption').text + "</Caption>"
+                StrExcelParam += "<RValue>" + xmlNodes.item(i).selectSingleNode('RValue').text + "</RValue>"
+                StrExcelParam += "<Type>N</Type>"
+                StrExcelParam += "</Tb>"
+            }
+        }
+    }
+    StrExcelParam += "</Root>"
+    document.getElementById(MasterObj + "txtXmlExcelParam").value = StrExcelParam
+    document.getElementById(MasterObj + "txtSubmit").value = "PDF";
+    document.getElementById(MasterObj + "BtnSendSubmit").click();
+}
+function OnClickBtnAdvanceFilter() {
+    document.getElementById(MasterObj + "txtStrAdvanceField").value = "";
+    document.getElementById(MasterObj + "txtXmlAdvanceParameter").value = "";
+    var url = "AdvanceFilter.aspx?ReportID=" + document.getElementById(MasterObj + "txtReportID").value + " &OnLineUser=" + document.getElementById(MasterObj + "txtOnLineUserID").value + " &MenuItemID=" + document.getElementById(MasterObj + "txtMenuItemID").value + " &SessionID=" + document.getElementById(MasterObj + "txtSessionID").value
+    var StrFilter = window.showModalDialog(url, "", "dialogHeight: 700px;dialogWidth: 800px;center: Yes;help: no;status: yes")
+    
+    if (StrFilter != "" && StrFilter !=undefined) {
+        var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDoc.async = "false";
+        oXmlDoc.loadXML(StrFilter)
+        var xmlNodes = oXmlDoc.documentElement.selectNodes('/Root/Tb')
+        var Str = ""
+        if (xmlNodes.length != 0) {
+            Str += "<Root>"
+            for (var i = 0; i < xmlNodes.length; ++i) {
+                Str += "<Tb>"
+                Str += "<RptParamID>" + xmlNodes.item(i).selectSingleNode('RptParamID').text + "</RptParamID>"
+                                        Str += "<Caption>" + xmlNodes.item(i).selectSingleNode('Caption').text + "</Caption>"
+                //                        Str += "<Size>" + xmlNodes.item(i).selectSingleNode('Size').text + "</Size>"
+                //                        Str += "<DefaultValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</DefaultValue>"
+                //                        Str += "<AdvanceParameter>" + xmlNodes.item(i).selectSingleNode('AdvanceParameter').text + "</AdvanceParameter>"
+                //                        Str += "<Editable>" + xmlNodes.item(i).selectSingleNode('Editable').text + "</Editable>"
+                //                        Str += "<IntVal>" + xmlNodes.item(i).selectSingleNode('IntVal').text + "</IntVal>"
+                Str += "<TmpParameterID>" + xmlNodes.item(i).selectSingleNode('TmpParameterID').text + "</TmpParameterID>"
+                //                        Str += "<Name>" + xmlNodes.item(i).selectSingleNode('Name').text + "</Name>"
+                                        Str += "<Type>" + xmlNodes.item(i).selectSingleNode('Type').text + "</Type>"
+                //                        Str += "<TypeAcronym>" + xmlNodes.item(i).selectSingleNode('TypeAcronym').text + "</TypeAcronym>"
+                //                        Str += "<DisplayTypeID>" + xmlNodes.item(i).selectSingleNode('DisplayTypeID').text + "</DisplayTypeID>"
+                //                        Str += "<DisplayTypeAcronym>" + xmlNodes.item(i).selectSingleNode('DisplayTypeAcronym').text + "</DisplayTypeAcronym>"
+                //                        Str += "<LookupName>" + xmlNodes.item(i).selectSingleNode('LookupName').text + "</LookupName>"
+                //                        Str += "<LookupValue>" + xmlNodes.item(i).selectSingleNode('LookupValue').text + "</LookupValue>"
+                //                        Str += "<LookupParam>" + xmlNodes.item(i).selectSingleNode('LookupParam').text + "</LookupParam>"
+                Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('RValue').text + "</RValue>"
+                Str += "</Tb>"
+            }
+            Str += "</Root>"
+            document.getElementById(MasterObj + "txtXmlAdvanceParameter").value = Str
+        }
+        var oXmlDocf = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDocf.async = "false";
+        oXmlDocf.loadXML(StrFilter)
+        var xmlNodesf = oXmlDocf.documentElement.selectNodes('/Root/Fields')
+        if (xmlNodesf.length != 0) {
+            document.getElementById(MasterObj + "txtStrAdvanceField").value = xmlNodesf.item(0).selectSingleNode('Condition').text
+        }
+    }
+}
+function OnClickBtnFilter() {
+    var Str = ""
+    if ($get(MasterObj + 'txtXmlParamInfo').value != "") {
+        Str = "<Root>"
+        var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDoc.async = "false";
+        oXmlDoc.loadXML($get(MasterObj + 'txtXmlParamInfo').value)
+        var xmlNodes = oXmlDoc.documentElement.selectNodes('/FormGeneratorEntity/GetParameterInfo')
+        if (xmlNodes.length != 0) {
+            for (var i = 0; i < xmlNodes.length; ++i) {
+                Str += "<Tb>"
+                Str += "<RptParamID>" + xmlNodes.item(i).selectSingleNode('RptParamID').text + "</RptParamID>"
+                                        Str += "<Caption>" + xmlNodes.item(i).selectSingleNode('Caption').text + "</Caption>"
+                Str += "<TmpParameterID>" + xmlNodes.item(i).selectSingleNode('TmpParameterID').text + "</TmpParameterID>"
+                                        Str += "<Type>" + xmlNodes.item(i).selectSingleNode('Type').text + "</Type>"
+                switch (xmlNodes.item(i).selectSingleNode('DisplayTypeAcronym').text) {
+                    case "ComboBox":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "PersonCombo":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtCode").value != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtCode").value + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "KasraDate":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtYear").value != "" && document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtMonth").value != "" && document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtDay").value != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtYear").value + '/' + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtMonth").value + '/' + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtDay").value + "</RValue>"
+
+                            if (xmlNodes.item(i).selectSingleNode('Name').text == "StartDate" || xmlNodes.item(i).selectSingleNode('Name').text == "SDate") {
+                                document.getElementById(MasterObj + 'SDate').value = document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtYear").value + '/' + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtMonth").value + '/' + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtDay").value
+                            }
+
+                            if (xmlNodes.item(i).selectSingleNode('Name').text == "EndDate" || xmlNodes.item(i).selectSingleNode('Name').text == "EDate") {
+                                document.getElementById(MasterObj + 'EDate').value = document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtYear").value + '/' + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtMonth").value + '/' + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtDay").value
+                            }
+                        }
+                        else
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+
+                        break;
+                    case "CodeCondition":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtHidden").value != "")
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtHidden").value + "</RValue>"
+                        else
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+
+                        break;
+                    case "Label":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).innerText != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).innerText + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "OnLineUser":
+                        Str += "<RValue>" + document.getElementById(MasterObj + "txtOnLineUserID").value + "</RValue>"
+                        break;
+                    case "TextBox":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "CheckBox":
+                        if (xmlNodes.item(i).selectSingleNode('LookupName').text == "") {
+                            if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).checked) {
+                                Str += "<RValue>1</RValue>"
+                            }
+                            else {
+                                Str += "<RValue>0</RValue>"
+                            }
+                        }
+                        break;
+                    default:
+                        Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        break;
+                }
+                Str += "</Tb>"
+            }
+        }
+        Str += "</Root>"
+    }
+    else {
+        Str = "<Root><Tb></Tb></Root>"
+    }
+    document.getElementById(MasterObj + 'txtXmlFilter').value = Str
+    GenerateAdvFilter()
+    document.getElementById(MasterObj + "txtSubmit").value = "Search";
+    document.getElementById(MasterObj + "BtnSubmit").click();
+}
+function OnClickBtnShowAll() {
+    document.getElementById(MasterObj + "txtStrAdvanceField").value = "";
+    document.getElementById(MasterObj + "txtXmlAdvanceParameter").value = "";
+    document.getElementById(MasterObj + 'SDate').value = "";
+    document.getElementById(MasterObj + 'EDate').value = "";
+    var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    oXmlDoc.async = "false";
+    oXmlDoc.loadXML($get(MasterObj + 'txtXmlParamInfo').value)
+    var xmlNodes = oXmlDoc.documentElement.selectNodes('/FormGeneratorEntity/GetParameterInfo')
+    if (xmlNodes.length != 0) {
+        for (var i = 0; i < xmlNodes.length; ++i) {
+            switch (xmlNodes.item(i).selectSingleNode('DisplayTypeAcronym').text) {
+                case "ComboBox":
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value = 0;
+                    break;
+                case "PersonCombo":
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtCode").value = "";
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtName").value = "";
+                    break;
+                case "KasraDate":
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtYear").value = "";
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtMonth").value = "";
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtDay").value = "";
+                    break;
+                case "CodeCondition":
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtHidden").value = "";
+                    break;
+                case "Label":
+                    break;
+                case "OnLineUser":
+                    break;
+                case "TextBox":
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value = "";
+                    break;
+                case "CheckBox":
+                    document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).checked = false;
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+    OnClickBtnFilter()
+}
+function OnClickBtnDesign() {
+    var VarXmlParam;
+    if (document.getElementById(MasterObj + "txtXmlFilter").value == "")
+        VarXmlParam = "<Root><Tb></Tb></Root>";
+    else
+        VarXmlParam = document.getElementById(MasterObj + "txtXmlFilter").value;
+    var VarXmlAdvanceParam;
+    if (document.getElementById(MasterObj + "txtXmlAdvanceParameter").value == "")
+        VarXmlAdvanceParam = "<Root><Tb></Tb></Root>";
+    else
+        VarXmlAdvanceParam = document.getElementById(MasterObj + "txtXmlAdvanceParameter").value;
+    VarXmlParam = ReplaceAll(VarXmlParam, "<", "(")
+    VarXmlParam = ReplaceAll(VarXmlParam, ">", ")")
+    VarXmlParam = ReplaceAll(VarXmlParam, "#", "!")
+    VarXmlParam = ReplaceAll(VarXmlParam, ";", "-")
+    VarXmlAdvanceParam = ReplaceAll(VarXmlAdvanceParam, "<", "(")
+    VarXmlAdvanceParam = ReplaceAll(VarXmlAdvanceParam, ">", ")")
+    VarXmlAdvanceParam = ReplaceAll(VarXmlAdvanceParam, "#", "!")
+    VarXmlAdvanceParam = ReplaceAll(VarXmlAdvanceParam, ";", "-")
+    var Url = "ReportDesign.aspx?OnlineUserID=" + document.getElementById(MasterObj + "txtOnLineUserID").value
+            + "&ReportID=" + document.getElementById(MasterObj + "txtReportID").value
+            + "&RptID=" + document.getElementById(MasterObj + "txtReportID").value
+            + "&XmlParam=" + VarXmlParam
+            + "&XmlAdvanceParam=" + VarXmlAdvanceParam
+            + "&StrFiledAdvanceFilter=" + document.getElementById(MasterObj + "txtStrAdvanceField").value
+            + "&PageNumber=0" //کل داده ها  با 0//+ document.getElementById(MasterObj + "lblCurPage").value
+            + "&PageSize=12"
+            + "&CompanyFinatialPeriodID=" + document.getElementById(MasterObj + "txtCompanyFinatialPeriodID").value
+            + "&SessionID=" + document.getElementById(MasterObj + "txtSessionID").value
+            + "&Mode=Design"
+    StrFilter = window.showModalDialog(encodeURI(Url), window, "dialogWidth:1050px;dialogHeight:750px;center: Yes;resizable:yes;help: no;status:no#1")
+}
+function OnClickBtnPreview() {
+    var VarXmlParam;
+    if (document.getElementById(MasterObj + "txtXmlFilter").value == "")
+        VarXmlParam = "<Root><Tb></Tb></Root>";
+    else
+        VarXmlParam = document.getElementById(MasterObj + "txtXmlFilter").value;
+    var VarXmlAdvanceParam;
+    if (document.getElementById(MasterObj + "txtXmlAdvanceParameter").value == "")
+        VarXmlAdvanceParam = "<Root><Tb></Tb></Root>";
+    else
+        VarXmlAdvanceParam = document.getElementById(MasterObj + "txtXmlAdvanceParameter").value;
+    VarXmlParam = ReplaceAll(VarXmlParam, "<", "(")
+    VarXmlParam = ReplaceAll(VarXmlParam, ">", ")")
+    VarXmlParam = ReplaceAll(VarXmlParam, "#", "!")
+    VarXmlParam = ReplaceAll(VarXmlParam, ";", "-")
+    VarXmlAdvanceParam = ReplaceAll(VarXmlAdvanceParam, "<", "(")
+    VarXmlAdvanceParam = ReplaceAll(VarXmlAdvanceParam, ">", ")")
+    VarXmlAdvanceParam = ReplaceAll(VarXmlAdvanceParam, "#", "!")
+    VarXmlAdvanceParam = ReplaceAll(VarXmlAdvanceParam, ";", "-")
+    var Url = "ReportDesign.aspx?OnlineUserID=" + document.getElementById(MasterObj + "txtOnLineUserID").value
+            + "&ReportID=" + document.getElementById(MasterObj + "txtReportID").value
+            + "&RptID=" + document.getElementById(MasterObj + "txtReportID").value
+            + "&XmlParam=" + VarXmlParam
+            + "&XmlAdvanceParam=" + VarXmlAdvanceParam
+            + "&StrFiledAdvanceFilter=" + document.getElementById(MasterObj + "txtStrAdvanceField").value
+            + "&PageNumber=0" //کل داده ها  با 0//+ document.getElementById(MasterObj + "lblCurPage").value
+            + "&PageSize=12"
+            + "&CompanyFinatialPeriodID=" + document.getElementById(MasterObj + "txtCompanyFinatialPeriodID").value
+            + "&SessionID=" + document.getElementById(MasterObj + "txtSessionID").value
+            + "&Mode=View"
+    StrFilter = window.showModalDialog(encodeURI(Url), window, "dialogWidth:1050px;dialogHeight:750px;center: Yes;resizable:yes;help: no;status:no#1")
+}
+document.body.attachEvent('onkeyup', OnkeyupBtnDesign)
+document.body.attachEvent('onkeydown', OnkeydownBtnDesign)
+var vpKey, key;
+function OnkeyupBtnDesign() {
+    if (window.event.keyCode == 16) vpKey = false;
+}
+function OnkeydownBtnDesign() {
+    key = window.event.keyCode
+    if (key == 16)
+        vpKey = true;
+    if (key == 79 && vpKey == true) {
+        OnClickBtnDesign()
+        vpKey = false
+        return false;
+    }
+}
+//----------------------
+function FillTxtCondition() {
+    var oGrid = document.getElementById(MasterObj + "GrdField")
+
+
+    if (oGrid.rows.length > 1) {
+        var StrWhere = ""
+        for (var i = 1; i < oGrid.rows.length; ++i) {
+
+            if (oGrid.rows(i).cells(4).firstChild.value != "") {
+
+                if (StrWhere == "")
+                    StrWhere += "(" + oGrid.rows(i).cells(4).firstChild.value + ")"
+                else
+                    StrWhere += " and (" + oGrid.rows(i).cells(4).firstChild.value + ")"
+            }
+        }
+    }
+
+    document.getElementById(MasterObj + "txtCondition").value = StrWhere
+}
+function GenerateAdvFilter() {
+    if ($get(MasterObj + 'txtXmlAdvParamInfo').value == "")
+        return 
+
+    var StrWhere = document.getElementById(MasterObj + "txtCondition").value
+    StrWhere = StrWhere.replace("<", "&lt;")
+    StrWhere = StrWhere.replace(">", "&gt;")
+    var Str = ""
+    if ($get(MasterObj + 'txtXmlParamInfo').value != "") {
+        var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDoc.async = "false";
+        oXmlDoc.loadXML($get(MasterObj + 'txtXmlAdvParamInfo').value)
+        var xmlNodes = oXmlDoc.documentElement.selectNodes('/FormGeneratorEntity/GetParameterInfo')
+
+        if (xmlNodes.length != 0) {
+            for (var i = 0; i < xmlNodes.length; ++i) {
+                Str += "<Tb>"
+                Str += "<RptParamID>" + xmlNodes.item(i).selectSingleNode('RptParamID').text + "</RptParamID>"
+                Str += "<Caption>" + xmlNodes.item(i).selectSingleNode('Caption').text + "</Caption>"
+//                Str += "<Size>" + xmlNodes.item(i).selectSingleNode('Size').text + "</Size>"
+//                Str += "<DefaultValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</DefaultValue>"
+//                Str += "<AdvanceParameter>" + xmlNodes.item(i).selectSingleNode('AdvanceParameter').text + "</AdvanceParameter>"
+//                Str += "<Editable>" + xmlNodes.item(i).selectSingleNode('Editable').text + "</Editable>"
+//                Str += "<IntVal>" + xmlNodes.item(i).selectSingleNode('IntVal').text + "</IntVal>"
+                Str += "<TmpParameterID>" + xmlNodes.item(i).selectSingleNode('TmpParameterID').text + "</TmpParameterID>"
+//                Str += "<Name>" + xmlNodes.item(i).selectSingleNode('Name').text + "</Name>"
+                Str += "<Type>" + xmlNodes.item(i).selectSingleNode('Type').text + "</Type>"
+//                Str += "<TypeAcronym>" + xmlNodes.item(i).selectSingleNode('TypeAcronym').text + "</TypeAcronym>"
+//                Str += "<DisplayTypeID>" + xmlNodes.item(i).selectSingleNode('DisplayTypeID').text + "</DisplayTypeID>"
+//                Str += "<DisplayTypeAcronym>" + xmlNodes.item(i).selectSingleNode('DisplayTypeAcronym').text + "</DisplayTypeAcronym>"
+//                Str += "<LookupName>" + xmlNodes.item(i).selectSingleNode('LookupName').text + "</LookupName>"
+//                Str += "<LookupValue>" + xmlNodes.item(i).selectSingleNode('LookupValue').text + "</LookupValue>"
+//                Str += "<LookupParam>" + xmlNodes.item(i).selectSingleNode('LookupParam').text + "</LookupParam>"
+
+                switch (xmlNodes.item(i).selectSingleNode('DisplayTypeAcronym').text) {
+                    case "ComboBox":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "PersonCombo":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtInnerText").value != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtInnerText").value + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "KasraDate":
+
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtYear").value != "" && document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtMonth").value != "" && document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtDay").value != "")
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtYear").value + '/' + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtMonth").value + '/' + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text + "_txtDay").value + "</RValue>"
+                        else
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+
+                        break;
+                    case "Label":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).innerText != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).innerText + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "OnLineUser":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).innerText != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).innerText + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "TextBox":
+                        if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value != "") {
+                            Str += "<RValue>" + document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).value + "</RValue>"
+                        }
+                        else {
+                            Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        }
+                        break;
+                    case "CheckBox":
+                        if (xmlNodes.item(i).selectSingleNode('LookupName').text == "") {
+                            if (document.getElementById(MasterObj + "Ctrl" + xmlNodes.item(i).selectSingleNode('Name').text).checked) {
+                                Str += "<RValue>1</RValue>"
+                            }
+                            else {
+                                Str += "<RValue>0</RValue>"
+                            }
+                        }
+
+                        break;
+                    default:
+                        Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('DefaultValue').text + "</RValue>"
+                        break;
+                }
+                Str += "</Tb>"
+            }
+        }
+    }
+    else {
+
+        Str = "<Tb></Tb>"
+    }
+
+    var strFilter = "<Root>" + Str + "<Fields><Condition>" + StrWhere + "</Condition></Fields>" + "</Root>"
+
+    func(strFilter)
+}
+function func(StrFilter) {
+    document.getElementById(MasterObj + "txtStrAdvanceField").value = "";
+    document.getElementById(MasterObj + "txtXmlAdvanceParameter").value = "";
+    if (StrFilter != "" && StrFilter != undefined) {
+        var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDoc.async = "false";
+        oXmlDoc.loadXML(StrFilter)
+        var xmlNodes = oXmlDoc.documentElement.selectNodes('/Root/Tb')
+        var Str = ""
+        if (xmlNodes.length != 0) {
+            Str += "<Root>"
+            for (var i = 0; i < xmlNodes.length; ++i) {
+                Str += "<Tb>"
+                Str += "<RptParamID>" + xmlNodes.item(i).selectSingleNode('RptParamID').text + "</RptParamID>"
+                Str += "<Caption>" + xmlNodes.item(i).selectSingleNode('Caption').text + "</Caption>"
+                Str += "<TmpParameterID>" + xmlNodes.item(i).selectSingleNode('TmpParameterID').text + "</TmpParameterID>"
+                Str += "<Type>" + xmlNodes.item(i).selectSingleNode('Type').text + "</Type>"
+                Str += "<RValue>" + xmlNodes.item(i).selectSingleNode('RValue').text + "</RValue>"
+                Str += "</Tb>"
+            }
+            Str += "</Root>"
+            document.getElementById(MasterObj + "txtXmlAdvanceParameter").value = Str
+        }
+        var oXmlDocf = new ActiveXObject("Microsoft.XMLDOM")
+        oXmlDocf.async = "false";
+        oXmlDocf.loadXML(StrFilter)
+        var xmlNodesf = oXmlDocf.documentElement.selectNodes('/Root/Fields')
+        if (xmlNodesf.length != 0) {
+            document.getElementById(MasterObj + "txtStrAdvanceField").value = xmlNodesf.item(0).selectSingleNode('Condition').text
+        }
+    }
+}
+function cmbOprandOnChange(obj) {
+    var oRow = obj.parentElement.parentElement
+    GenerateCondition(oRow)
+}
+
+function txtVal1OnBlur(obj) {
+    var oRow = obj.parentElement.parentElement
+    GenerateCondition(oRow)
+}
+
+function txtVal2OnBlur(obj) {
+    var oRow = obj.parentElement.parentElement
+    GenerateCondition(oRow)
+}
+
+function GenerateCondition(ORowField) {
+
+    var StrWhere = ''
+    var op = ORowField.cells(1).firstChild.value
+    op = GetOperandFromVal(op)
+
+    var v1 = ORowField.cells(2).firstChild.value
+    var v2 = ORowField.cells(3).firstChild.value
+    var Name = ORowField.getAttribute("Name")
+
+    if (op != 0 && (v1 != "" || v2 != "")) {
+        switch (op) {
+            case "Between":
+                if (v1 != "" && v2 != "")
+                    StrWhere = Name + " Between " + v1 + " and " + v2
+                break;
+            case ">":
+                StrWhere = Name + ">" + v1
+                break;
+            case "<":
+                StrWhere = Name + "<" + v1
+                break;
+            case "=":
+                StrWhere = Name + op + v1
+                break;
+            case "<>":
+                StrWhere = Name + "<> " + v1
+                break;
+            case "in":
+                StrWhere = Name + " in ("
+
+                if (v1 != "" && v2 != "")
+                    StrWhere += v1 + "," + v2
+
+                else if (v1 != "" && v2 == "")
+                    StrWhere += v1
+
+                else if (v1 == "" && v2 != "")
+                    StrWhere += v2
+
+                StrWhere += ")"
+
+                break;
+            case "Like":
+                if (v1 != "")
+                    StrWhere = Name + " Like '%" + v1 + "%'"
+
+                break;
+        }
+    }
+
+    ORowField.cells(4).firstChild.value = StrWhere
+    FillTxtCondition()
+    //return StrWhere;
+}
+
+function GetOperandFromVal(val) {
+    var oXmlDoc = new ActiveXObject("Microsoft.XMLDOM")
+    var strHtml = ''
+    oXmlDoc.async = "false"
+    oXmlDoc.loadXML(document.getElementById(MasterObj + "txtXmlOperand").value)
+    XmlNode = oXmlDoc.documentElement.selectNodes("/FormGeneratorEntity/GetOperand[Val=" + val + "]")
+
+    if (XmlNode.length > 0)
+        return XmlNode.item(0).selectSingleNode("StrVal").text
+    return '';
+}

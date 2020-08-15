@@ -1,0 +1,262 @@
+﻿div.MaskedDiv
+{
+    visibility: hidden;
+    display: list-item;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: Tahoma,Tahoma;
+    font-weight: normal;
+    padding: 40px;
+    z-index: 1;
+    background-color: #ECF9F8;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    mazopacity: 0.6;
+    opacity: 0.6;
+}
+.CssHolidayStyle
+{
+	background-color: #ffdfe7;
+}
+div.ModalPopup
+{
+	font-family: Tahoma,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	position: absolute;
+	z-index: 10000;
+	visibility: hidden;
+	color: Black;
+	width: 200px;
+	height: 50px;
+}
+TD
+{
+	font-family:Tahoma,Tahoma; 
+	font-size :11px;
+    font-weight: normal;
+	color: #003399;
+	text-align: center;	
+}
+.VertGradientBlue1
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#e7eeff, EndColorStr=#91b7df)
+}
+.CssBtnSave
+{
+	BACKGROUND-Image:url('../Images/Buttons/btnsave.gif');	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssBtnCancel
+{
+    background-image: url('../Images/Buttons/Cancel.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-right: #346fa4 2px solid;
+    border-top: lightsteelblue 2px solid;
+    border-left: lightsteelblue 2px solid;
+    border-bottom: #346fa4 2px solid;
+    width: 70px;
+    height: 32px;
+}
+.CssBtnOK
+{
+    background-image: url('../Images/Buttons/Btnok2.gif');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-right: #346fa4 2px solid;
+    border-top: lightsteelblue 2px solid;
+    border-left: lightsteelblue 2px solid;
+    border-bottom: #346fa4 2px solid;
+    width: 70px;
+    height: 32px;
+}
+.CssBtnSaveAndNew
+{
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	background-image: url(../Images/Buttons/btnZakhirehVaEdameh.gif);
+	border-left: lightsteelblue 2px solid;
+	width: 105px;
+	border-bottom: #346fa4 2px solid;
+	background-repeat: no-repeat;
+	height: 32px;
+	background-color: transparent;
+}
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599
+}
+.CssMoveUpItem
+{
+	background-image: url('../Images/Icons/Up.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 25px;
+	height: 25px;
+	cursor:pointer;
+}
+.CssMoveDownItem
+{
+	background-image: url('../Images/Icons/Down.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 25px;
+	height: 25px;
+	cursor:pointer;
+}
+.CssAddItem
+{
+	background-image: url('../Images/Icons/AddItem.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 30px;
+	height: 32px;
+	cursor:pointer;
+}
+.CssDelItem
+{
+	background-image: url('/FrmPresentation/App_Utility/Images/Icons/DelItem.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 30px;
+	height: 32px;
+	cursor: pointer;
+}
+.CssAddAllItem
+{
+	background-image: url('/FrmPresentation/App_Utility/Images/Icons/AddAllItem.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 30px;
+	height: 32px;
+	cursor:pointer;
+}
+.CssDelAllItem
+{
+	background-image: url('/FrmPresentation/App_Utility/Images/Icons/DelAllItem.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 30px;
+	height: 32px;
+	cursor:pointer;
+}
+.CssReplace
+{
+	background-image: url('/FrmPresentation/App_Utility/Images/Icons/showAll.gif');
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 30px;
+	height:25px;
+	cursor:pointer;
+}
+.CssPage
+{
+    border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#e7eeff;   
+    border-width :2px
+}
+.CssItemHeader4
+{
+	direction:rtl;
+	background-color :#c3d8f5;
+}
+.DropDownList
+{
+	border: 1px solid #AEDFD9;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	font-size: 10pt;
+	font-family: Tahoma;
+	background-color: white;
+	height: 21px;
+}
+.tablemaster
+{
+	width: 100%;
+	background-color: #9FBEE7;
+	border-width: thin;
+	border-color: #91b7df;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+.cssMenu
+{
+	padding: 0px;
+	background-color: #E3EFFF;
+}
+.cssDiv
+{
+	padding: 0px;
+	background-color: #E3EFFF;
+	overflow: auto;
+	scrollbar-hightlight-color: white;
+	scrollbar-arrow-color: black;
+	scrollbar-base-color: #D5EAFF;
+}
+.DropDownList
+{
+	border: 1px solid #AEDFD9;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	font-size: 10pt;
+	font-family: Tahoma;
+	background-color: white;
+	height: 21px;
+}
+.CssDivSelected
+{
+    background-position: #FFF0F0;
+    vertical-align: middle;
+    background: #F9EEF3;
+    cursor: pointer;
+}
+
+/*style classes for Toolbar*/
+
+.container
+{
+    background:url(/TAPresentation/App_Utility/Images/Icons/New04.gif);
+    float:right;
+    display:inline;
+}
+
+
+
+li.placePaging
+{
+    display:inline;
+    vertical-align:top;
+}
+
+
+div.submenu
+{
+    border:thin outset #9CB5DA; 
+    
+    display:inline;
+}
+.InlineDisplay
+{
+    display:inline
+}
+.icon
+{
+    height:16px;
+    width:16px;
+    cursor:pointer;
+}

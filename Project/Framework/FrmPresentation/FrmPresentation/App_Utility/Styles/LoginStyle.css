@@ -1,0 +1,21 @@
+﻿.TdDate
+{
+font-size:12px;
+font-family:Tahoma;
+margin-right: 0px;
+color: #233881;
+}
+.Version
+{
+  font-size: 11px;
+ font-family:Tahoma;
+ font-weight: Bold;
+ color: #233881;
+}
+.CompanyName
+{
+font-size: small;
+font-family:Tahoma;
+color: #233881;
+font-weight: bold;
+}

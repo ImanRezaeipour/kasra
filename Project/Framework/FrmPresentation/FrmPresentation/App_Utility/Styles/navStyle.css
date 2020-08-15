@@ -1,0 +1,89 @@
+.TVDesktopParent
+{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    background-image: url('../../App_Utility/Images/PageMain/top_level_bg.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 220px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.TVDesktopParentHover
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    background-image: url('../../App_Utility/Images/PageMain/top_level_bg.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 220px;
+    height: 20px;
+    cursor: pointer; margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+.TVDesktopParentSelect
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    background-image: url('../../App_Utility/Images/PageMain/top_level_bg.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 220px;
+    height: 20px;
+    cursor: pointer;
+   margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+.TVDesktopChild
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    background-image: url('../../App_Utility/Images/PageMain/top_level_bg_child.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 210px;
+    height: 25px;
+    cursor: pointer;
+    padding: 0px;
+    }
+    
+.TVDesktopChildHover
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    background-image: url('../../App_Utility/Images/PageMain/top_level_bg_child_hover.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 210px;
+    height: 25px;
+    cursor: pointer;padding: 0px;
+    }
+    
+.TVDesktopChildSelect
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    background-image: url('../../App_Utility/Images/PageMain/top_level_bg_child_select.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 210px;
+    height: 25px;
+    cursor: pointer;padding: 0px;
+    }

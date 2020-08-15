@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="EditTemplateWorkFlow" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="EditTemplateWorkFlow" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="WFTemplate">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TemplateId" type="xs:int" nillable="true" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Descr" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="AllStarter" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RoleType" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ArrowMove" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ArrowLevel" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="CntLevel" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="MaxLevelType" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="RDescr" type="xs:string" minOccurs="0" />
+							<xs:element name="TemplateName" type="xs:string" minOccurs="0" />
+							<xs:element name="TemplateDscr" type="xs:string" minOccurs="0" />
+							<xs:element name="hop" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFTemplateOther">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OId" type="xs:int" nillable="true" />
+							<xs:element name="TemplateId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="FromType" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="FromVal" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="IntVal" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="After" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="OrType" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DepartmentPosition">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RoleID" type="xs:int" nillable="true" />
+							<xs:element name="DepartmentID" type="xs:int" nillable="true" />
+							<xs:element name="RoleType" type="xs:int" nillable="true" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreateDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreateTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="_RowVersion" msdata:ReadOnly="true" type="xs:base64Binary" minOccurs="0" nillable="true" />
+							<xs:element name="_Flags" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="User">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="UserID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" nillable="true" />
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="UserName" type="xs:string" nillable="true" />
+							<xs:element name="Password" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Sex" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="FirstName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LastName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="_RowVersion" msdata:ReadOnly="true" type="xs:base64Binary" minOccurs="0" nillable="true" />
+							<xs:element name="_Flags" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFDefaultTemplateSel">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DefaultTemplateID" type="xs:long" minOccurs="0" nillable="true" />
+							<xs:element name="VStyle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DefaultTemplateName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DocID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DocName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="TemplateName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFDefaultTemplateDetail">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DefaultTemplateID" msdata:ReadOnly="true" type="xs:long" minOccurs="0" nillable="true" />
+							<xs:element name="DocID" type="xs:int" nillable="true" />
+							<xs:element name="DocName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="TemplateID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFTemplateForOnLineUser">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TemplateID" type="xs:int" nillable="true" />
+							<xs:element name="TemplateName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFDefaultTemplate">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DefaultTemplateID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:long"
+								nillable="true" />
+							<xs:element name="DefaultTemplateName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DocID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DocName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="TemplateID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="TemplateName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DTDetailID" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

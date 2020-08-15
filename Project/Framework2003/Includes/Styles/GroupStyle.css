@@ -1,0 +1,307 @@
+.CssBtnNew
+{
+	BACKGROUND-Image:url(../../Images/Button/btnnew.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	 BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssBtnEdit
+{
+	BACKGROUND-Image:url(../../Images/Button/btnedit.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	 BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssBtnDelete
+{
+	BACKGROUND-Image:url(../../Images/Button/btndelete.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	 BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssBtnSave
+{
+	BACKGROUND-Image:url(../../Images/Button/btnsave.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	 BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssBtnShow
+{
+	BACKGROUND-Image:url(../../Images/Button/Show.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	 BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssBtnCancel
+{
+	BACKGROUND-Image:url(../../Images/Button/btncancel.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	 BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssBtnLimitSerach
+{
+	BACKGROUND-Image:url(../../Images/Button/ShowLimit.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	 BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+	WIDTH: 70px;
+	HEIGHT: 32px	
+}
+.CssPage
+{     
+    border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#e7eeff;   
+    border-width :2px
+}
+.CssLayer2
+{
+	border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#91b7df;       
+    border-width :1px
+}
+.CssLayer1
+{
+	border-style:solid;           
+    border-right-color :#215fed;        
+    border-top-color  :#215fed;        
+    border-bottom-color :#215fed;   
+    border-left-color :#215fed;          
+    background :#c3d8f5;       
+    border-width :2px          
+}
+.TxtControls
+{
+	font-weight:normal;
+	font-size: 12px;
+	font-family: Tahoma;
+	background-color: white;
+	border-color: lightsteelblue;
+	height :21px ;
+}
+.CssBackColor
+{
+	background-color :#D5E1FD;
+	border-color :LightSteelBlue;
+	border-style :solid;
+	border-width :2px;		
+	width : 500px		
+}					
+.CssAlternatingItemStyle
+{	
+	 direction:rtl;
+	 background-color:OldLace;	 
+}
+
+.CssEditItemStyle 
+{
+	 direction:rtl;
+	 background-color :White
+}
+.CssHeaderStyle
+{
+	direction:rtl;
+	font :tahoma ;	
+	font-size :12px;
+	font-weight: normal;
+	background-color:#83AFE5
+}						
+.CssItemStyle
+{
+	font-size: 12px;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #d5e1fd;
+	border-bottom-style: groove;
+}
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599
+}
+.label,p,td 
+{
+   font-family: tahoma,Tahoma; 
+   font-size: 12px;
+   font-weight: normal;
+   color:"#000066";
+   cursor:default;
+ } 
+.CssHorizontalLine
+{
+	BORDER-RIGHT: lightsteelblue thin groove;
+	BORDER-TOP: lightsteelblue thin groove;
+	BORDER-LEFT: lightsteelblue thin groove;
+	WIDTH: 317px; 
+	BORDER-BOTTOM: lightsteelblue thin groove;
+	HEIGHT: 2px
+}
+.VertGradient1
+{
+	font-weight: normal;
+	font-size: 12px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#70000000, EndColorStr=#00000000);
+	color: white;
+}
+.CssFirstPage
+{
+	background-image: url(../../Images/button/active_first.gif);
+	width: 25px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 15px;
+	background-color: transparent;
+	border-bottom-style: none;
+	font-family:Tahoma;
+	font-size:12px;
+}
+.CssPrevPage
+{
+	background-image: url(../../Images/button/active_back.gif);
+	width: 25px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 15px;
+	background-color: transparent;
+	border-bottom-style: none;
+	font-family:Tahoma;
+	font-size:12px;
+}
+.CssNextPage
+{
+	background-image: url(../../Images/button/active_forward.gif);
+	width: 25px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 15px;
+	background-color: transparent;
+	border-bottom-style: none;
+	font-family:Tahoma;
+	font-size:12px;
+}
+.CssLastPage
+{
+	background-image: url(../../Images/button/active_last.gif);
+	width: 25px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 15px;
+	background-color: transparent;
+	border-bottom-style: none;
+	font-family:Tahoma;
+	font-size:12px;
+}
+/*tree*/
+.RootLabel
+{
+	font-weight: normal;
+	font-size: 12px;
+	color: #211f62;
+	font-family: tahoma;
+	background-color: transparent;
+}
+.menuitem
+{
+	font-weight: normal;
+	font-size: 12px;
+	cursor: hand;
+	font-family: tahoma;
+}
+/******/
+.btnSelectPerson 
+{
+	BACKGROUND-IMAGE: url(../../Images/buttons/SelectPerson.gif); 
+	WIDTH: 125px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: tahoma;
+}
+.ItemStyle
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:30px ;
+	font-weight:normal;
+}
+.HeaderStyle
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:12px ;
+	font-weight:normal;
+	background-color:#83AFE5;
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	direction:rtl;
+	
+}
+.XItemStyle
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:normal;
+}

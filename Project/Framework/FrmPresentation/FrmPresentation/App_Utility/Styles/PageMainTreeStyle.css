@@ -1,0 +1,103 @@
+.TreeView
+{
+    background-color: Transparent;
+    padding-top: 12px;
+    padding-left: 1px;
+    cursor: pointer;
+}
+
+.TreeNode
+{
+    font-family: tahoma;
+    font-size: 12px;
+    padding: 0px;
+    cursor: pointer;
+    font-weight: normal;
+    color: #151340;
+}
+
+.GrayedTreeNode 
+{ 
+  font-family: tahoma;
+    font-size: 12px;
+  padding: 3px; 
+  color:gray; 
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.HoverTreeNode
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0px;
+    cursor: pointer;
+    color: #CCFFFF;
+}
+
+.SelectedTreeNode
+{
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0px;
+    cursor: pointer;
+    color: #FFFF66;
+}
+
+.RowTreeNode 
+{ 
+  font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+  padding: 0px; 
+}
+
+.TreeNodeRow 
+{
+  font-family: tahoma;
+    font-size: 10px;
+    font-weight: normal;
+  cursor: pointer;
+}
+
+.HoverTreeNodeRow 
+{
+  background-image: url(../../App_Utility/Images/PageMain/node_bg.gif); 
+  font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+  border: solid 1px #D5DFEA;
+  border-bottom-color:#A0B0C0;
+  border-right-color:#A0B0C0;
+  cursor: pointer;
+}
+
+.SelectedTreeNodeRow 
+{ 
+  background-image: url(../../App_Utility/Images/PageMain/selnode_bg.gif); 
+  font-family:  tahoma;
+    font-size: 12px;
+    font-weight: normal;
+  border: solid 1px #A0B0C0;
+  border-bottom-color:#D5DFEA;
+  border-right-color:#D5DFEA;
+  cursor: pointer;
+}
+
+.Empty
+{
+  font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+  padding: 0px; 
+}
+
+.NodeEdit 
+{
+  border:1px gray solid;
+  font-family: tahoma;
+  font-weight: normal;
+    font-size: 12px;
+}

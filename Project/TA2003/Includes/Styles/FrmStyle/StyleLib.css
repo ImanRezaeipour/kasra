@@ -1,0 +1,890 @@
+﻿.VertGradientBlue1
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#e7eeff, EndColorStr=#91b7df);BORDER-RIGHT: #346fa4 2px solid;BORDER-TOP: lightsteelblue 2px solid; BORDER-LEFT: lightsteelblue 2px solid; BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.VertGradientBlue2
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#91b7df, EndColorStr= #e7eeff)
+}
+.Alink{color:red;font-family:tahoma;font-size:14;
+       font-weight: Bold;text-decoration:underline;
+       cursor:hand;}
+
+.btnlink { color:red;text-decoration:underline;
+           cursor:hand;
+           border:0;background-color:transparent;
+           background-repeat:no-repeat;
+           background-position:center right;
+           background-image:url(../images/stylelib/doc.gif);
+           height:24;
+           font-family:tahoma;
+           font-size:14;
+           font-weight:bold;
+           }
+
+.BbtnSave { 
+           cursor:hand;
+           background-color: Olive  ;
+           font-family:tahoma;
+           font-size:10;
+		   font-weight:bold;           
+           color:White ;
+           FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#00000000, EndColorStr=#40000000)
+           }
+.btnRef {  cursor:hand;
+           background-color:transparent;
+		   border:1px outset;
+           background-repeat:no-repeat;
+           background-position:top center;
+           background-image:url(../images/icons/ref.bmp);
+           height:35;
+           width:35;
+           font-family:tahoma;
+           font-size:12;
+           font-weight:bold;
+           color:DarkRed;
+           }
+.btnback
+{
+	background-image: url(../images/buttons/btnLeft.gif);
+	cursor: hand;
+	WIDTH: 40px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+}
+.btnNext
+{
+	background-image: url(../images/buttons/btnRight.gif);
+	cursor: hand;
+	WIDTH: 40px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	
+}
+.btnHome
+{
+	border-right: 1px outset;
+	border-top: 1px outset;
+	font-weight: bold;
+	font-size: 12px;
+	background: url(../images/icons/Home1.gif) no-repeat center center;
+	border-left: 1px outset;
+	width: 35px;
+	cursor: hand;
+	color: darkred;
+	border-bottom: 1px outset;
+	font-family: tahoma;
+	height: 35px;
+}
+.btnHelp {  cursor:hand;
+           background-color:transparent;
+		   border:1px outset; 
+           background-repeat:no-repeat;
+           background-position:top cener;
+           background-image:url(../images/icons/help1.gif);
+           height:35;
+	       width:35;
+           font-family:tahoma;
+           font-size:12;
+           font-weight:bold;
+           color:DarkRed;
+           }
+           
+
+
+
+.btnMenu { cursor:hand;
+           background-color:transparent;
+		   border:1px outset;
+           background-repeat:no-repeat;
+           background-position:top right;
+           background-image:url(../images/icons/menu6.gif);
+           height:35;
+	       width:35;
+           font-family:tahoma;
+           font-size:12;
+           font-weight:bold;
+           color:DarkRed;
+           }
+.btnsearch {  cursor:hand;
+           background-color:transparent;
+		   border:1px outset;
+           background-repeat:no-repeat;
+           background-position:top right;
+           background-image:url(../images/Icons/search4.gif);
+           height:35;
+		   width:35;
+           font-family:tahoma;
+           font-size:12;
+           font-weight:bold;
+           color:DarkRed;
+           }
+
+.Title{
+   filter:blur(direction=200) dropshadow();
+   font-family: Titr; 
+   font-size:   13pt;
+   color:"#8800aa";
+    }
+
+.caption{
+   filter:blur(direction=150);
+   font-family: Titr; 
+   font-size:   14pt;
+   color:"DarkBlue";
+    }
+.hint{
+   filter:blur(direction=150);
+   font-family:  Lotus ; 
+   font-size:   10pt;
+   color: Red ;
+    }
+
+.label,p {
+   font-family:'tahoma', tahoma,tahoma; 
+   font-size: 9pt;
+   font-weight:bold;
+   color:"#000066";
+   cursor:default;
+ }
+
+
+.menuitem{
+   font-family: tahoma,tahoma ; 
+   font-size: 13pt;
+   font-weight: bold;
+   color:"#000046";
+   cursor:hand;
+ }
+.lcombo
+{
+	font-family: arial;
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	font-weight: bold;
+	font-size: 12px;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+}
+.input,input,select
+{
+	font-size: 10pt;
+	color: #00003f;
+	font-family: tahoma,tahoma;
+	/*BORDER-RIGHT: lightsteelblue thin groove; BORDER-TOP: lightsteelblue thin groove; BORDER-LEFT: lightsteelblue thin groove; BORDER-BOTTOM: lightsteelblue thin groove*/
+}
+ .readonly {
+   background-color:transparent;
+   border:0;
+   font-family: tahoma; 
+   font-size: 10pt;
+   color:"#005023"
+ }
+.button {
+   font-family: tahoma; 
+   font-size: 11pt;
+ }
+
+
+	.TableHeader { 
+		font-family: KasraNazanin Normal; 
+		font-size: 8pt; 
+		color: BLACK; 
+		background-color:TAN; 
+		border-color:LIGHTSALMON;
+		font-weight: bold; 
+		height:10;
+		background-position: 0% 100% 
+	     }
+	.TableCell
+{
+		font-family: tahoma; 
+		font-size: 10pt ;
+		background-color:BESQUE; 
+}
+	.CellContent{		
+		font-family: tahoma; 
+		font-size: 10pt; 
+		background-color:Transparent; 
+		border:0;
+		}
+	.ReadInput{ 
+		font-family: tahoma; 
+		font-size: 10pt ;
+		background-color:BESQUE; 
+	   }		
+.GNormalItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	background: whitesmoke;
+	cursor: hand;
+	color: darkred;
+	font-family: tahoma;
+}
+
+.GAlternateItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: darkred;
+	font-family: tahoma;
+	background-color: gainsboro;
+}
+.GSelectedItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: white;
+	font-family: tahoma;
+	background-color:Gray   ;
+}
+.GHilightItem
+{
+	font-weight: normal;
+	font-size: 9pt;
+	cursor: hand;
+	color: white;
+	font-family: tahoma;
+	background-color: highlight;
+}
+.GHeader
+{
+	font-family: tahoma;
+	font-size: 9pt;
+	font-weight: bold;
+	color: white;
+	background-color:#204b7e; /*#006600;*/
+	text-align: center;
+}
+
+.RightBody
+{
+	background-color: #bbd0f6;
+}
+
+.ListEffect
+{
+	BORDER-RIGHT: 2px groove; 
+	BORDER-TOP: 2px groove; 
+	filter : progid:dximagetransform.microsoft.gradient(startcolorstr=#00000000, endcolorstr=#80ffffff,gradienttype=1); 
+	OVERFLOW: scroll; 
+	BORDER-LEFT: 2px groove; 
+	WIDTH: 100%; 
+	BORDER-BOTTOM: 2px groove; 
+	HEIGHT: 99.41%;
+	OVERFLOW: auto; 
+	POSITION: static
+}
+.VertGradient1
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#70000000, EndColorStr=#00000000)
+}
+.HorizGradient1
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr=#70000000, EndColorStr=#00000000)
+}
+.HorizGradient2
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr=#00000000, EndColorStr=#70000000)
+}
+
+.VertGradient2
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#00000000, EndColorStr=#60000000)
+}
+
+.VertGradientBlue
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#708090c0, EndColorStr=#7f506090)
+}
+
+.FormLayout
+{
+	background-color: #b4bec7;
+
+	color: #80004a;
+	font-family: tahoma;
+}
+.ScrollBar
+{
+		   scrollbar-3dlight-color:blue;
+           scrollbar-arrow-color:aqua;
+           scrollbar-base-color:teal;
+           scrollbar-face-color:blue;
+}
+.FlatScrollBar
+{
+		   scrollbar-3dlight-color:#f0f0f0;
+           scrollbar-arrow-color:#000000;
+           scrollbar-base-color:#f0f0f0;
+           scrollbar-face-color:#f0f0f0;
+}
+
+.TabsheetHeader
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	border-left: black 1px solid;
+	color: white;
+	border-bottom: black 1px solid;
+	font-family: tahoma,tahoma ;
+	font-weight:bold ;
+	font-size:8pt;
+	background-color: transparent;
+}
+.BlueGroove
+{
+	BORDER-RIGHT: lightsteelblue 2px groove; BORDER-TOP: lightsteelblue 2px groove; BORDER-LEFT: lightsteelblue 2px groove; BORDER-BOTTOM: lightsteelblue 2px groove;
+}
+.btnDown
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Down.gif); 
+	WIDTH: 40px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnUP
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Up.gif); 
+	WIDTH: 40px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnShow
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Show.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnLimitShow
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/ShowLimit.gif); 
+	WIDTH: 100px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+
+.btnConfirm
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Confirm.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}  
+.btnUpdate
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Update.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnCancel
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Cancel.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnGoBack
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/GoBack.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnConfirm
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Confirm.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnDefaultValue
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/DefaultValue.gif); 
+	WIDTH: 95px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+
+.btnSaveAs
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/SaveAs.gif); 
+	WIDTH: 90px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnSend
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Send.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnAddToTable
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/AddToTable.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnDelFromTable
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/DelFromTable.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnConfirm
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Confirm.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+}
+.btnScan
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Scan.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnPrint
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Print.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+.btnSave 
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Save.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: tahoma;
+}
+.btnFax 
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/btnfax.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: tahoma;
+}
+
+.btnSaveAndNew 
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/btnSaveAndNew.gif); 
+	WIDTH: 105px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: tahoma;
+}
+.btnSelectPerson 
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/SelectPerson.gif); 
+	WIDTH: 125px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: tahoma;
+}
+.btnMove
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Move.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: tahoma;
+}
+.btnCopy
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Copy.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: tahoma;
+}
+.btnDel 
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/Del.gif); 
+	WIDTH: 70px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	HEIGHT: 32px; 
+	BACKGROUND-COLOR: transparent;
+    cursor:hand;
+   	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+   
+ }
+.btnNew 
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/New.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+    cursor:hand;
+    font-family:tahoma;
+    font-size:10;
+	font-weight:bold;           
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+ }
+ .GenaralBtn
+ {
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+    cursor:hand;
+    font-family:'tahoma',tahoma ;	
+    font-size:12px;
+	font-weight:bold;           
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+    
+  }
+.AutomationTxts
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #000066;
+	font-family: 'tahoma';
+}
+.AutomationInpTxts
+{
+	border-right: #000000 1px solid;
+	border-top: #000000 1px solid;
+	font-weight: bold;
+	font-size: 12px;
+	border-left: #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	font-family: 'tahoma';
+}
+.AutomationSelTxts
+{
+	font-weight: bold;
+	font-size: 12px;
+	font-family: 'tahoma';
+}
+.SelectedItemStyle
+{
+	 background-color :#FFD599
+}		
+			
+.EditItemStyle 
+{
+	 background-color :White
+}
+					
+.AlternatingItemStyle
+{	
+	 background-color:AliceBlue;
+	 font-family :'tahoma',tahoma ;	
+	font-size:30px ;
+	font-weight:bold;
+	
+}
+							
+.ItemStyle
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:30px ;
+	font-weight:bold;
+}
+
+.HeaderStyle
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:14px ;
+	font-weight:bold;
+	background-color:#83AFE5;
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	direction:rtl;
+	
+}
+
+.FooterStyle
+{
+	background-color:#CCCCCC
+}
+TD
+{
+	font-family:'tahoma', tahoma; 
+	font-size: 9pt;
+   font-weight: bold;
+   color:"#000066";
+}
+.tblTree
+{
+     
+    border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#e7eeff;   
+    border-width :2px
+}
+.tblTow
+{
+	border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#91b7df;       
+    border-width :1px
+}
+
+.tblMain
+{
+	border-style:solid;           
+    border-right-color :#215fed;        
+    border-top-color  :#215fed;        
+    border-bottom-color :#215fed;   
+    border-left-color :#215fed;          
+    background :#c3d8f5;       
+    border-width :2px          
+}
+/********************End Table********************/
+
+.Body
+{
+	margin-bottom :0;
+	margin-left :0;
+	margin-right :0;
+	margin-top :0;	
+	background-color :#c3d8f5	 	
+}
+
+.CheckBox
+{
+	BORDER-RIGHT: 0px; 
+	BORDER-TOP: 0px; 
+	BORDER-LEFT: 0px; 
+	BORDER-BOTTOM: 0px; 
+}
+.PageHeader
+{
+	font-weight: bold;
+	font-size: 18px;
+	color: red;
+	font-family: 'tahoma';
+}
+.SmallPageHeader
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: red;
+	font-family: 'tahoma';
+}
+ .btnSelectMore
+ {
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+    cursor:hand;
+    font-family:'tahoma' ;	
+    font-size:5px;
+    height:23px;
+	font-weight:bold;           
+    BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;  
+ }
+ .btnArchive
+{
+	BACKGROUND-IMAGE: url(../Images/buttons/btnArchive.gif); 
+	WIDTH: 70px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+ .AutoTitle
+ {
+	font-family:'tahoma', tahoma; 
+    font-size:14;
+    font-weight:bold;
+
+ }
+ 
+ .btnFlowPrint
+{
+	background-image: url(../Images/button/FlowPrint.gif);
+	cursor: hand;
+	WIDTH: 92px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+}

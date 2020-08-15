@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Cartable" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns=""
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Cartable" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="GetIssueBox">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SDate" type="xs:string" minOccurs="0" />
+							<xs:element name="EDate" type="xs:string" minOccurs="0" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" />
+							<xs:element name="EndTime" type="xs:string" minOccurs="0" />
+							<xs:element name="CreditID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+								minOccurs="0" />
+							<xs:element name="StatusID" type="xs:int" minOccurs="0" />
+							<xs:element name="Des" type="xs:string" minOccurs="0" />
+							<xs:element name="Requester" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentName" type="xs:string" minOccurs="0" />
+							<xs:element name="StyleOkPicture" type="xs:string" minOccurs="0" />
+							<xs:element name="StyleTimePicture" type="xs:string" minOccurs="0" />
+							<xs:element name="TypeName" type="xs:string" minOccurs="0" />
+							<xs:element name="CreditTypeName" type="xs:string" minOccurs="0" />
+							<xs:element name="DesSummery" type="xs:string" minOccurs="0" />
+							<xs:element name="NextStatusID" type="xs:int" minOccurs="0" />
+							<xs:element name="PersonelNo" type="xs:int" minOccurs="0" />
+							<xs:element name="PersonelName" type="xs:string" minOccurs="0" />
+							<xs:element name="jPersonelID" type="xs:int" minOccurs="0" />
+							<xs:element name="jPersonelName" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" />
+							<xs:element name="CreditType" type="xs:string" minOccurs="0" />
+							<xs:element name="WfDocId" type="xs:int" minOccurs="0" msdata:ReadOnly="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetCreditType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Val" type="xs:int" />
+							<xs:element name="Title" type="xs:string" />
+							<xs:element name="GrpID" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetPersonelDepartment">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" />
+							<xs:element name="PersonelNo" type="xs:string" minOccurs="0" />
+							<xs:element name="PersonelName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetParentPersonelDepartment">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" />
+							<xs:element name="PersonelNo" type="xs:string" minOccurs="0" />
+							<xs:element name="PersonelName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CreditFlow">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonelName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ActionDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ActionTime" type="xs:string" />
+							<xs:element name="ActionType" type="xs:int" />
+							<xs:element name="Status" type="xs:string" minOccurs="0" />
+							<xs:element name="StatusID" type="xs:int" />
+							<xs:element name="DesSummery" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Des" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="LastVersion" type="xs:dateTime" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

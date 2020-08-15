@@ -1,0 +1,369 @@
+.Style1
+{
+color:#ea1906;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px; 
+}
+.Style2
+{
+color:#366d22;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style3
+{
+color:#f5f651;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style4
+{
+color:#ff8b33;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style5
+{
+color:#ff3352;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style6
+{
+color:#FF8C00;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer; 
+padding-right:10px;
+padding-left:10px;
+}
+.Style7
+{
+color:#29a1d1;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer; 
+padding-right:10px;
+padding-left:10px;
+}
+.Style8
+{
+color:#d14529;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style9
+{
+color:#285427;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer; 
+padding-right:10px;
+padding-left:10px;
+}
+.Style10
+{
+color:#2960d1;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style11
+{
+color:#d129bc;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style12
+{
+color:#708090 ;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style13
+{
+color:#FFC0CB;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer; 
+padding-right:10px;
+padding-left:10px;
+}
+.Style14
+{
+color:#4682B4 ;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style15
+{
+color:#2c0c28;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style16
+{
+color:#2c0c28;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.Style17
+{
+color:#2c0c28;
+font-weight:bold;
+
+text-align:right;
+cursor:pointer;
+padding-right:10px;
+padding-left:10px;
+}
+.DayGridClass
+{
+width : 130px;
+height : 70px;
+background-color:#cfe8ec; 
+text-align:right;
+vertical-align:top;
+}
+.DeActiveDayGridClass
+{
+width : 130px;
+height : 70px;
+background-color:#D7D7D7;
+text-align:right;
+vertical-align:top;
+}
+.HolidayGridClass
+{
+width : 130px;
+height : 70px;
+background-color:#ffdfe7;
+text-align:right;
+vertical-align:top;
+}
+.Tab
+{
+background-position: center center;
+color: #000066;
+background-image: url(/frmPresentation/App_Utility/Images/TabImg/tab_bg2.gif);
+font-size: 12px; /*background-color:#666666;*/
+cursor: hand;
+background-repeat: no-repeat;
+border-right-color: #000066;
+border-right-width: 1px;
+border-right-style: solid;
+border-left-color: #000066;
+border-left-width: 1px;
+border-left-style: solid;
+border-bottom-color: #000066;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+}
+.SelectedTab
+{
+background-position: center center;
+background-repeat: no-repeat;
+border-top-color: #ffc83c;
+border-top-width: 3px;
+border-top-style: solid;
+border-left-color: #ffc83c;
+border-left-width: 1px;
+border-left-style: solid;
+border-right-color: #ffc83c;
+border-right-width: 1px;
+border-right-style: solid;
+color: #000066;
+background-color: White;
+font-size: 12px;
+cursor: hand; /* filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr=#666666, EndColorStr=white);*/
+}
+.SystemSelectedTab
+{
+background-position: center center;
+background-repeat: no-repeat;
+border-top-color: #ffc83c;
+border-top-width: 3px;
+border-top-style: solid;
+border-left-color: #ffc83c;
+border-left-width: 1px;
+border-left-style: solid;
+border-right-color: #ffc83c;
+border-right-width: 1px;
+border-right-style: solid;
+color: #000066;
+background-color: White;
+font-size: 12px;
+cursor: hand; /* filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr=#666666, EndColorStr=white);*/
+}
+.DivStyle
+{
+border: thin groove #000000;
+background-color: #C5D5E9;
+scrollbar-hightlight-color: white;
+overflow: auto;
+scrollbar-arrow-color: black;
+scrollbar-base-color: #B1D3FF;
+height: 370px;
+clear: right;
+clip: rect(auto, auto, auto, auto);
+vertical-align: top;
+float: right;
+}
+.CssHeaderStyle1
+{
+background-image: url(/FrmPresentation/App_Utility/Images/Icons/BGNew.png);
+color: Black;
+z-index:1;
+position:fixed; 
+overflow: hidden;
+height:20px;
+text-align:center
+}
+.MonthlyDocs
+{
+height:20px; 
+vertical-align:middle;
+background-image:url('/FrmPresentation/App_Utility/Images/Icons/BGDocs.png');
+border-color:#ffc83c;
+border-width:1px;
+}
+.linkClass
+{
+text-decoration:underline;
+text-align:center;
+color:Blue;
+cursor:pointer;
+}
+.linkHeaderClass
+{
+text-decoration:underline;
+text-align:center;
+cursor:pointer;
+color:#101fad;
+}
+.DivStyle1
+{
+border: thin groove #000000; 
+background-color: #C5D5E9;
+scrollbar-hightlight-color: white;
+overflow: auto; 
+scrollbar-arrow-color: black; 
+scrollbar-base-color: #B1D3FF;
+width:100%;
+height:100%;
+clear: right; 
+clip: rect(auto, auto, auto, auto);
+vertical-align: top; 
+float: center;
+}
+.ErjaToRequesterStyle
+{
+background-color:#adf4f5;
+}
+.ErjaStepBeforStyle
+{
+background-color:#dfe75a;
+}
+.ErjaForReportStyle
+{
+background-color:#e7a99d;
+}
+.ErjaForReportAndEditStyle
+{
+background-color:#ef7bcf;
+}
+.CssHeaderGrd 
+{
+    background-color:#000084;
+    background-position: center center;
+    background-repeat: repeat-x;
+    font-family: B Titr;
+    color: #ffffff;
+    background-image:url('/FrmPresentation/App_Utility/Images/Icons/BgHeader.png');
+}
+.CssFooterGrd 
+{
+    background-color:#000084;
+    background-position: center center;
+    background-repeat: repeat-x;
+    font-family: B Titr;
+    color: #ffffff;
+    background-image:url('/FrmPresentation/App_Utility/Images/Icons/BgFooter.png');
+}
+.MonthlyDocs
+{
+    height:20px; 
+    vertical-align:middle;
+    background-image:url('/FrmPresentation/App_Utility/Images/Icons/BGDocs.png');
+}
+.BothFilter
+{
+    background-image:url('/FrmPresentation/App_Utility/Images/Icons/Filter.png');
+    width:35px;
+    height:70px;
+    border-right: #346fa4 2px solid;
+    border-top: lightsteelblue 2px solid;
+    border-left: lightsteelblue 2px solid;
+    border-bottom: #346fa4 2px solid;
+}
+.Filter
+{
+    background-image: url('/FrmPresentation/App_Utility/Images/Icons/Filter2.png');
+    width:35px;
+    height:70px;
+    border-right: #346fa4 2px solid;
+    border-top: lightsteelblue 2px solid;
+    border-left: lightsteelblue 2px solid;
+    border-bottom: #346fa4 2px solid;
+}

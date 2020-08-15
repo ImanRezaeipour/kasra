@@ -1,0 +1,11 @@
+﻿<SiteMap>
+  <!--<item Text="مشخصات گزارش" />-->
+  <item ID="Field" Text="فيلدها" />
+  <item ID="Param" Text="پارامترها" />
+  
+  <item ID="Link" Text="لينک" />
+  <item ID="Group" Text="گروه بندي" />
+  <item ID="Sort" Text="مرتب سازي" />
+  <item ID="Option" Text="تنظيمات" />
+</SiteMap>
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ShiftEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ShiftEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="GetPersonShift">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonelID" type="xs:int" minOccurs="0" />
+							<xs:element name="FullName" type="xs:string" minOccurs="0" />
+							<xs:element name="GroupId" type="xs:int" minOccurs="0" />
+							<xs:element name="GroupName" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:string" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetWorkGroup">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GroupID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+								nillable="true" />
+							<xs:element name="Groupname" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Selected" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="LcomboShift">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ShiftId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="GroupId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetGruopShiftPersonel" nillable="true">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="SName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="BName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ShiftName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SDepartmentName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="BDepartmentName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Today" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetDCollection">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DetailCollectionID" msdata:AutoIncrement="true" type="xs:int" nillable="true" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetWorkSchedule">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ScheduleID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+								nillable="true" />
+							<xs:element name="GroupCount" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetDailyDate" nillable="true">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Date" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetReplaceDetail">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ReplaceDetailID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ReplaceDetailName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="WeeklyDay" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="WeeklyDayStr" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SWeeklyDayStr" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ShiftCycleDayNo" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SCurrentDatailName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CurrentDatailName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SNewDetailName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="NewDetailName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SReplaceDetailName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="MemberName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SMemberName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="MemberID" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetReplaceDetailMember">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ReplaceDetailID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+								nillable="true" />
+							<xs:element name="ReplaceDetailName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="WeeklyDay" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ShiftCycleDayNo" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="CurrentDatailID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="NewDetailID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="MemberID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="MemberName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

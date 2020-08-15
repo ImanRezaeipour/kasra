@@ -1,0 +1,1 @@
+<cc1:lcombo id="LCreditType" runat="server" CssClass="txtControls" Width="141px" LookupName="CreditType2"  ConnectionName="GenCnn" FirstSelect="True"></cc1:lcombo>

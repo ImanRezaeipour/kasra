@@ -1,0 +1,89 @@
+.CssHolidayStyle
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #ffdfe7;
+	border-bottom-style: groove;
+}
+.XTabTable_Header
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:12px ;
+	font-weight:bold;
+	background-color:#83AFE5;
+	behavior: url(/Automation/Scripts/behaviors/kasragridsort.htc);
+}
+.XTabTable 
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:bold;
+}
+.XItemStyle
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:bold;
+}
+.Body
+{
+	margin-bottom :0;
+	margin-left :0;
+	margin-right :0;
+	margin-top :0;	
+	background-color :#c3d8f5	 	
+}
+.TxtControls
+{
+	font-weight:normal;
+	font-size: 11px;
+	font-family: tahoma;
+	background-color: white;
+	border-color: lightsteelblue;
+	height :21px ;
+}					
+.CssAlternatingItemStyle
+{	
+	 direction:rtl;
+	 background-color:OldLace;	 
+}						
+.CssItemStyle
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #d5e1fd;
+	border-bottom-style: groove;
+}
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599
+}
+.label,p,td 
+{
+   font-family: tahoma,tahoma; 
+   font-size: 9pt;
+   font-weight: bold;
+   color:"#000066";
+   cursor:default;
+ }
+.HeaderStyle
+{
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	font-weight: bold;
+	font-size: 12px;
+	border-left: lightsteelblue 2px solid;
+	direction: rtl;
+	border-bottom: #346fa4 2px solid;
+	font-family: tahoma,tahoma; 
+	background-color: #83afe5;
+}

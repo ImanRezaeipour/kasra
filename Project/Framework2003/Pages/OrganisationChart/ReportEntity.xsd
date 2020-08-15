@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ReportEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ReportEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Persons">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="_flags" type="xs:int" minOccurs="0" />
+							<xs:element name="_flagsTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="PersonId" type="xs:int" minOccurs="0" />
+							<xs:element name="sFullName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fFullName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentId" type="xs:int" minOccurs="0" />
+							<xs:element name="sDepartmentName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fDepartmentName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="sRoleName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fRoleName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleTypeName" type="xs:string" minOccurs="0" />
+							<xs:element name="CreateDate" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetPersonWithOutRole1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" nillable="true" />
+							<xs:element name="FirstName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LastName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="sDepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="fDepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentTypeDscr" msdata:ReadOnly="true" type="xs:string" minOccurs="0"
+								nillable="true" />
+							<xs:element name="RoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="sRoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="fRoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RoleType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RoleTypeDscr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RoleID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Selected" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

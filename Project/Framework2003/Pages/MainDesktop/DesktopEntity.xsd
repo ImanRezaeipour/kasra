@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="DesktopEntity" targetNamespace="http://tempuri.org/DesktopEntity.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/DesktopEntity.xsd" xmlns:mstns="http://tempuri.org/DesktopEntity.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="DesktopEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="uspPrepareDesktopMenu">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SubsysTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="FullUrl" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="startURL" type="xs:string" minOccurs="0" />
+							<xs:element name="PageURL" type="xs:string" minOccurs="0" />
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" />
+							<xs:element name="MenuItemID" type="xs:int" minOccurs="0" />
+							<xs:element name="SubsysID" type="xs:int" minOccurs="0" />
+							<xs:element name="PageTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FullTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="IconUrl" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="SelectIconUrl" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Style" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,64 @@
+﻿.CssHeaderPageMain
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#7ea7e0, EndColorStr=#D5E2F4);
+font-family: Tahoma;
+font-size: 11px;
+color: #CCFFFF;
+font-weight: normal;
+border-top: solid 2px white;
+border-bottom:solid 1px #3c6596;
+border-right: solid 2px white;
+}
+.tdMainMenu
+{
+width: 64px;
+background-image: url('../../Images/PageMain/Tab1.gif');
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+.tdMainMenuhover
+{
+width: 64px;
+background-image: url('../../Images/PageMain/Tab4.gif');
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+.tdMainMenuactive
+{
+width: 64px;
+background-image: url('../../Images/PageMain/Tab7.gif');
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+.tdDesktop
+{
+width: 64px;
+background-image: url('../../Images/PageMain/Tab2.gif');
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+.tdMouseOver
+{
+width: 64px;
+background-image: url('../../Images/PageMain/Tab3.gif');
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+.tdDesktopactive
+{
+width: 64px;
+background-image: url('../../Images/PageMain/Tab6.gif');
+background-repeat: no-repeat;
+background-position: center bottom;
+}
+#tdBodyMenu
+{
+border-top: solid 2px #3c6596;
+background-color: #96B3DB;
+}
+.PageBody
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#677CB4, EndColorStr=#DDE2EE);
+width: 100%;
+height: 100%;
+}

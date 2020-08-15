@@ -1,0 +1,26 @@
+﻿<Root>
+  <Tb>
+    <RptParamID>2263</RptParamID>
+    <Caption>شماره پرسنلي</Caption>
+    <TmpParameterID>68</TmpParameterID>
+    <Type>2</Type>
+    <RValue></RValue>
+    <RText></RText>
+  </Tb>
+  <Tb>
+    <RptParamID>2264</RptParamID>
+    <Caption>نام كاردكس</Caption>
+    <TmpParameterID>70</TmpParameterID>
+    <Type>1</Type>
+    <RValue>0</RValue>
+    <RText>انتخاب همه</RText>
+  </Tb>
+  <Tb>
+    <RptParamID>2265</RptParamID>
+    <Caption>دوره</Caption>
+    <TmpParameterID>69</TmpParameterID>
+    <Type>1</Type>
+    <RValue>20</RValue>
+    <RText>آبان 90</RText>
+  </Tb>
+</Root>

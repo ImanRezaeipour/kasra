@@ -1,0 +1,106 @@
+﻿.CssBtnPrint
+{
+	BACKGROUND-Image: url(/TA/Includes/Images/Buttons/BeforPrint.gif);
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+.CssBtnShow
+{
+	BACKGROUND-Image:url(../Images/Button/Show.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;	
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+.CssBtnLimitSerach
+{
+	BACKGROUND-Image:url(../Images/Button/ShowLimit.gif);	
+	BACKGROUND-REPEAT: no-repeat;	
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 70px;
+	HEIGHT: 32px;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid; 
+}
+.CssPage
+{
+     
+    border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#e7eeff;   
+    border-width :2px
+}
+
+.CssLayer2
+{
+	border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#91b7df;       
+    border-width :1px
+}
+
+.CssLayer1
+{
+	border-style:solid;           
+    border-right-color :#215fed;        
+    border-top-color  :#215fed;        
+    border-bottom-color :#215fed;   
+    border-left-color :#215fed;          
+    background :#c3d8f5;       
+    border-width :2px          
+}
+.Body
+{
+	margin-bottom :0;
+	margin-left :0;
+	margin-right :0;
+	margin-top :0;	
+	background-color :#c3d8f5	 	
+}
+.TxtControls
+{
+	font-weight:normal;
+	font-size: 11px;
+	font-family: tahoma;
+	background-color: white;
+	border-color: lightsteelblue;
+	height :21px ;
+}
+.label,p,td 
+{
+   font-family: tahoma,tahoma; 
+   font-size: 9pt;
+   font-weight: bold;
+   color:"#000066";
+   cursor:default;
+ }
+.HeaderStyle
+{
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	font-weight: bold;
+	font-size: 12px;
+	border-left: lightsteelblue 2px solid;
+	direction: rtl;
+	border-bottom: #346fa4 2px solid;
+	font-family: tahoma,tahoma; 
+	background-color: #83afe5;
+}

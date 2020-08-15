@@ -1,0 +1,25 @@
+﻿div#GridViewCountainer {
+overflow: auto;
+scrollbar-hightlight-color: white;
+scrollbar-arrow-color: black;
+scrollbar-base-color: #B1D3FF;
+}
+
+/* Locks the left column */
+td.locked, th.locked {
+/*IE5+ only*/
+left: expression(document.getElementById("GridViewCountainer").scrollLeft-2);
+}
+
+/* Locks table header */
+th {
+position:relative;
+/*IE5+ only*/
+top: expression(document.getElementById("GridViewCountainer").scrollTop-2);
+z-index: 10;
+}
+
+/* Keeps the header as the top most item. Important for top left item*/
+th.locked {z-index: 99;}
+
+

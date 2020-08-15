@@ -1,0 +1,7 @@
+<SiteMap>
+  <item LookId="EmptyLook" Look-ImageUrl="all_windows.gif" Look-HoverImageUrl="all_windowsHover.gif" Look-ActiveImageUrl="all_windowsActive.gif" Look-ImageWidth="15" Look-ImageHeight="14" SubGroupExpandDirection="BelowRight" SubGroupExpandOffsetX="3">
+    
+    <item Text="فيلترهای جستجو" ClientSideCommand="ToggleSnapMinimize(Snap1, 0)" />
+    
+  </item>
+</SiteMap>

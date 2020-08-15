@@ -1,0 +1,65 @@
+---------------------------
+Message from webpage
+---------------------------
+<PermissionEntity>
+	<GetTypePermissionAll>
+		<val>0</val>
+		<title>«д ќ«» д‘ѕе</title>
+		<CodeGroupID>0</CodeGroupID>
+		<Caption/>
+		<Daily>0</Daily>
+		<Timely>0</Timely>
+	</GetTypePermissionAll>
+	<GetTypePermissionAll>
+		<val>011</val>
+		<title>(«” Ќё«ён)</title>
+		<CodeGroupID>2</CodeGroupID>
+		<Caption>гћж“е«н Ш”— Ќ÷ж—</Caption>
+		<Daily>1</Daily>
+		<Timely>1</Timely>
+	</GetTypePermissionAll>
+	<GetTypePermissionAll>
+		<val>074</val>
+		<title>(«” Џб«ћн)</title>
+		<CodeGroupID>2</CodeGroupID>
+		<Caption>гћж“е«н Ш”— Ќ÷ж—</Caption>
+		<Daily>1</Daily>
+		<Timely>1</Timely>
+	</GetTypePermissionAll>
+	<GetTypePermissionAll>
+		<val>002</val>
+		<title>Џ«ѕн</title>
+		<CodeGroupID>3</CodeGroupID>
+		<Caption>гћж“е«н г«“«ѕ Ќ÷ж—</Caption>
+		<Daily>1</Daily>
+		<Timely>1</Timely>
+	</GetTypePermissionAll>
+	<GetTypePermissionAll>
+		<val>074</val>
+		<title>(«” Џб«ћн)</title>
+		<CodeGroupID>8</CodeGroupID>
+		<Caption>Шѕе«н «” Џб«ћн</Caption>
+		<Daily>1</Daily>
+		<Timely>1</Timely>
+	</GetTypePermissionAll>
+	<GetTypePermissionAll>
+		<val>011</val>
+		<title>(«” Ќё«ён)</title>
+		<CodeGroupID>10</CodeGroupID>
+		<Caption>Шѕе«н «” Ќё«ён</Caption>
+		<Daily>1</Daily>
+		<Timely>1</Timely>
+	</GetTypePermissionAll>
+	<GetTypePermissionAll>
+		<val>011</val>
+		<title>(«” Ќё«ён)</title>
+		<CodeGroupID>11</CodeGroupID>
+		<Caption>г«е«де</Caption>
+		<Daily>1</Daily>
+		<Timely>1</Timely>
+	</GetTypePermissionAll>
+</PermissionEntity>
+
+---------------------------
+OK   
+---------------------------

@@ -1,0 +1,94 @@
+.TopGroup
+{
+  z-index:99;
+  position:relative;
+  
+}
+
+.DefaultTab 
+{
+  background-position: center center;
+  color:black; 
+  background-image: url(../../Images/ModifyPersonImage/tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+  background-repeat: no-repeat;
+  
+}
+
+
+.DefaultTabHover 
+{
+  color:black; 
+  background-image: url(../../Images/ModifyPersonImage/hover_tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.SelectedTab 
+{
+  background-position: center center;
+  background-repeat: no-repeat;
+  color:black; 
+  background-image: url(../../Images/ModifyPersonImage/selected_tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+}
+
+.ScrollItem 
+{
+  background-position: center center;
+  background-repeat: no-repeat;
+  color:black; 
+  background-image: url(../../Images/ModifyPersonImage/scroll_item_bg.gif);
+  border: 1px solid #919B9C; 
+  border-left-color: #91A7B4; 
+  border-top-color: #91A7B4; 
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  height: 20px;
+  cursor:default;
+}
+
+.ScrollItemHover 
+{
+  background-position: center center;
+  background-repeat: no-repeat;
+  color:black; 
+  background-image: url(../../Images/ModifyPersonImage/hover_scroll_item_bg.gif);
+  border: 1px solid #919B9C; 
+  border-left-color: #91A7B4; 
+  border-top-color: #91A7B4; 
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  height: 20px;
+  cursor:default;
+  
+  
+}
+
+
+.PageContent
+{
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+}
+
+.MultiPage
+{
+  background-color:#ECF7FF;
+   /*background-color:white;*/
+  border: 1px solid #919B9C;
+  width:675px;
+  height:350px;
+  right:5;
+  left:-5; 
+  top:-5px;
+  position:relative;
+  padding:10px;
+}

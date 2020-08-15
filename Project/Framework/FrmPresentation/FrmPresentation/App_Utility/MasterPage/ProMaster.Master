@@ -1,0 +1,217 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ProMaster.master.cs"
+    Inherits="FrmPresentation.App_Utility.MasterPage.ProMaster" %>
+
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <link href="../Styles/GeneralStyles.css" type="text/css" rel="stylesheet" />
+    <link href="../Styles/FullBlue/FullBlueStyle.css" type="text/css" rel="stylesheet" />
+    <link href="../Styles/StyleForPages.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .Layer1
+        {
+            background-color: #c3d8f5;
+        }
+        .Layer2
+        {
+            background-color: #91b7df;
+        }
+        .Layer3
+        {
+            background-color: #e7eeff;
+        }
+       
+        .style3
+        {
+            width: 201px;
+        }
+    </style>
+</head>
+<body onload="onload()" scroll="no" onclick="onclickBodyForMenue()" style="margin: 0px">
+    <form id="form1" style="height: 100%; vertical-align: middle" runat="server" lang="fa">
+    <div style="height: 36px" dir="rtl">
+                <table id="tblHeader" style="width: 100%; height: 29%" cellpadding="0" 
+                    cellspacing="0">
+                    <tr>
+                        <td id="tdShowRight" style="height: 22px; width: 25px" align="center" valign="middle">
+                            <img id="ImgRestore" alt="" src="../../App_Utility/Images/PageMain/Down11.gif" onclick="imgShowMenuOnClick(this)"
+                                onmouseover="onmouseovertd(3)" onmouseout="onmouseouttd(3)" style="cursor: pointer;
+                                display: none; width: 12px; height: 11px; vertical-align: middle" />
+                        </td>
+                        <td align="right" dir="rtl" style="width: 240px;" valign="middle">
+                            <img src="../../App_Utility/Images/PageMain/Arm02.gif" style="height: 25px; vertical-align: top;" />
+                        </td>
+                        <td id="tdUserName" align="right" dir="rtl" style="width: 250px">
+                            <span style="color: #062549; font-family: KasraTraffic; font-size: 13px; font-weight: bold;">
+                                نام كاربر : </span>
+                            <asp:Label ID="lblUserName" runat="server" Font-Bold="True" Font-Names="KasraTraffic"
+                                Font-Size="12px" ForeColor="#DD5800"></asp:Label>
+                        </td>
+                        <td id="tdMenuName" align="center" dir="rtl" style="width: 50px; display: none;">
+                            <asp:UpdatePanel ID="UpdatePanel3" runat="server">
+                                <ContentTemplate>
+                                    <asp:Label ID="lblMenuName" runat="server"></asp:Label>
+                                </ContentTemplate>
+                                <Triggers>
+                                    <asp:AsyncPostBackTrigger ControlID="TVMenu" EventName="NodeSelected" />
+                                    <asp:AsyncPostBackTrigger ControlID="TVDesktop" EventName="NodeSelected" />
+                                    <asp:AsyncPostBackTrigger ControlID="BtnSubmit" EventName="Click" />
+                                    <asp:AsyncPostBackTrigger ControlID="imgRefreshMenu" EventName="Click" />
+                                    <asp:AsyncPostBackTrigger ControlID="imgHome" EventName="Click" />
+                                </Triggers>
+                            </asp:UpdatePanel>
+                        </td>
+                        <td id="tdSysInfo" align="right" dir="rtl" style="width: 600px">
+                            <table style="width: 100%; height: 100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td id="tdVersion" align="right" width="220">
+                                        <span style="color: #062549; font-family: KasraTraffic; font-size: 13px; font-weight: bold;">
+                                            ويرايش نرم افزار : </span>
+                                        <asp:Label ID="lblVersion" runat="server" Font-Bold="True" Font-Names="KasraTraffic"
+                                            Font-Size="12px" ForeColor="#DD5800"></asp:Label>
+                                    </td>
+                                    <td id="tdCompanyInfo" width="350" align="left">
+                                        <asp:Label ID="Label1" runat="server" Text="نرم افزار اتوماسيون تردد و تغذيه كيميا - "
+                                            Font-Bold="True" Font-Names="KasraTraffic" Font-Size="12px" ForeColor=" #062549"></asp:Label>
+                                        <asp:Label ID="lblCompanyName" runat="server" Font-Bold="True" Font-Names="KasraTraffic"
+                                            Font-Size="12px" ForeColor="#DD5800"></asp:Label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+    
+    </div>
+    <table id="Layer1" class="cssMenu" dir="rtl" cellpadding="0" cellspacing="0" style="width: 100%;
+        height: 100%">
+       
+        <tr valign="middle">
+            <td align="right" valign="top" class="style3" >
+                <div dir="rtl" >
+                <table cellpadding="0" cellspacing="0" style="width: 100%; height: 4%">
+                                                <tr>
+                                                     <td align="left" style="width:23px;background-image: url('../../App_Utility/Images/PageMain/BG39.gif');" >
+                                                        <img  id="imgHideMenu" alt="پنهان نمودن منو و ميزكار" onmouseover="onmouseovertd(2)" src="../../App_Utility/Images/PageMain/Up11.gif" onmouseout="onmouseouttd(2)" style="vertical-align:top;"
+                                                            onclick="imgHideMenuOnClick(this)" style="cursor: pointer; margin-top: 0px; width: 11px; 
+                                                            height: 13px;" />
+                                                    </td>
+                                                    <td style="width:30px;background-image: url('../../App_Utility/Images/PageMain/BG39.gif'); border-left-color: #3D6192; border-left-width: 1px; border-left-style: ridge;"></td>
+                                                    <td id="tdMainMenu" class="tdMainMenu" onmouseover="onmouseovertd(0)" onmouseout="onmouseouttd(0)"
+                                                        style="width: 64px; cursor: pointer;" onclick="tdMainMenuOnClick()">
+                                                       
+                                                    </td>
+                                                    <td id="tdDesktop" class="tdDesktop" style="width: 64px; cursor: pointer;" onmouseover="onmouseovertd(1)"
+                                                        onmouseout="onmouseouttd(1)" onclick="tdDesktopOnClick()">
+                                                       
+                                                    </td>
+                                                    <td align="left" style="height: 31px; background-image: url('../../App_Utility/Images/PageMain/BG39.gif');">
+                                                        <table border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td >
+                                                                    <asp:ImageButton ID="imgRefreshMenu" ToolTip="بارگذاري مجدد منو و ميزكار" runat="server"
+                                                                        Height="20px" ImageUrl="~/App_Utility/Images/PageMain/Refresh01.gif" Width="20px"
+                                                                        OnClick="imgRefreshMenu_Click"   onmouseover="onmouseovertd(4)" onmouseout="onmouseouttd(4)"/>
+                                                                </td>
+                                                                <td >
+                                                                    <asp:ImageButton ID="imgHome" ToolTip="چکیده" runat="server" Height="22px" ImageUrl="~/App_Utility/Images/PageMain/home01.gif"
+                                                                        Width="22px" OnClick="imgHome_Click" onmouseover="onmouseovertd(5)" onmouseout="onmouseouttd(5)"/>
+                                                                </td>
+                                                               <td><img alt="signOut" src="../../App_Utility/Images/Icons/r1.gif" onclick="SignOut(0)" id="signOut" style="cursor: hand" /></td> 
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                
+                </div>
+            </td>
+            <td align="center" valign="top">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <div id="MaskedDiv" style="width: 20px; height: 20px; background-color: #ECF9F8;
+                    vertical-align: middle; position: absolute; visibility: hidden; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+                    mazopacity: 0.5; opacity: 0.5; cursor: default;" align="center">
+                    <table border="0" style="width: 100%; height: 100%; vertical-align: middle">
+                        <tr style="vertical-align: middle">
+                            <td align="center" valign="middle">
+                                <img alt="" src="/FrmPresentation/App_Utility/Images/ProgressImage/Loading.gif" /><br />
+                                <span style="width: 320px; font-family: Kasra Traffic Normal,Kasratahoma; font-size: 25px;
+                                    color: #7439A8; background-color: #FFFFFF; font-weight: bold;">لطفا منتظر بمانيد</span><br />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <iframe src="/FrmPresentation/App_Utility/Progress/ProgressPage.aspx" id="MaskedFrame"
+                    style="vertical-align: middle; position: absolute; visibility: hidden; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+                    mazopacity: 0.5; opacity: 0.5; cursor: default;"></iframe>
+            </td>
+        </tr>
+    </table>
+    <div dir="rtl" id="DivShortKeysInfo" style="display: none; font-family: Kasra Traffic Normal;"
+        align="center">
+        <div dir="rtl" align="center" class="DivStyle" style="scrollbar-arrow-color: black;
+            width: 255px; scrollbar-base-color: #b0c4de; height: 100%; scrollbar-highlight-color: white;
+            overflow: auto; font-family: Kasra Traffic Normal;">
+            <table id="GrdShortKey" style="border-style: solid; border-right-color: #6495ed;
+                border-top-color: #87cefa; border-bottom-color: #6495ed; border-left-color: #87cefa;
+                background: #e7eeff; font-family: Kasra Traffic Normal; font-weight: bold; font-size: 9pt;
+                border-width: 2px">
+                <thead style="display: none">
+                </thead>
+            </table>
+        </div>
+    </div>
+    </form>
+    <div style="display: none">
+        <input type="hidden" id="ProgressState" value="0" runat="server" />
+    </div>
+
+    <script language="javascript" type="text/javascript">
+        try {
+            if (Sys != undefined) {
+                Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(OpenModelPopup);
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(CloseModelPopup);
+            }
+        }
+        catch (e) {
+        }
+        /*---------------------------------------------------------------------*/
+        function onload() {
+            try {
+                onState()
+            }
+            catch (e) {
+            }
+        }
+        /*---------------------------------------------------------------------*/
+        function onState() {
+            while (window.parent.document.getElementById("shadow_LeftTD") != null)
+                window.parent.document.getElementById("shadow_LeftTD").parentNode.removeChild(window.parent.document.getElementById("shadow_LeftTD"));
+        }
+        //==========================================================================
+        CreateDivShortKeys(); //ايجاد دیو مربوظ به راهنمای کلید ها
+        if (typeof Master_onkeyup == 'function')
+            document.body.attachEvent('onkeyup', Master_onkeyup)
+        if (typeof Master_onkeydown == 'function')
+            document.body.attachEvent('onkeydown', Master_onkeydown)
+        window.focus()
+        //==========================================================================
+        
+    </script>
+
+    <script src="/FrmPresentation/App_Utility/Scripts/Maskdiv.js" type="text/javascript"></script>
+
+    <script src="/FrmPresentation/App_Utility/Scripts/General.js" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript" src="../Scripts/farsitype.js"></script>
+
+    <script language="javascript" type="text/javascript" src="/FrmPresentation/App_Utility/Scripts/ShortKeys.js"></script>
+
+    <script language="javascript" type="text/javascript" src="/FrmPresentation/App_Utility/Scripts/KeySorting.js"></script>
+
+</body>
+</html>

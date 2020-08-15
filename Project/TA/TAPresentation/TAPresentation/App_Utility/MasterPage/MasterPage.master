@@ -1,0 +1,384 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="TAPresentation.App_Utility.MasterPage.MasterPage" %>
+<%@ Register TagPrefix="ComponentArt" Namespace="ComponentArt.Web.UI" Assembly="ComponentArt.Web.UI" %>
+ <%@ Register Assembly="CssJscriptOptimizer" Namespace="CssJscriptOptimizer.Controls"
+		TagPrefix="cc1" %>
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+     <title>اتوماسیون تردد
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</title> 
+     <script type="text/javascript">
+        //<![CDATA[
+         function ToggleSnapMinimize(SnapObject, MenuItemIndex) {
+
+             SnapObject.toggleMinimize();
+             ToggleItemCheckedState(MenuItemIndex);
+             //document.getElementById("ctl00_Snap" + (MenuItemIndex + 1)).style.display = "inline"
+         }
+
+         function ToggleItemCheckedState(MenuItemIndex) {
+             //            alert("ctl00_Snap" + (MenuItemIndex + 1))
+             //            alert(document.getElementById("ctl00_Snap" + (MenuItemIndex + 1)))
+
+             var item = Menu1.get_items().getItem(0).get_items().getItem(MenuItemIndex);
+
+             if (item.getProperty('Look-LeftIconUrl') == 'check.gif') {
+                 item.setProperty('Look-LeftIconUrl', 'clear.gif');
+                 document.getElementById("ctl00_Snap" + (MenuItemIndex +1)).style.display = "none"
+             }
+             else {
+                 item.setProperty('Look-LeftIconUrl', 'check.gif');
+                 document.getElementById("ctl00_Snap" + (MenuItemIndex+1 )).style.display = "inline"
+             }
+             //item.get_parentMenu().render();
+         }
+        //]]>
+    </script>
+    <cc1:StyleSheetCombiner ID="sheetCombiner" runat="server">		
+        <link href='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Styles/GeneralStyles.css")%>' type="text/css" rel="stylesheet" />
+        <link href='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Styles/StyleForPages.css")%>' rel="stylesheet" type="text/css" /> 
+        <link href='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Styles/MenuStyles/snapStyle.css")%>' rel="stylesheet" type="text/css" /> 
+        <link href='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Styles/MenuStyles/menuStyle.css")%>' rel="stylesheet" type="text/css" /> 
+    </cc1:StyleSheetCombiner>
+    <cc1:ScriptCombiner ID="scriptCombiner" runat="server">       
+        <script src='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Scripts/General.js")%>' type="text/javascript"></script>
+        <script language="javascript" type="text/javascript" src='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Scripts/farsitype.js")%>'></script>
+        <script language="javascript" type="text/javascript" src='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Scripts/ShortKeys.js")%>'></script>
+      <%--  <script language="javascript" src="/TAPresentation/App_Utility/Scripts/jquery-1.6.3.min.js" type="text/javascript"></script>   
+        <script language="javascript" src="/TAPresentation/App_Utility/Scripts/jquery.uilock.js" type="text/javascript"></script>
+        <script language="javascript" src="/TAPresentation/App_Utility/Scripts/jquery.uilock.min.js" type="text/javascript"></script>--%>
+        
+    </cc1:ScriptCombiner>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .Layer1
+        {
+            background-color: #c3d8f5;
+        }
+        .Layer2
+        {
+            background-color: #91b7df;
+        }
+        .Layer3
+        {
+            background-color: #e7eeff;
+        }
+        .cssMenu
+        {
+            padding: 0px;
+            background-color: #E3EFFF;
+        }
+        
+    </style>
+</head>
+<body  scroll="yes" class="cssMenu" onload="onload()" onclick="onclickBodyForMenue()" style="margin: 0px;
+    scrollbar-highlight-color: white; scrollbar-arrow-color: black; scrollbar-base-color: #b0c4de;
+     overflow: auto">
+
+    <form  id="form1" style="height: 100%; vertical-align: middle" runat="server"
+    lang="fa">
+       <script language="javascript" type="text/javascript">
+           var MasterObj = "ctl00_ContentPlaceHolder1_";
+           var MasterObjSearch = "ctl00_Snap1_ContentPlaceHolderSearch_";
+           
+        </script> 
+     <div>    
+    <ComponentArt:Dialog        
+         HeaderCssClass="headerCss"          
+        AllowDrag="true" CloseTransition="Fade" TransitionDuration="200" ShowTransition="Fade"         
+        Value="Sample Dialog Content" HeaderClientTemplateId="header"
+         ContentClientTemplateId="content" FooterClientTemplateId="footer"
+         Alignment="MiddleCentre" ID="Dialog1" runat="server" Height="150"
+        Width="300">
+        <ClientTemplates>
+            <ComponentArt:ClientTemplate ID="header">
+                <table style=" border-top-style: double; border-right-style: double; border-left-style: double; border-top-width: medium; border-right-width: medium; border-left-width: medium; border-top-color: #336699; border-right-color: #336699; border-left-color: #336699;" cellpadding="0" cellspacing="0" border="2"
+                    width="300"  onmousedown="Dialog1.StartDrag(event);">
+                    <tr>
+                         <td style=" height: 20px !important;" class="CssHeaderPageMain"
+                            valign="middle" >
+                            <div align="right" width="100%">
+                                اتوماسيون تردد كسرا
+                        </div></td>
+                    </tr>
+                </table>
+            </ComponentArt:ClientTemplate>
+            <ComponentArt:ClientTemplate ID="content">
+                <table cellpadding="0" cellspacing="0" style=" border-right-style: double; border-left-style: double; border-right-width: medium; border-left-width: medium; border-right-color: #336699; border-left-color: #336699;" cellpadding="0" cellspacing="0" border="2" width="300">
+                    <tr>                        
+                        <td style="background-color: white; font-size: 12px; font-family: Arial;">
+                            <table width="100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td valign="middle" style="padding: 10px; width: 30px;">
+                                        <img src="/FrmPresentation/App_Utility/Images/Icons/## Parent.Icon ##" style="padding: 5px;" />
+                                    </td>
+                                    <td style=" height: 60px !important;padding: 5px; font-family: KasraTraffic; font-size: 12px; font-weight: bold;" align="center" valign="middle">
+                                       ## Parent.Title ##
+                                    </td>
+                                </tr>                                
+                            </table>
+                        </td>                        
+                    </tr>
+                </table>
+            </ComponentArt:ClientTemplate>
+            <ComponentArt:ClientTemplate ID="footer">
+                <table cellpadding="0" cellspacing="0" width="300"  style=" border-right-style: double; border-left-style: double; border-right-width: medium; border-left-width: medium; border-right-color: #336699; border-left-color: #336699; border-bottom-style: double; border-bottom-width: medium; border-bottom-color: #336699;"  border="2">
+                    <tr>
+                        
+                        <td  width="440">
+                        </td>
+                        
+                    </tr>
+                </table>
+            </ComponentArt:ClientTemplate>
+        </ClientTemplates>
+    </ComponentArt:Dialog>
+    </div>
+    <table id="Layer1" class="cssMenu" dir="rtl" cellpadding="0" cellspacing="0" style="width: 100%;
+        height: 100%">
+           <tr><td>
+         <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+      <td class="SnapHeader" ><div  align="right"> 
+        <ComponentArt:Menu id="Menu1"
+          CssClass="TopGroup"
+          DefaultGroupCssClass="MenuGroup"
+          SiteMapXmlFile="/TAPresentation/App_Utility/Styles/MenuStyles/menuData.xml"
+          DefaultItemLookID="DefaultItemLook"
+          TopGroupItemSpacing="1"
+          DefaultGroupItemSpacing="2"
+          ImagesBaseUrl="/TAPresentation/App_Utility/Styles/MenuStyles/images/"
+          ExpandDelay="100"
+          runat="server">
+        <ItemLooks>
+          <ComponentArt:ItemLook LookID="EmptyLook" />
+          <ComponentArt:ItemLook LookID="DefaultItemLook" CssClass="MenuItem" HoverCssClass="MenuItemHover" ExpandedCssClass="MenuItemHover" LeftIconUrl="check.gif" LeftIconWidth="15" LeftIconHeight="10" LabelPaddingLeft="8" LabelPaddingRight="12" LabelPaddingTop="3" LabelPaddingBottom="4" />
+        </ItemLooks>
+        </ComponentArt:Menu></div>
+      </td>
+    </tr>
+    </table>
+        </td></tr>
+        <tr>
+      <td id="TopColum" dir="ltr" class="Dock" valign="top" style="width: 100%;height: 5%"></td>
+     </tr> 
+        <tr valign="middle">
+            <td  valign="top">
+            <div align="center" >
+                <asp:ContentPlaceHolder   ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>  </div>                        
+                            
+            </td>
+        </tr>
+        <tr>
+      <td id="BottomColumn" dir="ltr" class="Dock" style="width: 100%;height: 5%"  valign="top"></td>
+    </tr>
+    </table>
+    
+    <ComponentArt:Snap id="Snap1" Height="70"
+      DockingContainers="TopColum,BottomColumn"
+      CurrentDockingContainer="TopColum"
+      CurrentDockingIndex="0"
+      CollapseDuration="300"
+      ExpandDuration="300"
+      DraggingStyle="GhostCopy"
+      DockingStyle="TransparentRectangle"
+      MinimizeDirectionElement="Menu1_0"
+      MinimizeCssClass1="MinimizeOutline"
+      MinimizeDuration="250"
+      MinimizeSlide="Linear"
+      MustBeDocked="True"
+      IsCollapsed="True"
+      runat="server">
+    <Header>
+      <table class="SnapHeader" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td style="width:16px;padding:3px;cursor:move;" onmousedown="Snap1.startDragging(event);"><img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/snap_icon.gif" alt="" width="16" height="16" /></td>
+          <td align="center" style="width:100%;padding:3px;font-size:11px;cursor:move;" onmousedown="Snap1.startDragging(event);">فيلترهاي جستجو</td>
+          <td style="width:15px;padding:1px;"><img onclick="Snap1.toggleExpand();" src="/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_expand.gif" alt="" width="15" height="14" style="cursor:pointer;" onmouseover="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_expandHover.gif';" onmouseout="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_expand.gif';" onmousedown="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_expandActive.gif';" onmouseup="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_expandHover.gif';" /></td>
+          <td style="width:15px;padding:1px;padding-right:3px;"><img onclick="Snap1.toggleMinimize();ToggleItemCheckedState(0);" src="/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_minimize.gif" alt="" width="15" height="14" style="cursor:pointer;" onmouseover="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_minimizeHover.gif';" onmouseout="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_minimize.gif';" onmousedown="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_minimizeActive.gif';" onmouseup="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_minimizeHover.gif';" /></td>
+        </tr>
+      </table>
+      </Header>
+      <CollapsedHeader>
+      <table class="SnapHeaderCollapsed" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td style="width:16px;padding:3px;cursor:move;" onmousedown="Snap1.startDragging(event);"><img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/snap_icon.gif" alt="" width="16" height="16" /></td>
+          <td align="center" style="width:100%;padding:3px;font-size:11px;cursor:move;" onmousedown="Snap1.startDragging(event);">فيلترهاي جستجو</td>
+          <td style="width:15px;padding:1px;"><img onclick="Snap1.toggleExpand();" src="/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleExpand.gif" alt="" width="15" height="14" style="cursor:pointer;" onmouseover="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleExpandHover.gif';" onmouseout="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleExpand.gif';" onmousedown="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleExpandActive.gif';" onmouseup="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleExpandHover.gif';" /></td>
+          <td style="width:15px;padding:1px;padding-right:3px;"><img onclick="Snap1.toggleMinimize();ToggleItemCheckedState(0);" src="/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleMinimize.gif" alt="" width="15" height="14" style="cursor:pointer;" onmouseover="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleMinimizeHover.gif';" onmouseout="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleMinimize.gif';" onmousedown="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleMinimizeActive.gif';" onmouseup="this.src='/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleMinimizeHover.gif';" /></td>
+        </tr>
+      </table>
+      </CollapsedHeader>
+    <Content>
+      <table width="100%" dir="rtl" class="SnapContent" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td >
+          <div align="center" >
+          <asp:ContentPlaceHolder  ID="ContentPlaceHolderSearch" runat="server">
+                </asp:ContentPlaceHolder>
+          </div></td>
+        </tr>
+      </table>
+    </Content>
+    
+    </ComponentArt:Snap>
+    
+     <div style="position:absolute;top:0px;left:0px;visibility:hidden;">
+      <img src="/TAPresentation/App_Utility/Styles/MenuStyles/Images/collapsed_toggleExpandActive.gif" width="0" height="0" alt="" />
+      <img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleExpandHover.gif" width="0" height="0" alt="" />
+      <img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleMinimizeActive.gif" width="0" height="0" alt="" />
+      <img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/collapsed_toggleMinimizeHover.gif" width="0" height="0" alt="" />
+      <img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_expandActive.gif" width="0" height="0" alt="" />
+      <img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_expandHover.gif" width="0" height="0" alt="" />
+      <img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_minimizeActive.gif" width="0" height="0" alt="" />
+      <img src="/TAPresentation/App_Utility/Styles/MenuStyles/images/toggle_minimizeHover.gif" width="0" height="0" alt="" />
+    </div>
+   
+    <div dir="rtl"  id="DivShortKeysInfo" style="display:none; font-family :tahoma Normal;" align="center">
+        <div dir="rtl" align="center" class="DivStyle" style="scrollbar-arrow-color: black; width: 255px; scrollbar-base-color: #b0c4de;
+            height: 100%; scrollbar-highlight-color: white; overflow: auto; font-family :tahoma Normal;">
+            <table id="GrdShortKey" style="  border-style:solid;           
+                    border-right-color :#6495ed;        
+                    border-top-color  :#87cefa;        
+                    border-bottom-color :#6495ed;   
+                    border-left-color :#87cefa;          
+                    background :#e7eeff;
+                    font-family :tahoma Normal;
+                    font-weight: bold; 
+                    font-size :9pt;  
+                    border-width :2px">
+                <thead style="display: none">
+                </thead>
+            </table>
+        </div>
+    </div>
+     </form>
+    <div style="display:none">
+   <%-- <input type="button" id="LockedBtn" />--%>
+    <input type="hidden" id="ProgressState" value="0" runat="server" />
+    
+    </div> 
+    <script language="javascript" type="text/javascript">         
+//            $('#LockedBtn').click(function(){
+//                $.uiLock('<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%"><tr><td align="center" valign="middle" style="width:100%;height:100%;text-align:center;" ><img src="/TAPresentation/App_Utility/Images/ProgressImage/ProgressBar07.gif" /><br /><span style="width: 320px;font-family:tahoma Normal,tahoma;font-size: 25px;color: #FF6D00; font-weight: bold;">لطفا منتظر بمانيد</span></td></tr></table>');
+//         });
+//            $('#LockedBtn').onblur(function () {
+//             $.uiUnlock();
+//         }); 
+        function SetMsg(Msg) {
+            var strMsg = Msg
+            var icon = "Blank.gif"
+            if (Msg == "Save") {
+                strMsg = "ذخيره شد"
+                icon = "Save4.png"
+            }
+            else if (Msg == "Modify") {
+                strMsg = "ذخيره شد"
+                icon = "Save4.png"
+            }
+            else if (Msg == "SaveFail") {
+                strMsg = "ذخيره نشد"
+                icon = "Error.ico"
+            }
+            else if (Msg == "Delete") {
+                strMsg = "حذف شد"
+                icon = "Cancel.png"
+            }
+            else if (Msg == "DeleteFail") {
+                strMsg = "حذف انجام نشد"
+                icon = "cancelrefresh.gif"
+            }
+            else if (Msg == "NoAccess") {
+                strMsg = "شما اجازه ايجاد در اين قسمت را نداريد"
+                icon = "deleteallink.gif"
+            }
+            else if (Msg == "NoAccessDelete") {
+                strMsg = "شما اجازه حذف اين مورد را نداريد"
+                icon = "cancelrefresh.gif"
+            }
+            else if (Msg == "Error") {
+                strMsg = "عمليات با مشکل مواجه شد"
+                icon = "Error.ico"
+            }
+            else if (Msg == "RepeatInfo") {
+                strMsg = "اطلاعات تکراري است"
+                icon = "fav_team.png"
+            }
+            else if (Msg == "NotFound") {
+                strMsg = "اطلاعات يافت نشد"
+                icon = "S1.png"
+            }
+            else if (Msg == "Error") {
+                strMsg = "کد واحد تکراري است"
+                icon = "fav_team.png"
+            }
+            Dialog1.beginUpdate();
+            Dialog1.set_title(strMsg);
+            Dialog1.set_icon(icon);
+            Dialog1.endUpdate();
+            Dialog1.Show();
+            window.setTimeout("Dialog1.Close('Close click');", 1500)
+        }
+        function onload() {
+            try {
+                onState()
+                SetProgressBar()
+            }
+            catch (e) {
+            }
+        }
+        function onState() {
+            while (window.parent.document.getElementById("shadow_LeftTD") != null)
+                window.parent.document.getElementById("shadow_LeftTD").parentNode.removeChild(window.parent.document.getElementById("shadow_LeftTD"));
+        }
+        function SetProgressBar() {
+            try {
+                if (Sys != undefined) {
+                    Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(OpenModelPopup);
+                    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(CloseModelPopup);
+                }
+            }
+            catch (e) {
+            }
+            
+        }
+        CreateDivShortKeys(); 
+        if (typeof Master_onkeyup == 'function')
+            document.body.attachEvent('onkeyup', Master_onkeyup)
+        if (typeof Master_onkeydown == 'function')
+            document.body.attachEvent('onkeydown', Master_onkeydown)
+        window.focus()
+        //==============================================
+//        function OpenModelPopup() {
+//            if (document.getElementById("ctl00_ProgressState").value != 1)
+//                $('#LockedBtn').click();
+//        }
+//        function CloseModelPopup() {
+//            $('#LockedBtn').onblur();
+//        }
+    </script>    
+</body>
+</html>

@@ -1,0 +1,2 @@
+@RuleName-RuleDesc$SpName*param1;Value1#param2;value2#;
+

@@ -1,0 +1,5 @@
+for()
+	obj.attachEvent("onmouseover",xx)
+
+function xx()
+	event.srcElement.style.cursor="hand"

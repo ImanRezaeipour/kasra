@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="GroupEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="GroupEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="WorkReport">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonelCardID" type="xs:long" nillable="true" />
+							<xs:element name="PersonelID" type="xs:string" nillable="true" />
+							<xs:element name="LastName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="FirstName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="schedulegroup" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="hozoor" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="shakhsi" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="edari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="estj" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="tashvighi" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="gheibat" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="tatilkari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="sterahat" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="s_addi" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="s_gheibat" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="s_shakhsi" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="s_edari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="s_estj" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="s-tashvighi" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="s_OverTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="AllOverTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ovh_OverTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="accmansha" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="acconsor" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="accnoe" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="accvahed" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="nahie" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="hesab" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="pay" type="xs:long" minOccurs="0" nillable="true" />
+							<xs:element name="AllOverTimeNum" type="xs:long" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EmployeeGroup">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Selected" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="PersonID" type="xs:int" />
+							<xs:element name="Name" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="EndDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Group">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GroupID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+								nillable="true" />
+							<xs:element name="GroupName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Acronym" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ParentID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="StartDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RuleId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Flags" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Active" type="xs:short" minOccurs="0" nillable="true" />
+							<xs:element name="CategoryId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="CategoryName" type="xs:string" minOccurs="0" />
+							<xs:element name="SDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="fGroupName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="gg">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Selected" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="PersonID" type="xs:int" />
+							<xs:element name="Name" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="EndDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Category">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CategoryId" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+								nillable="true" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

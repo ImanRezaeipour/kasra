@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="CreditEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+	<xs:element name="CreditEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="GetCreditFilter">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="title" type="xs:string" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ModifyGroupCredit">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="StrResult" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ModifyCreditPermissionAfter">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="StrResult" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetHourPermission">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CreditID" type="xs:int" nillable="true" />
+							<xs:element name="SDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="TypeName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditTypeName" type="xs:string" nillable="true" />
+							<xs:element name="Des" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditType" type="xs:int" nillable="true" />
+							<xs:element name="PersonelNo" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PersonelName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="jPersonelID" type="xs:int" nillable="true" />
+							<xs:element name="jPersonelName" type="xs:string" nillable="true" />
+							<xs:element name="Descr" type="xs:string" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetInOut">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonelID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Date" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="InOut" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="InOutComplet" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetTypePermissionAll">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="GrpID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DT" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BindSlPermission">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="GrpID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Title1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="IntVal" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="StrVal" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="_flags" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetInsertMissCard">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PersonName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Date" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="InOutTime" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Descr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditReasonID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="CreditReason" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditID" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetIncPermission">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CreditID" type="xs:int" nillable="true" />
+							<xs:element name="SDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="TypeName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditTypeName" type="xs:string" nillable="true" />
+							<xs:element name="Des" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditType" type="xs:int" nillable="true" />
+							<xs:element name="PersonelNo" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PersonelName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="jPersonelID" type="xs:int" nillable="true" />
+							<xs:element name="jPersonelName" type="xs:string" nillable="true" />
+							<xs:element name="Descr" type="xs:string" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetDailyPermission">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CreditID" type="xs:int" nillable="true" />
+							<xs:element name="SDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="TypeName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditTypeName" type="xs:string" nillable="true" />
+							<xs:element name="Des" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditType" type="xs:int" nillable="true" />
+							<xs:element name="PersonelNo" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PersonelName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="jPersonelID" type="xs:int" nillable="true" />
+							<xs:element name="jPersonelName" type="xs:string" nillable="true" />
+							<xs:element name="Descr" type="xs:string" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CreditBeforeOccure">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CreditId" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="PersonId" type="xs:int" minOccurs="0" />
+							<xs:element name="PersonName" type="xs:string" minOccurs="0" />
+							<xs:element name="StartDate" type="xs:string" minOccurs="0" />
+							<xs:element name="EndDate" type="xs:string" minOccurs="0" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" />
+							<xs:element name="EndTime" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:int" />
+							<xs:element name="TypeName" type="xs:string" />
+							<xs:element name="CreditType" type="xs:int" />
+							<xs:element name="CreditTypeName" type="xs:string" />
+							<xs:element name="Des" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetRule">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ParameterStr" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Name" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Desc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SDesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RuleType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="SpName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetSysRuleParametr">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ParameterID" type="xs:int" nillable="true" />
+							<xs:element name="ParameterName" type="xs:string" nillable="true" />
+							<xs:element name="ParameterValue" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetCreditItemCode">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="KeyID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="val" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="title" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Ctype" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="SortOrder" type="xs:int" minOccurs="0" />
+							<xs:element name="ValueType" type="xs:int" minOccurs="0" />
+							<xs:element name="AllPersonID" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetSURule">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ParameterStr" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Name" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Desc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SDesc" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RuleType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="SpName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetUserRuleMember">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="UserRuleID" type="xs:int" nillable="true" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="MemberName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="MemberID" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetDateRangeUserRule">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetCreditItemCode1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="KeyID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="val" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="title" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Ctype" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="SortOrder" type="xs:int" minOccurs="0" />
+							<xs:element name="ValueType" type="xs:int" minOccurs="0" />
+							<xs:element name="AllPersonID" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetUserRuleAction">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FirstItemCreditID" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="secondItemCreditID" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="firstValue" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="firstValueType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="secondValue" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="secondValueType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="ActionID" type="xs:int" minOccurs="0" />
+							<xs:element name="ConditionID" type="xs:int" minOccurs="0" />
+							<xs:element name="DetectCodeType" type="xs:int" minOccurs="0" />
+							<xs:element name="ActionCodeType" type="xs:int" minOccurs="0" />
+							<xs:element name="UserRuleActionID" type="xs:int" />
+							<xs:element name="ConditionItemCategory" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ActionItemCategory" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetDefineCredit">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CreditId" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int"
+								nillable="true" />
+							<xs:element name="PersonId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PersonName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Des" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetPersonelMissCards">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonelID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Starttime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Date" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LInOut" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LInOutComplet" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="IsCover" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ExtendedCards" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LNobatKari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LSNobatKari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LShift" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LSShift" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="PersonelName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SPersonelName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="JInOut" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="JInOutComplet" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="JShift" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="JSShift" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="JNobatKari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="JSNobatKari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="NInOut" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="NInOutComplet" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="NShift" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="NSShift" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="NNobatKari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="NSNobatKari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="MiddelTime" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetGroupPermission">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CreditID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="SDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="TypeName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditTypeName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Descr" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="fDescr" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="CreditType" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PersonName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="fPersonName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Selected" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="FTypeName" type="xs:string" minOccurs="0" />
+							<xs:element name="FCreditTypeName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetTodayFutureGroupPermission">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" nillable="true" />
+							<xs:element name="PersonelName" type="xs:string" nillable="true" />
+							<xs:element name="Date" type="xs:string" nillable="true" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditType" type="xs:int" nillable="true" />
+							<xs:element name="Type" type="xs:int" nillable="true" />
+							<xs:element name="TypeName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Selected" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="InOut" type="xs:string" minOccurs="0" />
+							<xs:element name="Exists" type="xs:int" minOccurs="0" />
+							<xs:element name="fPersonelName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetPersonAccess">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PersonName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentID" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetDepartmentAccess">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DepartmentID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ParentID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetPersonelPermissionAfter">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" nillable="true" />
+							<xs:element name="Date" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="StartTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="EndTime" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Daily" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RealDate" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="IntVal" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="NobatKari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="SNobatKari" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="PersonName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Selected" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="IsCover" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="MainType" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="CreditType" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Des" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="MaxNumber" type="xs:int" minOccurs="0" />
+							<xs:element name="Find" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="PageNumber" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PermisionCode">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" type="xs:string" minOccurs="0" />
+							<xs:element name="title" type="xs:string" minOccurs="0" />
+							<xs:element name="CodeGroupID" type="xs:string" minOccurs="0" />
+							<xs:element name="Caption" type="xs:string" minOccurs="0" />
+							<xs:element name="Daily" type="xs:string" minOccurs="0" />
+							<xs:element name="Timely" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

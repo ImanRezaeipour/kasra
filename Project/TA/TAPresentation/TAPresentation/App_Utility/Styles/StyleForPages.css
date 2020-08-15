@@ -1,0 +1,186 @@
+﻿.headerCss
+{
+	cursor:hand;
+	cursor:pointer;
+}
+.CssHeaderPageMain 
+{
+   filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#7ea7e0, EndColorStr=#D5E2F4);
+    font-family: Tahoma;
+    font-size: 12px;    
+    font-weight: normal;    
+}
+.CssHR
+{            
+    BORDER-RIGHT: lightsteelblue thin groove;
+    BORDER-TOP: lightsteelblue thin groove;
+    BORDER-LEFT: lightsteelblue thin groove;
+    WIDTH: 317px; 
+    BORDER-BOTTOM: lightsteelblue thin groove;
+    HEIGHT: 2px
+}
+.CssHolidayStyle
+{
+	background-color: #ffdfe7;
+}
+.HeaderStyle
+{
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	font-weight: normal;
+	font-size: 12px;
+	border-left: lightsteelblue 2px solid;
+	direction: rtl;
+	border-bottom: #346fa4 2px solid;
+	font-family: Tahoma,Tahoma; 
+	background-color: #83afe5;
+}
+.CssAlternatingItemStyle
+{
+    direction: rtl;
+    background-color: #FEF8ED;
+}
+.CssEditItemStyle 
+{
+	 direction:rtl;
+	 background-color :White
+}
+.CssFooterStyle
+{
+	direction:rtl;
+	background-color:#CCCCCC
+}
+.CssHeaderStyle
+{
+    direction: rtl;
+    font: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    background-color: #83AFE5;
+}  
+.CssItemStyle
+{
+    direction: rtl;
+    background-color: #E7EEFE;
+} 
+/*.CssItemStyle
+{
+	font-size:12px;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #d5e1fd;
+	border-bottom-style: groove;
+}*/
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599
+}
+IMG{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.button {
+   font-family: Tahoma; 
+   font-size: 12px;
+ }
+ .ScrollBar
+{
+	scrollbar-3dlight-color:blue;
+	scrollbar-arrow-color:aqua;
+	scrollbar-base-color:teal;
+	scrollbar-face-color:blue;
+}
+.label, p, td
+{
+    font-family: Tahoma,Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    color: "#000066";
+    cursor: default;
+}
+.CheckBox
+{
+	BORDER-RIGHT: 0px; 
+	BORDER-TOP: 0px; 
+	BORDER-LEFT: 0px; 
+	BORDER-BOTTOM: 0px; 
+}
+.TxtControls
+{
+	font-weight:normal;
+	font-size: 12px;
+	font-family: Tahoma;
+	background-color: white;
+	border-color: lightsteelblue;
+	height :20px ;
+}
+.btnSelectPerson 
+{
+	BACKGROUND-IMAGE: url(/TA/Includes/Images/Buttons/SelectPerson.gif); 
+	WIDTH: 125px; 
+	HEIGHT: 32px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	CURSOR: hand;
+	FONT-FAMILY: Tahoma;
+}
+.CssSumItemStyle
+{
+	direction: rtl;
+	color: #FFFF00;
+	background-color: #006699;
+	cursor: default;
+	text-decoration: none;
+}
+.CssShowItems
+{
+    color:Red;
+    margin-left:1px;
+}
+.YellowTR
+{
+    background-color:#E3E7D8;
+}
+.BlackBorder
+{
+   border:solid 2px black;
+}
+.BlueScroll
+{
+    scrollbar-hightlight-color: white; 
+    overflow: auto;
+    scrollbar-arrow-color: black;
+     scrollbar-base-color: #B1D3FF;
+}
+.BackGround
+{
+    background-color: #d5e1fd;
+}
+.RedBackGround
+{
+    background-color: #E6CCCC;
+}     
+.fieldsetStyle 
+{
+    border-right: lightblue thin inset;
+    border-top: #78BED6 thin solid; 
+    border-left: #78BED6 thin outset; 
+    border-bottom: #78BED6 thin solid;
+}
+.legendStyle
+{
+    color: #78BED6
+}
+ .DivStyle
+{
+   border: medium groove #C0C0C0;
+   background-color: #DBE3F0;
+}

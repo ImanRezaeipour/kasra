@@ -1,0 +1,50 @@
+.BackTD
+{
+	BACKGROUND-IMAGE: url(../Images/BackTab/BackTD.gif);
+	BACKGROUND-REPEAT: repeat-x;
+	HEIGHT: 16px
+}
+
+.BackTDUp
+{		
+	BORDER-RIGHT: 0px outset;
+	BORDER-TOP: 0px outset;
+	BORDER-LEFT: 0px outset;
+	BORDER-BOTTOM: 0px outset
+	
+}
+
+.BackTDDown
+{
+	BORDER-RIGHT: 2px outset;
+	BORDER-TOP: 2px outset;
+	BORDER-LEFT: 2px outset;
+	BORDER-BOTTOM: 2px outset;
+	BACKGROUND-COLOR: #336699	
+	
+}
+
+.BackTDUp1
+{		
+	BACKGROUND-IMAGE: url(../Images/BackTab/BackTD.gif);
+	BACKGROUND-REPEAT: repeat-x;
+	HEIGHT: 16px;
+	BORDER-RIGHT: 0px outset;
+	BORDER-TOP: 0px outset;
+	BORDER-LEFT: 0px outset;
+	BORDER-BOTTOM: 0px outset
+	
+}
+
+.BackTDDown1
+{
+	BORDER-RIGHT: 1px outset;
+	BORDER-TOP: 1px outset;
+	BORDER-LEFT: 1px outset;
+	BORDER-BOTTOM: 0px outset;
+	BACKGROUND-COLOR: #336699	
+	
+}
+
+
+

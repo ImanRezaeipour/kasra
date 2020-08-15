@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="BaseInfoEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="BaseInfoEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="BaseInfo">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GrpID" type="xs:int" />
+							<xs:element name="MainGroup" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GrpName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="IntVal" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="IDD" type="xs:int" />
+							<xs:element name="RelId" type="xs:int" minOccurs="0" />
+							<xs:element name="Private" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFAction">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ActionId" type="xs:int" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="Private" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" />
+							<xs:element name="IconUrl" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CssClass" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="WFDocId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Condition" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFDoc">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="WFDocId" type="xs:int" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="SubSysId" type="xs:int" minOccurs="0" />
+							<xs:element name="ViewName" type="xs:string" minOccurs="0" />
+							<xs:element name="Descr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Condition" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFStatus">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="StatusId" type="xs:int" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" />
+							<xs:element name="IconUrl" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="WFDocId" type="xs:int" minOccurs="0" />
+							<xs:element name="ActionType" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Department">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DepartmentID" type="xs:int" />
+							<xs:element name="RoleID" type="xs:int" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleType" type="xs:int" />
+							<xs:element name="RoleTypeTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" />
+							<xs:element name="FullName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Selected" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Person">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonId" type="xs:int" />
+							<xs:element name="Family" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="uspWFGetWFStatus">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="StatusId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="IconUrl" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DocId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="IntVal" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="ActionType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="DocName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="NameAction" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFDocComplet">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="WFDocId" type="xs:int" />
+							<xs:element name="SubSysId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="GroupDocId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Descr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Condition" type="xs:string" minOccurs="0" />
+							<xs:element name="ViewName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="GroupName" type="xs:string" minOccurs="0" />
+							<xs:element name="SystemName" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFActionWithState">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ActionId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Private" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" />
+							<xs:element name="IconUrl" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="CssClass" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DocId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Condition" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DocName" type="xs:string" minOccurs="0" />
+							<xs:element name="State" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="WFGroupDoc">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GroupDocId" type="xs:int" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="Descr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetRolePersonel">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" nillable="true" />
+							<xs:element name="WFDocId" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="DepartmentID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RoleID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RoleType" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RoleTypeTitle" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="FullName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="Selected" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="IntVal" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="TblID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="LTitle" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="LName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetTree">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DepartmentID" type="xs:int" nillable="true" />
+							<xs:element name="ParentID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Name" type="xs:string" nillable="true" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="ret" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="OrganizationEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+	<xs:element name="OrganizationEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="DepartmentPersonel" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RoleID" type="xs:int" minOccurs="0" />
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" />
+							<xs:element name="PersonName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DepartmentPosition" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RoleID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" minOccurs="0" />
+							<xs:element name="DepartmentID" type="xs:int" minOccurs="0" />
+							<xs:element name="RoleType" type="xs:int" minOccurs="0" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleTypeTitle" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Department">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DepartmentID" type="xs:int" />
+							<xs:element name="ParentID" type="xs:int" />
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="Type" type="xs:int" minOccurs="0" />
+							<xs:element name="DepartmentCode" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AllPerson" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonId" type="xs:int" minOccurs="0" />
+							<xs:element name="DepartmentId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="RoleId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Family" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetPersonNameOrgChart">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="title" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetAllPersonelDepartmentId">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" nillable="true" />
+							<xs:element name="DepartmentID" type="xs:int" nillable="true" />
+							<xs:element name="PName" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetRoleId">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" type="xs:int" nillable="true" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetPersonelDepartment" msprop:Generator_UserTableName="GetPersonelDepartment"
+					msprop:Generator_RowDeletedName="GetPersonelDepartmentRowDeleted" msprop:Generator_TableClassName="GetPersonelDepartmentDataTable"
+					msprop:Generator_RowChangedName="GetPersonelDepartmentRowChanged" msprop:Generator_RowClassName="GetPersonelDepartmentRow"
+					msprop:Generator_RowChangingName="GetPersonelDepartmentRowChanging" msprop:Generator_RowEvArgName="GetPersonelDepartmentRowChangeEvent"
+					msprop:Generator_RowEvHandlerName="GetPersonelDepartmentRowChangeEventHandler" msprop:Generator_TablePropName="GetPersonelDepartment"
+					msprop:Generator_TableVarName="tableGetPersonelDepartment" msprop:Generator_RowDeletingName="GetPersonelDepartmentRowDeleting">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" msprop:Generator_UserColumnName="PersonID" msprop:Generator_ColumnPropNameInRow="PersonID"
+								msprop:Generator_ColumnVarNameInTable="columnPersonID" msprop:Generator_ColumnPropNameInTable="PersonIDColumn"
+								type="xs:int" minOccurs="0" />
+							<xs:element name="PersonelNo" msprop:Generator_UserColumnName="PersonelNo" msprop:Generator_ColumnPropNameInRow="PersonelNo"
+								msprop:Generator_ColumnVarNameInTable="columnPersonelNo" msprop:Generator_ColumnPropNameInTable="PersonelNoColumn"
+								type="xs:string" minOccurs="0" />
+							<xs:element name="PersonelName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PersonelName"
+								msprop:Generator_ColumnPropNameInRow="PersonelName" msprop:Generator_ColumnVarNameInTable="columnPersonelName"
+								msprop:Generator_ColumnPropNameInTable="PersonelNameColumn" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentID" msprop:Generator_UserColumnName="DepartmentID" msprop:Generator_ColumnPropNameInRow="DepartmentID"
+								msprop:Generator_ColumnVarNameInTable="columnDepartmentID" msprop:Generator_ColumnPropNameInTable="DepartmentIDColumn"
+								type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AllDepartmentName" nillable="true">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Val" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

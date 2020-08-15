@@ -1,0 +1,14 @@
+<UserEntity>
+	<GroupTitle>
+		<GroupId>0</GroupId>
+		<GroupName>test200</GroupName>
+		<Descr></Descr>
+		<Type>U</Type>
+	</GroupTitle>
+	<GroupMember>
+		<MemberId>1144</MemberId>
+	</GroupMember>
+	<GroupMember>
+		<MemberId>1181</MemberId>
+	</GroupMember>
+</UserEntity>

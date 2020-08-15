@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PersonEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="PersonEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Role">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="sDepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fDepartmentTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="DepartmentType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="DepartmentTypeDscr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="sRoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="fRoleTitle" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleType" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="RoleTypeDscr" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="Selected" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OuterPerson">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Title" type="xs:string" minOccurs="0" />
+							<xs:element name="IssuePlaceCode" type="xs:string" minOccurs="0" />
+							<xs:element name="FirstName" type="xs:string" minOccurs="0" />
+							<xs:element name="LastName" type="xs:string" minOccurs="0" />
+							<xs:element name="RoleTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="Type" type="xs:string" minOccurs="0" />
+							<xs:element name="IssueDate" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PersonInfo" nillable="true">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonId" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="LastName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FirstName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="FatherName" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Sex" msdata:ReadOnly="true" type="xs:unsignedByte" minOccurs="0" />
+							<xs:element name="Marriage" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="BirthDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="OccupationStartDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="EmployeeDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Deactive" msdata:ReadOnly="true" type="xs:int" minOccurs="0" />
+							<xs:element name="PersonelCardID" msdata:ReadOnly="true" type="xs:long" minOccurs="0" />
+							<xs:element name="Address" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="Phone" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+							<xs:element name="ExitDate" msdata:ReadOnly="true" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

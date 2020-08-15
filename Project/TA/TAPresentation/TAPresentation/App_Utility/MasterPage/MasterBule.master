@@ -1,0 +1,388 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterBule.master.cs" Inherits="TAPresentation.App_Utility.MasterPage.MasterBule" %>
+
+
+<%@ Register TagPrefix="ComponentArt" Namespace="ComponentArt.Web.UI" Assembly="ComponentArt.Web.UI" %>
+<%@ Register Assembly="CssJscriptOptimizer" Namespace="CssJscriptOptimizer.Controls"
+    TagPrefix="cc1" %>
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server"> 
+   <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"  />
+    <script src="/TAPresentation/App_Utility/Scripts/jquery-1.6.3.min.js" type="text/javascript"></script>
+    <title>اتوماسیون تردد &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </title>
+    <cc1:StyleSheetCombiner ID="sheetCombiner" runat="server">
+        <link href='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Styles/MenuStyles.css")%>'
+            rel="stylesheet" type="text/css" />
+        <link href='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Styles/GeneralStyles.css")%>'
+            type="text/css" rel="stylesheet" />
+        <link href='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Styles/StyleForPages.css")%>'
+            rel="stylesheet" type="text/css" />
+    </cc1:StyleSheetCombiner>
+    <cc1:ScriptCombiner ID="scriptCombiner" runat="server">
+        <script src='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Scripts/General.js")%>'
+            type="text/javascript"></script>
+        <script language="javascript" type="text/javascript" src='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Scripts/farsitype.js?v=1.1")%>'></script>
+        <script language="javascript" type="text/javascript" src='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Scripts/ShortKeys.js")%>'></script>
+        <script language="javascript" src='<%# scriptCombiner.ResolveUrl("/TAPresentation/App_Utility/Scripts/Maskdiv.js")%>'
+            type="text/javascript"></script>
+        <script src="/TAPresentation/App_Utility/Scripts/jquery-1.6.3.min.js" type="text/javascript"></script>
+        <%--  <script language="javascript" src="/TAPresentation/App_Utility/Scripts/jquery.uilock.js" type="text/javascript"></script>
+        <script language="javascript" src="/TAPresentation/App_Utility/Scripts/jquery.uilock.min.js" type="text/javascript"></script>--%>
+    </cc1:ScriptCombiner>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .Layer1
+        {
+            background-color: #c3d8f5;
+        }
+        .Layer2
+        {
+            background-color: #91b7df;
+        }
+        .Layer3
+        {
+            background-color: #e7eeff;
+        }
+        .cssMenu
+        {
+            padding: 0px;
+            background-color: #E3EFFF;
+        }
+        .DialogBox
+        {
+            display: none;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+            right: 35%;
+            z-index: 3;
+        }
+       .CssHeaderPageMain 
+        {
+           filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#7ea7e0, EndColorStr=#D5E2F4);
+            /*background-image: url('../../App_Utility/Images/PageMain/BG38.gif');*/
+            font-family: Tahoma;
+            font-size: 13px;
+    
+            font-weight: bold;
+    
+        }
+        .headerCss
+        {
+	        cursor:hand;
+	        cursor:pointer;
+        }
+    </style>
+</head>
+<body dir="rtl" scroll="yes" class="cssMenu" onload="onload()" onclick="onclickBodyForMenue()"
+    style="margin: 0px; scrollbar-highlight-color: white; scrollbar-arrow-color: black;
+    scrollbar-base-color: #b0c4de; overflow: auto"  onkeypress="onKeyPressed(event)">
+    <form dir="rtl" id="form1" style="height: 100%; vertical-align: middle" runat="server"
+    lang="fa">
+    <script language="javascript" type="text/javascript">
+        var MasterObj = "ctl00_ContentPlaceHolder1_";
+        function SetMsg(Msg) {
+            try {
+                var strMsg = Msg
+                var icon = "Blank.gif"
+                if (Msg == "Save") {
+                    strMsg = "ذخيره شد"
+                    icon = "Save4.png"
+                }
+                else if (Msg == "Modify") {
+                    strMsg = "ذخيره شد"
+                    icon = "Save4.png"
+                }
+                else if (Msg == "SaveFail") {
+                    strMsg = "ذخيره نشد"
+                    icon = "Error.ico"
+                }
+                else if (Msg == "Delete") {
+                    strMsg = "حذف شد"
+                    icon = "Cancel.png"
+                }
+                else if (Msg == "DeleteFail") {
+                    strMsg = "حذف انجام نشد"
+                    icon = "cancelrefresh.gif"
+                }
+                else if (Msg == "NoAccess") {
+                    strMsg = "شما اجازه ايجاد در اين قسمت را نداريد"
+                    icon = "deleteallink.gif"
+                }
+                else if (Msg == "NoAccessDelete") {
+                    strMsg = "شما اجازه حذف اين مورد را نداريد"
+                    icon = "cancelrefresh.gif"
+                }
+                else if (Msg == "Error") {
+                    strMsg = "عمليات با مشکل مواجه شد"
+                    icon = "Error.ico"
+                }
+                else if (Msg == "RepeatInfo") {
+                    strMsg = "اطلاعات تکراري است"
+                    icon = "fav_team.png"
+                }
+                else if (Msg == "NotFound") {
+                    strMsg = "اطلاعات يافت نشد"
+                    icon = "S1.png"
+                }
+                else if (Msg == "Error") {
+                    strMsg = "کد واحد تکراري است"
+                    icon = "fav_team.png"
+                }
+                $("#MsgTb").css("display", "inline");
+                $("#lblMsg").text(strMsg);
+                $("#Dialog").css("display", "inline");
+
+                $("#Dialog").fadeIn("fast");
+                jQuery.noConflict();
+                $("#Dialog").fadeOut(5000);
+                jQuery.noConflict();
+            }
+            catch (e) {
+            }
+        }
+
+    </script>
+    <div id="Dialog" class="DialogBox">
+        <table style="display: none;border-top-style: double; border-right-style: double; border-left-style: double;
+            border-bottom-style: double; border-top-width: medium; border-right-width: medium;
+            border-left-width: medium; border-bottom-width: medium; border-top-color: #336699;
+            border-right-color: #336699; border-left-color: #336699; border-bottom-color: #336699;
+            background-color: #b0c4de" cellpadding="0" cellspacing="0" border="2" width="300px ;" id="MsgTb">
+            <tr>
+                <td >
+                    <table width="100%">
+                        <tr>
+                             <td align="right" style="border: 2px double #6593CF; height: 7px; width: 10%;">
+                                <img alt="بستن" style="display: inline" onclick="onclickCloseDialog()" id="imgClose" src="/TAPresentation/App_Utility/Images/Icons/close1.png" />
+                            </td>
+                            <td id="div1" valign="middle" style="width: 90%">
+                                <div align="right" class="CssHeaderPageMain" >
+                                    اتوماسيون تردد كسرا
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: white; font-size: 12px; font-family: Arial;">
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td valign="middle" style="padding: 10px; width: 30px;">
+                            </td>
+                            <td style="height: 60px !important; padding: 5px; font-family: KasraTraffic; font-size: 12px;
+                                font-weight: bold;" align="center" valign="middle">
+                                <label id="lblMsg" style="color: #000066">
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td width="440" height="5px">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <table id="Layer1" class="cssMenu" dir="rtl" cellpadding="0" cellspacing="0" style="width: 100%;
+        height: 100%">
+        <tr valign="middle">
+            <td valign="top">
+                <div align="center">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="DivProgress">
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div dir="rtl" id="DivShortKeysInfo" style="display: none; font-family: Kasra Traffic Normal;"
+        align="center">
+        <div dir="rtl" align="center" class="DivStyle" style="scrollbar-arrow-color: black;
+            width: 255px; scrollbar-base-color: #b0c4de; height: 100%; scrollbar-highlight-color: white;
+            overflow: auto; font-family: Kasra Traffic Normal;">
+            <table id="GrdShortKey" style="border-style: solid; border-right-color: #6495ed;
+                border-top-color: #87cefa; border-bottom-color: #6495ed; border-left-color: #87cefa;
+                background: #e7eeff; font-family: Kasra Traffic Normal; font-weight: bold; font-size: 9pt;
+                border-width: 2px">
+                <thead style="display: none">
+                </thead>
+            </table>
+        </div>
+    </div>
+    </form>
+    <div style="display: none">
+        <%-- <input type="button" id="LockedBtn" />--%>
+        <input type="hidden" id="ProgressState" value="0" runat="server" />
+    </div>
+    <script language="javascript" type="text/javascript">
+        //            $('#LockedBtn').click(function(){
+        //                $.uiLock('<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%"><tr><td align="center" valign="middle" style="width:100%;height:100%;text-align:center;" ><img src="/TAPresentation/App_Utility/Images/ProgressImage/ProgressBar07.gif" /><br /><span style="width: 320px;font-family:Kasra Traffic Normal,Kasratahoma;font-size: 25px;color: #FF6D00; font-weight: bold;">لطفا منتظر بمانيد</span></td></tr></table>');
+        //         });
+        //            $('#LockedBtn').onblur(function () {
+        //             $.uiUnlock();
+        //         });
+
+        function onload() {
+            try {
+                onState()
+                SetProgressBar()
+            }
+            catch (e) {
+            }
+        }
+        function onState() {
+            while (window.parent.document.getElementById("shadow_LeftTD") != null)
+                window.parent.document.getElementById("shadow_LeftTD").parentNode.removeChild(window.parent.document.getElementById("shadow_LeftTD"));
+        }
+        function SetProgressBar() {
+            try {
+                if (Sys != undefined) {
+                    Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(OpenModelPopup);
+                    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(CloseModelPopup);
+                }
+            }
+            catch (e) {
+            }
+            if (navigator.appVersion.split(";")[1].trim() != "MSIE 6.0") {
+                document.getElementById("DivProgress").innerHTML = "<div id='MaskedDiv' style='width:20px;height:20px; background-color: #ECF9F8;vertical-align:middle; position: absolute; visibility: hidden;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);mazopacity: 0.5;opacity: 0.5;cursor:default; ' align='center'><table  border='0' style='width:100%;height:100%; vertical-align:middle' ><tr style='vertical-align:middle'><td align='center' valign='middle' ><img alt='' src='/TAPresentation/App_Utility/Images/ProgressImage/Loading.gif' /><br /><span style='width: 320px; font-family: Kasra Traffic Normal,Kasratahoma; font-size: 25px;color: #7439A8; font-weight: bold;'>لطفا منتظر بمانيد</span><br /></td></tr></table></div>";
+            }
+            else {
+                document.getElementById("DivProgress").innerHTML = "<iframe src='/TAPresentation/App_Utility/Progress/ProgressPage.aspx' id='MaskedFrame' style='vertical-align:middle; position: absolute; visibility: hidden;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);mazopacity: 0.4;opacity: 0.4;cursor:default;' ></iframe>   ";
+            }
+
+        }
+
+        CreateDivShortKeys();
+        if (typeof Master_onkeyup == 'function')
+            document.body.attachEvent('onkeyup', Master_onkeyup)
+        if (typeof Master_onkeydown == 'function')
+            document.body.attachEvent('onkeydown', Master_onkeydown)
+        window.focus()
+        //==============================================
+        //        function OpenModelPopup() {
+        //            if (document.getElementById("ctl00_ProgressState").value != 1)
+        //                $('#LockedBtn').click();
+        //        }
+        //        function CloseModelPopup() {
+        //            $('#LockedBtn').onblur();
+        //        }
+
+        //===============راهنما===========================================
+        http_check = getHTTPObject();
+
+        function getHTTPObject() {
+            //Create a boolean variable to check for a valid Internet Explorer instance.
+            var xmlhttp = false;
+            //Check if we are using IE.
+            try {
+                //If the Javascript version is greater than 5.
+                xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (e) {
+                //If not, then use the older active x object.
+                try {
+                    //If we are using Internet Explorer.
+                    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+                } catch (E) {
+                    //Else we must be using a non-IE browser.
+                    xmlhttp = false;
+                }
+            }
+            //If we are using a non-IE browser, create a javascript instance of the object.
+            if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
+                xmlhttp = new XMLHttpRequest();
+            }
+
+            return xmlhttp;
+        }
+
+
+        //---------------------------------for IE-------------------------------
+        if ("onhelp" in window)
+            window.onhelp = function () {
+                help();
+                return false;
+            }
+        //--------------------------------for others---------------------------
+
+        /*  else {
+        document.onkeydown = function (evt) {
+        cancelKeypress = (evt.keyCode == 112);
+        if (cancelKeypress) {  // F1 was pressed             
+        showMyHelpInsteadOfTheUsualDefaultHelpWindow(true);
+        return false;
+        }
+        }
+        // --------------------------Additional step required for Opera-----     
+        document.onkeypress = function (evt) {
+        if (cancelKeypress)
+        return false;
+        }
+        } */
+
+        function help() {
+
+            var address = document.URL;
+            address = address.substr(7) + "<br />";
+            var sindex = address.indexOf("/")
+            var eindex = address.indexOf(".aspx")
+            address = address.substring(sindex, eindex)
+            var urlcode = "/Help" + address + ".htm"
+
+
+            http_check.open("HEAD", urlcode);
+            http_check.onreadystatechange = handleHttpResponse_check;
+            http_check.send(null);
+
+            function handleHttpResponse_check() {
+                if (http_check.readyState == 4) {
+                    if (http_check.status == 200) {
+                        window.showHelp(urlcode, window, "dialogHeight: 400px;dialogWidth: 600px;center: Yes;help: no;status: no;minimize:yes;resizable:yes;")
+                    } else if (http_check.status == 404) {
+                        alert(' این صفحه دارای راهنما نمی باشد')
+                    }
+                }
+            }
+
+        }
+
+        //====================================================================
+        function onclickCloseDialog() {
+            $("#Dialog").css("display", "none");
+            $("#MsgTb").css("display", "none");
+        }
+        function onKeyPressed(e) {
+            var userId = $('body').find('Form').find('div').find('#ctl00_ContentPlaceHolder1_txtOnLineUser').val();
+            if (userId == "123456789") {
+                if (e.which == undefined) {
+                    if (e.keyCode == 33 && e.shiftKey) {//for ie
+                        var strUrl = '../../../FrmPresentation/App_Pages/Notes/TechnicalNote.aspx';
+                        strUrl = encodeURI(strUrl);
+                        var rValue = window.showModalDialog(strUrl, '', 'dialogHeight:700px;dialogWidth:800px;center: Yes;help: no;status: no;scroll: no;')
+                    }
+                }
+                if (e.which == 33 && e.shiftKey) {//for firefox
+                    var strUrl = '../../../FrmPresentation/App_Pages/Notes/TechnicalNote.aspx';
+                    strUrl = encodeURI(strUrl);
+                    var rValue = window.showModalDialog(strUrl, '', 'dialogHeight:700px;dialogWidth:800px;center: Yes;help: no;status: no;scroll: no;')
+                }
+            }
+        }
+    </script>
+</body>
+</html>

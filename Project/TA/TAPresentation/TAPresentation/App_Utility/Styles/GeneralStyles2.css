@@ -1,0 +1,387 @@
+﻿.CssScheduleChange
+{
+	direction: rtl;
+	background-color:#FFFF99;
+}
+.CssDayContinuation
+{
+	direction: rtl;
+	background-color: #FFFF99;
+}
+.CssOKDayContinuation
+{
+	direction: rtl;
+	background-color: #009900;
+}
+.AllCredit
+{
+	color: #FF0000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.SomeCredit
+{
+	color: #CC0000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.NoCredit
+{
+	color: #FF3399;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.KasreHozorHeader
+{
+	background-color: #530029;
+}
+
+/*-------------------------verdana--------------------------MaskedDiv----------------------------------------------------*/
+div.MaskedDiv
+{
+    visibility: hidden;
+    display: list-item;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: Kasra Traffic Normal,Kasratahoma;
+    font-weight: bold;
+    padding: 40px;
+    z-index: 1;
+    background-color: #ECF9F8; /*#EBEEF1; /*#e7eeff;*/
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    mazopacity: 0.6;
+    opacity: 0.6;
+}
+
+.CssHolidayStyle
+{
+	background-color: #ffdfe7;
+}
+div.ModalPopup
+{
+	font-family: Kasra Traffic Normal,Kasratahoma;/*Verdana, Arial, Helvetica, sans-serif;*/
+	font-size: 11px;
+	font-style: normal;
+	position: absolute; /* set z-index higher than possible */
+	z-index: 10000;
+	visibility: hidden;
+	color: Black;
+	width: 200px;
+	height: 50px;
+}
+
+TD
+{
+	font-family:Kasra Traffic Normal,Kasratahoma; 
+	/*font-size: 10pt;
+	font-weight: 600;*/
+	font-size :9pt;
+    font-weight: bold;
+	color: #003399;
+	/*text-align:center;*/
+	
+}
+/*------------------------------------------------Geradiant----------------------------------------------------*/
+.VertGradientBlue1
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#e7eeff, EndColorStr=#91b7df)
+}
+.VertGradientBlue2
+{
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#91b7df, EndColorStr= #e7eeff);
+	/*FILTER:progid:DXImageTransform.Microsoft.Alpha(opacity=100);*/
+}
+.VertGradientBlue3
+{
+	border-right: #6699ff 2px solid;
+	border-top: #6699ff 2px solid;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#e7eeff, EndColorStr=#91b7df);
+	border-left: #6699ff 2px solid;
+	border-bottom: #6699ff 2px solid;
+}
+
+/*-------------------------------------GridStyle--------------------------------------*/
+/*.DataGridFixedHeader {font-size: 15px; background-image: url('/TAPresentation/App_Utility/Images/fhbg.gif'); background-repeat: repeat-x; border-top-style:solid; border-top-width:thick; height:25px; position:relative;right:-1px; top:expression(this.offsetParent.scrollTop);}*/
+						
+
+/*-------------------------------------EndGridStyle------------------------------------*/
+
+.cssShadow
+{
+	FILTER: progid:DXImageTransform.Microsoft.Shadow(direction=225,color=#ff8c00,strength=12)
+}
+
+.cssLogin
+{
+	margin: 0px;
+	padding: 0px; 
+	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#4B9B74,endColorStr=#226290); 
+	color: #FFFFFF; 
+	font-weight: bold; 
+	font-family: 'Kasra IPT Traffic';
+}
+
+.cssbtnUpload
+{
+	background-image: url(  '../Images/GreenSave.png' );
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+}
+
+.cssbtnReturn
+{
+	background-image: url( '../Images/Return.png' );
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+}
+
+/*new-------------*/
+.CssItemHeader
+{
+	font-size: 8pt;
+	direction: rtl;
+	/*border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;	
+	border-bottom-style: groove;*/
+	background-color: #ffdbeb;
+}
+.CssItemHeader2
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: whitesmoke;
+	border-bottom-style: groove;
+}
+.CssItemHeader3
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #dffff1;
+	border-bottom-style: groove;
+}
+.CssItemHeader4
+{
+	direction:rtl;
+	background-color :#c3d8f5;
+}
+/*------------------*/
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599
+}
+
+/********************For Paging********************/
+.CssFirstPage
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/active_first.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssPrevPage
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/active_back.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssNextPage
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/active_forward.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+
+.CssLastPage
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/active_last.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+
+.CssbtnDown
+{
+	background-position: center center;
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/Down.gif);
+	width: 11px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	border-left: lightsteelblue 2px solid;
+	border-bottom: #346fa4 2px solid;
+	cursor: hand;
+}
+.CssbtnUP
+{
+	background-position: center center;
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/Up.gif);
+	width: 11px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-right: #346fa4 2px solid;
+	border-top: lightsteelblue 2px solid;
+	border-left: lightsteelblue 2px solid;
+	border-bottom: #346fa4 2px solid;
+	cursor: hand;
+}
+
+.Cssinfo
+{
+	background-image: url(/TAPresentation/App_Utility/Images/Icons/info.gif);
+	width: 12px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 12px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+
+.CssBtnbtnAddNode
+{
+	BACKGROUND-Image:url(/TAPresentation/App_Utility/Images/Icons/u20.gif);
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	WIDTH: 40px;
+	HEIGHT: 30px;
+	cursor : hand;	
+	
+}
+
+.CssOffDay
+{
+	
+	color:#999999;
+	font-family:Kasra Traffic Normal;
+	/*font-weight:bold;*/
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+		
+}
+.CssHoliday
+{
+	color:red;
+	font-family:Kasra Traffic Normal;
+	/*font-weight:bold;*/
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+}
+.CssDay
+{
+	font-family:Kasra Traffic Normal;
+	/*font-weight:bold;*/
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+}
+.CssDaySelected
+{
+	background-color:#ffda8b;
+	
+	font-family:Kasra Traffic Normal;
+	/*font-weight:bold;*/
+	font-size:12px;
+	cursor:hand;
+	text-align:center;
+}
+.CssHeader
+{
+	background-color:#ffccff;
+	font-weight:bold;
+	font-family:Kasra Traffic Normal,Kasratahoma;
+	font-size:12px;
+}
+.CssbtnDownForCalendar
+{
+	BACKGROUND-IMAGE: url(/framework/Images/button/Down.gif); 
+	WIDTH: 25px; 
+	HEIGHT: 25px; 
+	BACKGROUND-REPEAT: no-repeat; 
+	BACKGROUND-COLOR: transparent;
+	BORDER-RIGHT: #346fa4 2px solid; 
+	BORDER-TOP: lightsteelblue 2px solid; 
+	BORDER-LEFT: lightsteelblue 2px solid; 
+	BORDER-BOTTOM: #346fa4 2px solid;
+	cursor : hand;
+}
+
+.TxtControlsReadOnly
+{
+	font-weight: normal;
+	font-size: 9pt;
+	font-family: Kasratahoma;
+	background-color: lightgrey;
+	border-right-color: lightsteelblue;
+}
+.CssDivSelected
+{
+    background-position: #FFF0F0;
+    vertical-align: middle;
+    background: #F9EEF3;
+    cursor: pointer;
+}
+.CssPage
+{
+     
+    border-style:solid;           
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    background :#e7eeff;   
+    border-width :2px
+}
+.CssForGoing
+{
+     
+              
+    border-right-color :#6495ed;        
+    border-top-color  :#87cefa;        
+    border-bottom-color :#6495ed;   
+    border-left-color :#87cefa;          
+    
+}

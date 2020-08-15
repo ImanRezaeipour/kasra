@@ -1,0 +1,91 @@
+.XTabTable_Header
+{
+	font-family :'tahoma',tahoma ;	
+	font-size:12px ;
+	font-weight:bold;
+	background-color:#83AFE5;
+	behavior: url(/Automation/Scripts/behaviors/kasragridsort.htc);
+}
+.XTabTable 
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:bold;
+}
+.XItemStyle
+{
+	background-color :#D5E1FD;
+	font-family :'tahoma',tahoma ;	
+	font-size:13px ;
+	font-weight:bold;
+}
+.Body
+{
+	margin-bottom :0;
+	margin-left :0;
+	margin-right :0;
+	margin-top :0;	
+	background-color :#c3d8f5	 	
+}
+.label,p,td 
+{
+   font-family: tahoma,tahoma; 
+   font-size: 9pt;
+   font-weight: bold;
+   color:"#000066";
+   cursor:default;
+ }
+.CssFirstPage
+{
+	background-image: url(../../Images/button/active_first.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssPrevPage
+{
+	background-image: url(../../Images/button/active_back.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+.CssNextPage
+{
+	background-image: url(../../Images/button/active_forward.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}
+
+.CssLastPage
+{
+	background-image: url(../../Images/button/active_last.gif);
+	width: 35px;
+	cursor: hand;
+	border-top-style: none;
+	background-repeat: no-repeat;
+	border-right-style: none;
+	border-left-style: none;
+	height: 30px;
+	background-color: transparent;
+	border-bottom-style: none;
+}

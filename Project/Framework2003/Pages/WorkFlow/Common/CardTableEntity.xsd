@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="CardTableEntity" targetNamespace="http://tempuri.org/CardTableEntity.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/CardTableEntity.xsd" xmlns:mstns="http://tempuri.org/CardTableEntity.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="CardTableEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="LogDoc">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonId" type="xs:int" />
+							<xs:element name="PersonelName" type="xs:string" minOccurs="0" />							
+							<xs:element name="RoleName" type="xs:string" />
+							<xs:element name="ToPersonId" type="xs:string" />
+							<xs:element name="ToPersonelName" type="xs:string" minOccurs="0" />
+							<xs:element name="ActionDate" type="xs:string" minOccurs="0" />
+							<xs:element name="ActionTime" type="xs:string" minOccurs="0" />
+							<xs:element name="ActionId" type="xs:int" minOccurs="0" />
+							<xs:element name="StatusTitle" type="xs:string" minOccurs="0" />
+							<xs:element name="DescrSummery" type="xs:string" minOccurs="0" />
+							<xs:element name="Descr" type="xs:string" minOccurs="0" />
+							<xs:element name="StatusID" type="xs:int" minOccurs="0" />
+							<xs:element name="StatusType" type="xs:int" minOccurs="0" />
+							<xs:element name="ActionType" type="xs:int" />
+							<xs:element name="IconUrl" type="xs:string" />
+							<xs:element name="ActionTitle" type="xs:string" />
+							<xs:element name="Do" type="xs:int" />
+							<xs:element name="LastVersion" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="IntVal" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

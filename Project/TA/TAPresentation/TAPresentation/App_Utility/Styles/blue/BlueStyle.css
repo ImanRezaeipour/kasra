@@ -1,0 +1,92 @@
+﻿.tablemaster
+{
+	width: 100%;
+	border-width: thin;
+	border-color: #21578C;
+	border-right-style: solid;
+	border-left-style: solid;
+} 
+.HeaderMaster  
+{
+	background-image: url('Images/MediaBlue.jpg'); 
+	width:520px;
+	height:42px;
+	background-repeat:no-repeat;
+} 
+
+.HeaderRepeat  
+{
+	background-image: url('Images/MediaHeaderRepeat.gif'); 
+	height: 42px; 
+	background-repeat:repeat-x; 
+} 
+
+.FooterMaster  
+{
+	background-image: url('Images/FooterBlueFixed.gif'); 
+	height: 45px; 
+	width:410px;
+	background-repeat:no-repeat; 
+} 
+
+.FooterRepeat  
+{
+	background-image: url('Images/FooterRepeat.gif'); 
+	height: 45px; 
+	background-repeat:repeat-x; 
+} 
+
+.tdMaster 
+{
+	width: 100%; 
+	background-color: transparent; 
+	BORDER: #5F96CC 1px solid;  
+	padding: 0px; 
+}
+
+.tdMasterHeader 
+{
+	background: url(Images/ContainerMasterHeader.gif) no-repeat; 
+	width: 60px; 
+	height: 27px; 
+}
+
+.tdRepeatHeader 
+{ 
+	background: url(Images/ContainerRepeatHeader.gif) repeat-x; 
+	height: 27px; 
+}
+
+.tdRepeatFooter 
+{ 
+	background: url(Images/ContainerRepeatFooter.gif) repeat-x; 
+	height: 27px; 
+}
+
+.tdMasterFooter 
+{ 
+	background: url(Images/ContainerMasterFooter.gif) no-repeat; 
+	width: 80px; 
+	height: 27px; 
+}
+
+
+
+.csstdLeftMenu
+{
+	background: url(Images/MenuLeft.gif) no-repeat; 
+	width:12px;
+}
+
+.csstdRightMenu
+{
+	background: url(Images/MenuRight.gif) no-repeat; 
+	width:12px;
+	
+}
+
+.csstdMiddleMenu
+{
+	background: url(Images/MenuMiddle.gif) repeat-x; 
+	width:250px;
+}

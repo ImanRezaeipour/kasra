@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html XMLNS:IE>
+	<head>
+		<title>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;تقويم&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<STYLE> IE\:Calendar { behavior: url(SolarCalendar.htc) ; width : 33%; }
+		</STYLE>
+		<script language="javascript">
+		var oCurrentDate = window.dialogArguments;
+		function Window_Onload()
+		{
+			
+			var iCurrentYear = ((isNaN(parseInt(oCurrentDate.Year , 10)) || parseInt(oCurrentDate.Year , 10)<1300 || parseInt(oCurrentDate.Year , 10)>1400) ? -1 : parseInt(oCurrentDate.Year , 10))
+			var iCurrentMonth = ((isNaN(parseInt(oCurrentDate.Month , 10)) || parseInt(oCurrentDate.Month , 10)<1 || parseInt(oCurrentDate.Month , 10)>12) ? -1 : parseInt(oCurrentDate.Month , 10))
+			var iCurrentDay = ((isNaN(parseInt(oCurrentDate.Day , 10)) || parseInt(oCurrentDate.Day , 10)<1 || parseInt(oCurrentDate.Day , 10)>31) ? -1 : parseInt(oCurrentDate.Day , 10))
+			/**********************************************************/
+			/*******اضافه شده توسط الياس سربند در تاريخ 87/01/20*******/
+			cal.holiday=oCurrentDate.Holiday
+			/**********************************************************/
+			if(iCurrentYear==-1 || iCurrentMonth==-1 || iCurrentDay==-1)
+				return;
+
+			cal.year = iCurrentYear; 
+			cal.month = iCurrentMonth; 
+			cal.day = iCurrentDay; 
+			
+			
+			return;
+		}
+		function Window_OnUnload()
+		{
+			if(window.returnValue==null)
+				window.returnValue = oCurrentDate;
+			return;
+		}
+		function Window_Keypress()
+		{
+			if(event.keyCode==27)
+				window.close();
+		}
+		</script>
+	</head>
+	<body onkeypress="Window_Keypress()" scroll="no" onload="Window_Onload()" onunload="Window_OnUnload()">
+		<CENTER><IE:CALENDAR id="cal" style="BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; WIDTH: 270px; BORDER-BOTTOM: black 1px solid; HEIGHT: 232px"></IE:CALENDAR></CENTER>
+	</body>
+</html>

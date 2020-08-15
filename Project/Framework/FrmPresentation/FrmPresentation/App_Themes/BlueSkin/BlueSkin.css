@@ -1,0 +1,76 @@
+﻿.CssItemStyle
+{
+	font-size: 8pt;
+	direction: rtl;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-left-style: groove;
+	background-color: #d5e1fd;
+	border-bottom-style: groove;
+}
+
+.CssSelectedItemStyle
+{
+	 direction:rtl;
+	 background-color :#FFD599
+}
+.CssAlternatingItemStyle
+{
+    border-width: 1px;
+    direction: rtl;
+    background-color: OldLace;
+    border-bottom-style: groove;
+}
+.CssHeaderStyle
+{
+    direction:rtl;
+    font :Tahoma ;	
+    font-size :9pt;
+    font-weight: bold;
+    background-color:#83AFE5;
+    
+} 
+.CssFooterStyle
+{
+	direction:rtl;
+	background-color:#CCCCCC
+}
+.GridBorder
+{
+    border: 1px solid #83AFE5;
+}
+.row1:hover, .row2:hover 
+{ 
+    cursor: pointer; 
+    background-color: orange; 
+}
+select,textarea,textarea
+{
+	font-weight:bold;
+	font-size: 8pt;
+	font-family: Tahoma;
+	background-color: white;
+	border-color: lightsteelblue;
+	height :20px ;
+}
+.TxtControls
+{
+	font-weight:bold;
+	font-size: 8pt;
+	font-family: Tahoma;
+	background-color: white;
+	border-color: lightsteelblue;
+	height :20px ;
+}
+input[type='Button']
+/*input*/
+{ 
+	border-style: none;
+	font: inherit;
+	color: blue;
+	cursor: hand;
+	cursor: pointer;
+	padding: 0px;
+	background-color: #66FFFF; 
+}
+

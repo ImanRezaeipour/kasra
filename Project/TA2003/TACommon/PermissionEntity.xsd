@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="PermissionEntity" elementFormDefault="qualified" attributeFormDefault="qualified"
+	xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="PermissionEntity" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="FirstAndCurPermissionRest">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonId" type="xs:int" minOccurs="0" />
+							<xs:element name="FirstRest" type="xs:string" minOccurs="0" />
+							<xs:element name="CurRest" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetSubPersonelRationRemined">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PersonID" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="RationName" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="RationValue" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetTypePermissionAll">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="GrpID" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="DT" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="GetCreditTypeAll">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="title" type="xs:string" nillable="true" />
+							<xs:element name="ID" type="xs:int" nillable="true" />
+							<xs:element name="GrpID" type="xs:int" nillable="true" />
+							<xs:element name="Title1" type="xs:string" nillable="true" />
+							<xs:element name="IntVal" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="StrVal" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="_flags" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BindPermission">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="GrpID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Title1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="IntVal" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="StrVal" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="_flags" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PermissionBefore">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="val" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="title" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="ID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="GrpID" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="Title1" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="IntVal" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+							<xs:element name="StrVal" msdata:ReadOnly="true" type="xs:string" minOccurs="0" nillable="true" />
+							<xs:element name="_flags" msdata:ReadOnly="true" type="xs:int" minOccurs="0" nillable="true" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

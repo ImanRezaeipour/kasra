@@ -1,0 +1,3514 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TA
+</name>
+</assembly>
+<members>
+<member name="F:TA.PageNotFound.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.PageNotFound.Td2">
+	<summary>
+Td2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.btnServerInput">
+	<summary>
+btnServerInput control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.TxtReturnSP">
+	<summary>
+TxtReturnSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.ExistsFolder">
+	<summary>
+ExistsFolder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.Flags">
+	<summary>
+Flags control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.txtUrlPath">
+	<summary>
+txtUrlPath control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.txtUpLoad">
+	<summary>
+txtUpLoad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.ExistsFile">
+	<summary>
+ExistsFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.txtAlert">
+	<summary>
+txtAlert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FrmEscoTransfer.hBtnRunJob">
+	<summary>
+hBtnRunJob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.Test.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtMot">
+	<summary>
+txtMot control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.cmbMot">
+	<summary>
+cmbMot control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtJan">
+	<summary>
+txtJan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.cmbJan">
+	<summary>
+cmbJan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.chJAy">
+	<summary>
+chJAy control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.chMot">
+	<summary>
+chMot control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.BtnShowAll">
+	<summary>
+BtnShowAll control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.grdGroup">
+	<summary>
+grdGroup control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtMotaghaziId">
+	<summary>
+txtMotaghaziId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.cmbMotaghaziName">
+	<summary>
+cmbMotaghaziName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtJaneshinId">
+	<summary>
+txtJaneshinId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.cmbJaneshinName">
+	<summary>
+cmbJaneshinName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.tDate">
+	<summary>
+tDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.rdojbj">
+	<summary>
+rdojbj control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.rdoJgz">
+	<summary>
+rdoJgz control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtdesc">
+	<summary>
+txtdesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtPersonID">
+	<summary>
+txtPersonID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.OnLineUser">
+	<summary>
+OnLineUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.Active">
+	<summary>
+Active control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtDate">
+	<summary>
+txtDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtAlert">
+	<summary>
+txtAlert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtSDate">
+	<summary>
+txtSDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtFlag">
+	<summary>
+txtFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtChk">
+	<summary>
+txtChk control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtStartDate">
+	<summary>
+txtStartDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtEndDate">
+	<summary>
+txtEndDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.ReplacementID">
+	<summary>
+ReplacementID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtToday">
+	<summary>
+txtToday control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtModalflag">
+	<summary>
+txtModalflag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtNew">
+	<summary>
+txtNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.RplaceChanges.txtType">
+	<summary>
+txtType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TA.UserEntity.AccessRoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.UserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.RoleBranchDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.GroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.GridDepartmentPositionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.GridUserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.GroupMemberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.MemberAccessDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.RptAccessRoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.PersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.UserEntity.AccessRoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.UserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.RoleBranchRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.GroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.GridDepartmentPositionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.GridUserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.GroupMemberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.MemberAccessRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.RptAccessRoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.PersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.UserEntity.AccessRoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.UserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.RoleBranchRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.GroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.GridDepartmentPositionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.GridUserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.GroupMemberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.MemberAccessRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.RptAccessRoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity.PersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.UserEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:TA.RationEntity.GetCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.CardexPeriodFilterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.RationFilterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetIndividualGrantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexPeriodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetRationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetRuleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetRationForGridDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexRuleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexShowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexRemainDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetPersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.pppDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexMethodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCalcAndGrantIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCalcAndGrantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetTransableRemainDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetPersonelDetailKasreKarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.CustomOptionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.CardexPeriodFilterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.RationFilterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetIndividualGrantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexPeriodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetRationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetRuleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetRationForGridRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexRuleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexShowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexRemainDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetPersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.pppRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexMethodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCalcAndGrantIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCalcAndGrantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetTransableRemainRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetPersonelDetailKasreKarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.CustomOptionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RationEntity.GetCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.CardexPeriodFilterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.RationFilterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetIndividualGrantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexPeriodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetRationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetRuleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetRationForGridRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexRuleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexShowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexRemainDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetPersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.pppRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexMethodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCalcAndGrantIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCalcAndGrantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetCardexCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetTransableRemainRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.GetPersonelDetailKasreKarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity.CustomOptionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RationEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:TA.FillSession.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FillSession.txtonlineUser">
+	<summary>
+txtonlineUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TA.RptSettingsEntity.UserSettingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.RptSettingsEntity.UserSettingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.RptSettingsEntity.UserSettingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.RptSettingsEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:TA.TextDate.MainTable">
+	<summary>
+MainTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.tblTextDate">
+	<summary>
+tblTextDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.txtDay">
+	<summary>
+txtDay control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.lblRightSlash">
+	<summary>
+lblRightSlash control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.txtMonth">
+	<summary>
+txtMonth control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.lblLeftSlash">
+	<summary>
+lblLeftSlash control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.txtYear">
+	<summary>
+txtYear control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.txtKeyCodeHid">
+	<summary>
+txtKeyCodeHid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.txtFocusTextsHid">
+	<summary>
+txtFocusTextsHid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.txtFocusCountHid">
+	<summary>
+txtFocusCountHid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.OnSetDateEvent">
+	<summary>
+OnSetDateEvent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.TextDate.txtXmlHoliday">
+	<summary>
+txtXmlHoliday control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TA.PermissionEntity.FirstAndCurPermissionRestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PermissionEntity.GetSubPersonelRationReminedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PermissionEntity.GetTypePermissionAllDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PermissionEntity.GetCreditTypeAllDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PermissionEntity.BindPermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PermissionEntity.PermissionBeforeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PermissionEntity.FirstAndCurPermissionRestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PermissionEntity.GetSubPersonelRationReminedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PermissionEntity.GetTypePermissionAllRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PermissionEntity.GetCreditTypeAllRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PermissionEntity.BindPermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PermissionEntity.PermissionBeforeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PermissionEntity.FirstAndCurPermissionRestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PermissionEntity.GetSubPersonelRationReminedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PermissionEntity.GetTypePermissionAllRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PermissionEntity.GetCreditTypeAllRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PermissionEntity.BindPermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PermissionEntity.PermissionBeforeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PermissionEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetPersonShiftDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetWorkGroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.LcomboShiftDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetGruopShiftPersonelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetDCollectionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetWorkScheduleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetDailyDateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetReplaceDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetReplaceDetailMemberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetPersonShiftRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetWorkGroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.LcomboShiftRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetGruopShiftPersonelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetDCollectionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetWorkScheduleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetDailyDateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetReplaceDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetReplaceDetailMemberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ShiftEntity.GetPersonShiftRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity.GetWorkGroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity.LcomboShiftRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity.GetGruopShiftPersonelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity.GetDCollectionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity.GetWorkScheduleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity.GetDailyDateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity.GetReplaceDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity.GetReplaceDetailMemberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ShiftEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelMainReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDetailReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonNameDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDetailKasreKarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetTypePermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.CreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelHistoricalParameterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetRemainDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelHistoricalParameterFilterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMainReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.LogDocDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetWFLogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.SurveyAccessDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.ModifyExtendedOverTimeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.SumMojavezNewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMazadeKarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.SumMojavezDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMainReportNewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailOverWorkDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.DetailMojavezDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetCreditDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDeafultDateDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailCreditsumDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumKasrekarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonDetailMazadeKarNewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllPersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.WorkReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonShiftNobatKariTaradodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllCreditTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPairCardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetLast_NextCardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetScheduleChangesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetExtendedOverTimeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetConflictCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelInOutDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDayCardsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetMonthlyReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetRepAttendanceStatuseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetFirstAttendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailTrainDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailEstelajiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.SendToExcelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDepartmentSumMainReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelMissCardsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetNegativeCardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonAllowableCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetCreditReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.ModifyCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.MonthlyFinalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelMainReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDetailReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonNameRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDetailKasreKarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetTypePermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.CreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelHistoricalParameterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetRemainRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelHistoricalParameterFilterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMainReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.LogDocRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetWFLogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.SurveyAccessRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.ModifyExtendedOverTimeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.SumMojavezNewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMazadeKarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.SumMojavezRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMainReportNewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailOverWorkRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.DetailMojavezRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetCreditDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDeafultDateRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailCreditsumRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumKasrekarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonDetailMazadeKarNewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllPersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.WorkReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonShiftNobatKariTaradodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllCreditTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPairCardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetLast_NextCardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetScheduleChangesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetExtendedOverTimeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetConflictCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelInOutRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDayCardsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetMonthlyReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetRepAttendanceStatuseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetFirstAttendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailTrainRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailEstelajiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.SendToExcelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDepartmentSumMainReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelMissCardsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetNegativeCardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonAllowableCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetCreditReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.ModifyCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.MonthlyFinalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelMainReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDetailReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonNameRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDetailKasreKarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetTypePermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.CreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelHistoricalParameterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetRemainRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelHistoricalParameterFilterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMainReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.LogDocRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetWFLogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.SurveyAccessRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.ModifyExtendedOverTimeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.SumMojavezNewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMazadeKarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.SumMojavezRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumMainReportNewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailOverWorkRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.DetailMojavezRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetCreditDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDeafultDateRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailCreditsumRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelSumKasrekarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonDetailMazadeKarNewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllPersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.WorkReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonShiftNobatKariTaradodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetAllCreditTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPairCardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetLast_NextCardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetScheduleChangesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetExtendedOverTimeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetConflictCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelInOutRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelDayCardsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetMonthlyReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetRepAttendanceStatuseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetFirstAttendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailTrainRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDetailEstelajiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.SendToExcelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDepartmentSumMainReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonelMissCardsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetNegativeCardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetPersonAllowableCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.GetCreditReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.ModifyCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity.MonthlyFinalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.ReportsEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:TA.RegisterCredit1.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TA.FirstAtt.GetFirstAttendanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.FirstAtt.GetFirstAttendanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.FirstAtt.GetFirstAttendanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.FirstAtt">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:TA.GroupEntity.WorkReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.GroupEntity.EmployeeGroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.GroupEntity.GroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.GroupEntity.ggDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.GroupEntity.CategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.GroupEntity.WorkReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.GroupEntity.EmployeeGroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.GroupEntity.GroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.GroupEntity.ggRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.GroupEntity.CategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.GroupEntity.WorkReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.GroupEntity.EmployeeGroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.GroupEntity.GroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.GroupEntity.ggRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.GroupEntity.CategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.GroupEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:TA.Role.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.Role.txtSessionID">
+	<summary>
+txtSessionID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.Role.RoleId">
+	<summary>
+RoleId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.Role.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.Role.txtFlag">
+	<summary>
+txtFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TA.CreditEntity.GetCreditFilterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.ModifyGroupCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.ModifyCreditPermissionAfterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetHourPermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetInOutDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetTypePermissionAllDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.BindSlPermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetInsertMissCardDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetIncPermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetDailyPermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.CreditBeforeOccureDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetRuleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetSysRuleParametrDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetCreditItemCodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetSURuleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetUserRuleMemberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetDateRangeUserRuleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetCreditItemCode1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetUserRuleActionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetDefineCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonelMissCardsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetGroupPermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetTodayFutureGroupPermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonAccessDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetDepartmentAccessDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonelPermissionAfterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.PermisionCodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetCreditFilterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.ModifyGroupCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.ModifyCreditPermissionAfterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetHourPermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetInOutRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetTypePermissionAllRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.BindSlPermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetInsertMissCardRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetIncPermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetDailyPermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.CreditBeforeOccureRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetRuleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetSysRuleParametrRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetCreditItemCodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetSURuleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetUserRuleMemberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetDateRangeUserRuleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetCreditItemCode1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetUserRuleActionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetDefineCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonelMissCardsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetGroupPermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetTodayFutureGroupPermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonAccessRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetDepartmentAccessRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonelPermissionAfterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.PermisionCodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.CreditEntity.GetCreditFilterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.ModifyGroupCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.ModifyCreditPermissionAfterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetHourPermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetInOutRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetTypePermissionAllRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.BindSlPermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetInsertMissCardRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetIncPermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetDailyPermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.CreditBeforeOccureRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetRuleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetSysRuleParametrRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetCreditItemCodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetSURuleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetUserRuleMemberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetDateRangeUserRuleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetCreditItemCode1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetUserRuleActionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetDefineCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonelMissCardsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetGroupPermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetTodayFutureGroupPermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonAccessRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetDepartmentAccessRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.GetPersonelPermissionAfterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity.PermisionCodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.CreditEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:TA.EnterDataEntity.EnterDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.EnterDataEntity.EnterDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.EnterDataEntity.EnterDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.EnterDataEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:TA.GeneralError.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.GeneralError.Td2">
+	<summary>
+Td2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.GeneralError.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.GeneralError.lblErrorInfoStr">
+	<summary>
+lblErrorInfoStr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TA.PersonEntity.PersonInfoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PersonEntity.RoleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PersonEntity.OuterPersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PersonEntity.GetCodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PersonEntity.GetCalculatedParametersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.PersonEntity.PersonInfoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PersonEntity.RoleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PersonEntity.OuterPersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PersonEntity.GetCodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PersonEntity.GetCalculatedParametersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.PersonEntity.PersonInfoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PersonEntity.RoleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PersonEntity.OuterPersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PersonEntity.GetCodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PersonEntity.GetCalculatedParametersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.PersonEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.TypePermissionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetValidTypeForUserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetConctraintCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionIDDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.VBTimeLineDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetCollectionDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SchedulestatusDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.TypePermissionForValiduserDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetPersonelDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SakhtarDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDefineWorkTimesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetReportDayStructureDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetHolidayDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GroupIdDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetGroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetCardReaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetIOToleranceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetSettingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.ModifyReplaceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetReplacePersonelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetShiftNobatKariRelationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.vorodyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.ModifyEmployeeGroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GroupDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetShiftandNobatKariDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetTypeCreditDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SchedulePropertyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDepartmentofPersonelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.TypePermissionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetValidTypeForUserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetConctraintCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionIDRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.VBTimeLineRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetCollectionDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SchedulestatusRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.TypePermissionForValiduserRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetPersonelDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SakhtarRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDefineWorkTimesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetReportDayStructureRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetHolidayRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GroupIdRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetGroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetCardReaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetIOToleranceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetSettingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.ModifyReplaceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetReplacePersonelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetShiftNobatKariRelationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.vorodyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.ModifyEmployeeGroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GroupRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetShiftandNobatKariRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetTypeCreditRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SchedulePropertyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDepartmentofPersonelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.BaseInfoEntity.TypePermissionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetValidTypeForUserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetConctraintCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionIDRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.VBTimeLineRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetCollectionDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SchedulestatusRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.TypePermissionForValiduserRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetPersonelDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SakhtarRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDefineWorkTimesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetReportDayStructureRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetHolidayRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GroupIdRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetGroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetCardReaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetIOToleranceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetSettingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.ModifyReplaceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetReplacePersonelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetShiftNobatKariRelationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.vorodyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.ModifyEmployeeGroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GroupRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetShiftandNobatKariRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetTypeCreditRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.SchedulePropertyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDepartmentofPersonelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailCollectionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity.GetDetailDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.BaseInfoEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:TA.ValidatePerson.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ValidatePerson.XMLSelected">
+	<summary>
+XMLSelected control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ValidatePerson.XMLX">
+	<summary>
+XMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ValidGroup.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ValidGroup.XMLSelected">
+	<summary>
+XMLSelected control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ValidGroup.XMLX">
+	<summary>
+XMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ValidGroup.txtCategoryId">
+	<summary>
+txtCategoryId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ValidGroup.txtFlag">
+	<summary>
+txtFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.CntX">
+	<summary>
+CntX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.lblFrom">
+	<summary>
+lblFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.lblTo">
+	<summary>
+lblTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.lblTotal">
+	<summary>
+lblTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.LastBtn">
+	<summary>
+LastBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.NextBtn">
+	<summary>
+NextBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.CurPage1">
+	<summary>
+CurPage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.Totalpage1">
+	<summary>
+Totalpage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.PrevBtn">
+	<summary>
+PrevBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.FirstBtn">
+	<summary>
+FirstBtn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.XMLSelected">
+	<summary>
+XMLSelected control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtCheckFlag">
+	<summary>
+txtCheckFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.XMLX">
+	<summary>
+XMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtTmpXMLX">
+	<summary>
+txtTmpXMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtPID">
+	<summary>
+txtPID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtPName">
+	<summary>
+txtPName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtDeptID">
+	<summary>
+txtDeptID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtRoleType">
+	<summary>
+txtRoleType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtCardNo">
+	<summary>
+txtCardNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.TmpXMLX">
+	<summary>
+TmpXMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.TmpFilter">
+	<summary>
+TmpFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtAllTikFlag">
+	<summary>
+txtAllTikFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.AllXMLX">
+	<summary>
+AllXMLX control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtPagingFlag">
+	<summary>
+txtPagingFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtPageSize">
+	<summary>
+txtPageSize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.totalRecords">
+	<summary>
+totalRecords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.tmpCurPage1">
+	<summary>
+tmpCurPage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.tmpTotalPage">
+	<summary>
+tmpTotalPage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtFlag">
+	<summary>
+txtFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtTmpFrom">
+	<summary>
+txtTmpFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtTmpTo">
+	<summary>
+txtTmpTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtTmpTotal">
+	<summary>
+txtTmpTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtSessionID">
+	<summary>
+txtSessionID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtGetCompanyFinatialPeriodID">
+	<summary>
+txtGetCompanyFinatialPeriodID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.txtMenuItemID">
+	<summary>
+txtMenuItemID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.FramePersonTab.onlineUser">
+	<summary>
+onlineUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.LXTabPersonIDSearchType">
+	<summary>
+LXTabPersonIDSearchType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.LXTabPersonNameSearchType">
+	<summary>
+LXTabPersonNameSearchType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.LXTabDeptSearchType">
+	<summary>
+LXTabDeptSearchType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.LXTabRoleTypeSearchType">
+	<summary>
+LXTabRoleTypeSearchType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.txtSessionID">
+	<summary>
+txtSessionID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.txtFlag">
+	<summary>
+txtFlag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.txtCategoryId">
+	<summary>
+txtCategoryId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.txtAccessflag">
+	<summary>
+txtAccessflag control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.txtSDate">
+	<summary>
+txtSDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.txtEDate">
+	<summary>
+txtEDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.XTab.txtMenuItemID">
+	<summary>
+txtMenuItemID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.Td7">
+	<summary>
+Td7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.lblPath">
+	<summary>
+lblPath control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.txtFile">
+	<summary>
+txtFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.btnServerInput">
+	<summary>
+btnServerInput control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.TxtReturnSP">
+	<summary>
+TxtReturnSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.ExistsFolder">
+	<summary>
+ExistsFolder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.Flags">
+	<summary>
+Flags control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.txtUrlPath">
+	<summary>
+txtUrlPath control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.txtUpLoad">
+	<summary>
+txtUpLoad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.ExistsFile">
+	<summary>
+ExistsFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.txtAlert">
+	<summary>
+txtAlert control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.EnterData.hBtnRunJob">
+	<summary>
+hBtnRunJob control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ModalGroup.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ModalGroup.txtOverlapXML">
+	<summary>
+txtOverlapXML control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ModalGroup.txtSubmit">
+	<summary>
+txtSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TA.ModalGroup.txtMsg">
+	<summary>
+txtMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TA.Cartable.GetIssueBoxDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.Cartable.GetCreditTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.Cartable.GetPersonelDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.Cartable.GetParentPersonelDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.Cartable.CreditFlowDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.Cartable.GetIssueBoxRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.Cartable.GetCreditTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.Cartable.GetPersonelDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.Cartable.GetParentPersonelDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.Cartable.CreditFlowRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.Cartable.GetIssueBoxRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.Cartable.GetCreditTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.Cartable.GetPersonelDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.Cartable.GetParentPersonelDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.Cartable.CreditFlowRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.Cartable">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentPersonelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentPositionDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.AllPersonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.GetPersonelDepartmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentPersonelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentPositionRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.AllPersonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.GetPersonelDepartmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentPersonelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.OrganizationEntity.DepartmentPositionRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.OrganizationEntity.AllPersonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.OrganizationEntity.GetPersonelDepartmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.OrganizationEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="F:TA.MainTest.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:TA.ShiftDAL.ModifyReplaceDetail(System.String,System.Int32,System.Int32)">
+ReplaceDetailSchedule.aspx                 'BGhadami     
+
+</member><member name="T:TA.OfficeEntity.GetTableOfficeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.OfficeEntity.GetTableOfficeMemberDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.OfficeEntity.GetOfficeTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA.OfficeEntity.GetTableOfficeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.OfficeEntity.GetTableOfficeMemberRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.OfficeEntity.GetOfficeTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA.OfficeEntity.GetTableOfficeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.OfficeEntity.GetTableOfficeMemberRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.OfficeEntity.GetOfficeTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA.OfficeEntity">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

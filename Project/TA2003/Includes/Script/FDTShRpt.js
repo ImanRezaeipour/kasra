@@ -1,0 +1,132 @@
+﻿function getCntChar(subStr1,Str1){
+	var Str=new String					
+	Str=Str1+''
+	if (Str1=='')
+		return(0)
+	var subStr=new String		 
+	subStr=subStr1+''
+	if (subStr1=='')
+		return(0)		
+	var cnt
+	cnt=0
+	for(j=0;j<Str.length;++j)
+		if(Str.substring(j,j+subStr.length)==subStr)
+				cnt+=1
+	return(cnt)
+}
+function getArray(Str,Index,sep){
+	var j
+	var i
+	i=0
+	var items=new String
+	items=Str
+	var p=new String
+	if (items!=""){
+		j=items.search(sep)	
+		while(j<=items.length && i<=Index){
+			p=items.substring(0,j)
+			if (j<0) p=items.substring(0,items.length)
+			j=j+1
+			items=items.substring(j,items.length)
+			j=items.search(sep)	
+			if (j<0) j=items.length+1
+			i=i+1}}
+	i=i-1
+	if (i==Index)
+		return(p.substring(0,p.length))
+	else
+		return('')}
+function OnKeyDownTime(number){
+	var key=window.event.keyCode
+	window.event.returnValue=(
+			((key>=96) && (key <=105))||
+			((key>=48) && (key <=57 ))||
+			(key==8)||(key==9)||(key==46)||
+			((key>=35)&& (key<=40)) ||
+			(key==186))}
+function ReplaceAll(str,char1,replaceChar){
+	var x=getCntChar(char1,str)
+	var s=new String()
+	s=str
+	while(x>0){
+		s=s.replace(char1,replaceChar)
+		x--}
+	return(s)}
+function Timechk(obj){
+	var val=""
+	val=ReplaceAll(obj.value," ","")	
+	var negativeFlag=val.substr(0,1)	
+	if (negativeFlag=="-")
+		val=val.substr(1,val.length)	
+	if (( val!="") && (IsvalidTime(val)==false)){
+ 		var strQuestion;
+ 		var intReturn; 		
+		strQuestion="  ! لطفا دراين قسمت ساعت صحيح وارد كنيد"
+		strQuestion=alert(strQuestion, 0, "ساعت اشتباه ")
+		obj.focus()
+		return;}
+	else if ((val!="") && (IsvalidTime(val)==true)){
+		var arr
+		if (getCntChar(':',val)==0){
+			arr=val
+			if (arr.length==1)
+				arr="0"+arr+":00"
+			else if (arr.length==2)
+				arr=arr+":00"
+			else if (arr.length==4)
+				arr=arr.substr(0,2)+":"+arr.substr(2,2)
+		val=arr}
+		else{
+			arr=val.split(":")
+			var str1=arr[0]
+			var str2=arr[1]
+			if (str1.length==0)
+				str1="00"
+			else if (str1.length==1)
+				str1="0"+str1
+			if (str2.length==0)
+				str2="00"
+			else if (str2.length==1)
+				str2="0"+str2
+		val=str1+":"+str2}		
+		if (negativeFlag=="-")
+			obj.value="-"+val
+		else
+			obj.value=val}}		
+function IsvalidTime(txt){
+	var t1;
+	var t2;
+	var Hour;
+	var Min;
+	var arr
+	var H;
+	var M;
+	if (getCntChar(':',txt)>1)
+		return(false)		
+	else if (getCntChar(':',txt)==0){
+		if (txt.length==2){
+			if (txt>24)
+				return(false)
+			else
+				return(true)}		
+		if(txt.length==4){
+			H=txt.substr(0,2)
+			M=txt.substr(2,2)			
+			if (H>24 || M>60)
+				return(false)
+			else
+				return(true)}
+		if (txt.length==1 || txt.length==2)
+			return(true)
+		else if (txt.length>2)
+			return(false)
+		if (txt.length>2)
+			return (false)}
+	else{
+		arr=txt.split(":")		
+		Hour=parseInt(arr[0])
+   		Min=parseInt(arr[1])				
+		if (Hour>24 && Min>60)
+			return(false)
+		else
+			return(true)}}

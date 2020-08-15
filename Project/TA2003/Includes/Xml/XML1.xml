@@ -1,0 +1,71 @@
+<BaseInfoEntity>
+	<RptParam>
+		<ID>1</ID>
+		<CtrlTypeID>7</CtrlTypeID>
+		<PageGridID>127</PageGridID>
+		<Name>PersonID</Name>
+		<CategoryID>3</CategoryID>
+		<VariableTypeID>1</VariableTypeID>
+		<Caption>OnLineUser</Caption>
+		<Default>0</Default>
+		<CategoryName>«‰Ê«⁄ œÌê—</CategoryName>
+		<CategoryIntval>3</CategoryIntval>
+		<CategoryVisible>0</CategoryVisible>
+		<LookupType>0</LookupType>
+		<LookupValue />
+		<IntVal>5</IntVal>
+	</RptParam>
+	<RptParam>
+		<ID>2</ID>
+		<CtrlTypeID>2</CtrlTypeID>
+		<PageGridID>127</PageGridID>
+		<Name>StartDate</Name>
+		<CategoryID>2</CategoryID>
+		<VariableTypeID>2</VariableTypeID>
+		<Caption> «—ÌŒ ‘—Ê⁄</Caption>
+		<Default>1388/01/01</Default>
+		<CategoryName> «—ÌŒ</CategoryName>
+		<CategoryIntval>2</CategoryIntval>
+		<CategoryVisible>1</CategoryVisible>
+		<LookupType>0</LookupType>
+		<LookupValue />
+		<IntVal>2</IntVal>
+	</RptParam>
+	<RptParam>
+		<ID>3</ID>
+		<CtrlTypeID>2</CtrlTypeID>
+		<PageGridID>127</PageGridID>
+		<Name>EndDate</Name>
+		<CategoryID>2</CategoryID>
+		<VariableTypeID>2</VariableTypeID>
+		<Caption> «—ÌŒ Å«Ì«‰</Caption>
+		<Default>1399/12/29</Default>
+		<CategoryName> «—ÌŒ</CategoryName>
+		<CategoryIntval>2</CategoryIntval>
+		<CategoryVisible>1</CategoryVisible>
+		<LookupType>0</LookupType>
+		<LookupValue />
+		<IntVal>3</IntVal>
+	</RptParam>
+	<RptParam>
+		<ID>4</ID>
+		<CtrlTypeID>5</CtrlTypeID>
+		<PageGridID>127</PageGridID>
+		<Name>DepartmentID</Name>
+		<CategoryID>1</CategoryID>
+		<VariableTypeID>1</VariableTypeID>
+		<Caption>Ê«Õœ ”«“„«‰Ì</Caption>
+		<Default>150325</Default>
+		<CategoryName>Å—”‰·Ì</CategoryName>
+		<CategoryIntval>1</CategoryIntval>
+		<CategoryVisible>1</CategoryVisible>
+		<LookupType>2</LookupType>
+		<LookupName>[Pub].[uspGetTreeDepartment]</LookupName>
+		<LookupValue>@XMLParam;</LookupValue>
+		<IntVal>8</IntVal>
+	</RptParam>
+	<RptParam>
+		<ID>5</ID>
+		<CtrlTypeID>0</CtrlTypeID>
+		<PageGridID>127</PageGridID>
+		<Name>chkChildren</NameÖ

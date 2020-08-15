@@ -1,0 +1,199 @@
+﻿.CssGridPagingDiv
+{
+  height:30px;
+  text-align:-moz-center; /*FF*/
+  #text-align:center; /*IE */
+  background-color: #D3E2ED;
+  border-width:2px;
+  filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ADC2E9, EndColorStr=#CDDAF1);
+}
+.CssHR
+{            
+BORDER-RIGHT: lightsteelblue thin groove;
+BORDER-TOP: lightsteelblue thin groove;
+BORDER-LEFT: lightsteelblue thin groove;
+WIDTH: 317px; 
+BORDER-BOTTOM: lightsteelblue thin groove;
+HEIGHT: 2px
+}
+.HeaderStyle
+{
+border-right: #346fa4 2px solid;
+border-top: lightsteelblue 2px solid;
+font-weight: normal;
+font-size: 12px;
+border-left: lightsteelblue 2px solid;
+direction: rtl;
+border-bottom: #346fa4 2px solid;
+font-family: Tahoma,Tahoma; 
+background-color: #83afe5;
+}
+.CssAlternatingItemStyle
+{
+border-width: 1px;
+direction: rtl;
+background-color: OldLace;
+border-bottom-style: groove;
+}
+.CssFooterStyle
+{
+direction:rtl;
+background-color:#CCCCCC
+}
+.CssHeaderStyle
+{
+direction:rtl;
+font :Tahoma ;	
+font-size :10px;
+font-weight: normal;
+background-color:#83AFE5;
+    
+} 
+.XItemStyle
+{
+background-color :#d5e1fd;
+font-family :'Tahoma',Tahoma ;	
+font-size:10px ;
+font-weight:normal;
+}  
+.CssItemStyle
+{
+direction: rtl;
+background-color: #d5e1fd;
+}
+.CssSelectedItemStyle
+{
+direction:rtl;
+background-color :#FFD599
+}
+
+IMG{
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+}
+.button {
+font-family: Tahoma; 
+font-size: 11px;
+}
+.ScrollBar
+{
+scrollbar-3dlight-color:blue;
+scrollbar-arrow-color:aqua;
+scrollbar-base-color:teal;
+scrollbar-face-color:blue;
+}
+.label,p,td 
+{
+font-family: Tahoma,Tahoma; 
+font-size: 11px;
+font-weight: normal;
+color:"#000066";
+cursor:default;
+}
+.CheckBox
+{
+BORDER-RIGHT: 0px; 
+BORDER-TOP: 0px; 
+BORDER-LEFT: 0px; 
+BORDER-BOTTOM: 0px; 
+}
+.TxtControls
+{
+font-weight:normal;
+font-size: 11px;
+font-family: Tahoma;
+background-color: white;
+border-color: lightsteelblue;
+height :20px ;
+}
+.BtnLogin
+{
+background-image: url('/FrmPresentation/App_Utility/Images/LoginImg/backbotton.gif');
+}
+.TxtControlsForLogin
+{
+font-weight:normal;
+font-size: 11px;
+font-family: Tahoma;
+background-color: white;
+border-color: lightsteelblue;
+height :15px ;
+}
+.BlueScroll
+{
+scrollbar-hightlight-color: white; 
+overflow: auto;
+scrollbar-arrow-color: black;
+scrollbar-base-color: #B1D3FF;
+}
+.WhiteScroll
+{
+scrollbar-hightlight-color: white; 
+overflow: auto;
+scrollbar-arrow-color: black;
+scrollbar-base-color:white;
+}
+.HoverShowHidden
+{
+background-color: white;
+}
+.CssTextLink
+{
+color: Blue;
+cursor: hand;
+}
+.HeaderGrid
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#E0E0E0, EndColorStr=white);
+}
+.Header
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= #677CB4, EndColorStr=#8395C2);
+}
+.BorderGrid
+{
+border-style: ridge; 
+border-width: 2px 1px 1px 1px; 
+border-color: #3D6192                                     
+} 
+.TableBase
+{
+background-color: White; 
+border-right-style: outset;            
+border-bottom-style: outset;
+border-left-style: outset; 
+border-right-width: 1px;
+border-bottom-width: 1px; 
+border-left-width: 1px; 
+border-right-color: #FF6600;
+border-bottom-color: #FF6600;
+border-left-color: #FF6600;
+} 
+.LinkText
+{
+color: Blue; 
+text-decoration: underline;
+cursor: hand
+}      
+.VertGradientBlue1
+    {
+	    FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#e7eeff, EndColorStr=#91b7df);BORDER-RIGHT: #346fa4 2px solid;BORDER-TOP: lightsteelblue 2px solid; BORDER-LEFT: lightsteelblue 2px solid; BORDER-BOTTOM: #346fa4 2px solid;
+	    cursor : hand;
+    }
+.fieldsetStyle 
+{
+    border-right: lightblue thin inset;
+    border-top: #78BED6 thin solid; 
+    border-left: #78BED6 thin outset; 
+    border-bottom: #78BED6 thin solid;
+}
+.legendStyle
+{
+    color: #78BED6
+}
+ .DivStyle
+{
+   border: medium groove #C0C0C0;
+   background-color: #DBE3F0;
+}    

@@ -1,0 +1,23 @@
+.HorizontalSplitterBar
+{
+  background: url(../../App_Utility/Images/PageMain/splitter_horBg.gif); 
+}
+
+.CollapsedHorizontalSplitterBar
+{
+  background: url(../../App_Utility/Images/PageMain/splitter_horBg.gif); 
+  border: 1px solid #000000;
+  border-right-width: 0px;
+}
+
+.ActiveSplitterBar
+{
+  background-color: #000000;  
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=40); 
+  opacity: 0.4;
+}
+
+.SplitterPane
+{
+    border: thin solid #6666FF;
+}
